@@ -1,3 +1,8 @@
+---
+id: forpackning-etikett
+title: Förpackning & Etikett
+sidebar_label: Förpackning & Etikett
+---
 # Förpackning & Etikett
 
 Vill du koppla ihop din fysiska produkt med en digital upplevelse?  

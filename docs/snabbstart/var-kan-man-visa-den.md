@@ -1,4 +1,9 @@
-# Var kan man visa den?
+---
+id: var-kan-man-visa-den
+title: Vart kan man visa FOTO-3D
+sidebar_label: Vart kan man visa FOTO-3D
+---
+# Var kan man visa FOTO-3D?
 
 Det enda som egentligen krävs är att platsen där du lägger länken kan öppnas i en webbläsare – och att den tillåter klickbara länkar eller inbäddning.  
 Så länge det går att klicka på en länk eller visa en sida i en webbläsare, kan du använda FOTO-3D© där. Enkelt!

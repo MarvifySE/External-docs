@@ -1,3 +1,8 @@
+---
+id: klickbar-bild
+title: Klickbar bild
+sidebar_label: Klickbar bild
+---
 # Klickbar produktbild
 
 Du kan göra en bild klickbar så att den öppnar en FOTO-3D©-visning i ett nytt fönster eller flik. Det här kan användas både i e-post och på vanliga webbsidor. Klickbara bilder är användbara när du vill att användaren intuitivt ska kunna klicka på en produkt för att se den i 3D, utan att använda extra text eller knappar.
@@ -76,10 +81,11 @@ Exempel: `"Se vår snackspåse i 3D"` eller `"3D-visning av chokladask"`
 
 ---
 
-<em>Mer info:<br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">&lt;a&gt;</a><br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">&lt;img&gt;</a><br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#images-as-links">Bild som länk</a><br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target">target-attributet</a><br>
-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style">style-attributet</a>
-</em>
+*Mer info:*
+
+- [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+- [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+- [Bild som länk](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#images-as-links)
+- [target-attributet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target)
+- [style-attributet](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
+

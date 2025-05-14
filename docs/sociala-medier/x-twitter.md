@@ -1,3 +1,8 @@
+---
+id: x-twitter
+title: X
+sidebar_label: X
+---
 ## Använda FOTO-3D på X (tidigare Twitter)
 
 ### Du behöver:
@@ -13,7 +18,7 @@
 2. Klicka på **“Posta”** (tidigare “Tweet”)
 3. Skriv ett kort inlägg, t.ex.:
    > Hur coolt är det att kunna snurra vår nya förpackning i 3D?  
-   > Se själv: https://v.marvify.io/?m=<modell-id>
+   > Se själv: https://v.marvify.io/?m=&lt;modell-id&gt;
 4. Klistra in din FOTO-3D-länk direkt i texten. Den blir klickbar automatiskt.
 5. Klicka på **“Posta”**
 

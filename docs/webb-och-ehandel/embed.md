@@ -1,3 +1,8 @@
+---
+id: embed
+title: Embed
+sidebar_label: Embed
+---
 # Embed
 
 Att bädda in **FOTO-3D visaren** är enkelt.

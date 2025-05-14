@@ -1,3 +1,8 @@
+---
+id: instagram
+title: Instagram
+sidebar_label: Instagram
+---
 ## Använda FOTO-3D på Instagram
 
 ### Du behöver:

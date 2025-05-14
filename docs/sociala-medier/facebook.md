@@ -1,3 +1,8 @@
+---
+id: facebook
+title: Facebook
+sidebar_label: Facebook
+---
 ## Använda FOTO-3D på Facebook
 
 ### Du behöver:

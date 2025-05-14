@@ -1,3 +1,8 @@
+---
+id: linkedin
+title: Linkedin
+sidebar_label: Linkedin
+---
 ## Använda FOTO-3D på LinkedIn
 
 ### Du behöver:

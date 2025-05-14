@@ -1,3 +1,8 @@
+---
+id: skapa-qr-kod
+title: QR-Kod
+sidebar_label: QR-Kod
+---
 # Skapa QR-kod
 
 En QR-kod gör det enkelt att dela din FOTO-3D©-visning i tryckt form – till exempel på förpackningar, menyer, affischer eller visitkort.

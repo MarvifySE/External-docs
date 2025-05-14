@@ -1,3 +1,8 @@
+---
+id: kontakta-support
+title: kontakta support
+sidebar_label: kontakta support
+---
 # Kontakta support
 
 Har du frågor, funderingar eller behöver hjälp med något?

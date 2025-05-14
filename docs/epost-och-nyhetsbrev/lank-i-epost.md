@@ -1,3 +1,8 @@
+---
+id: lank-i-epost
+title: Länk i e-post
+sidebar_label: Länk i e-post
+---
 # Länk i e-post
 
 Du kan länka till en FOTO-3D©-visning direkt i ett mejl eller nyhetsbrev. Det är ett enkelt och effektivt sätt att låta mottagaren öppna visningen i ett nytt fönster – till exempel från ett nyhetsbrev, kampanjutskick eller en personlig kontakt.

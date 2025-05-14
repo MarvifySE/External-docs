@@ -1,3 +1,8 @@
+---
+id: visaren-laddas-inte
+title: visaren laddas inte
+sidebar_label: visaren laddas inte
+---
 # Felsökning – Visaren visas inte
 
 Om din FOTO-3D©-visning inte laddas eller visas som den ska, finns det några vanliga saker du kan kontrollera själv innan du kontaktar support.

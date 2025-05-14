@@ -1,3 +1,8 @@
+---
+id: magento
+title: Magento
+sidebar_label: Magento
+---
 > 🛠️ Den här sidan är fortfarande under uppbyggnad.  
 > Vi jobbar på att fylla den med användbar information – kika gärna tillbaka snart!
 

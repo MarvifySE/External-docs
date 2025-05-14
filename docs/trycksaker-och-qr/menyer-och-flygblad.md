@@ -1,3 +1,8 @@
+---
+id: menyer-och-flygblad
+title: Menyer & Flygblad
+sidebar_label: Menyer & Flygblad
+---
 # Menyer & Flygblad
 
 Vill du ge dina kunder något extra när de ser din meny, ditt flygblad eller annat tryckt material?  
