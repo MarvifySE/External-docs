@@ -70,7 +70,6 @@ const config = {
         items: [
         ],
       },
-      footer: false,
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
