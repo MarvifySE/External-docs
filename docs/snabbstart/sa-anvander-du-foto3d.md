@@ -31,7 +31,7 @@ Om ni är osäkra – klicka för en introduktion: [w3schools](https://www.w3sch
 **Lösning – textlänk på webbsida eller i artikel:**
 
 ```html
-<a href="https://v.marvify.io/?m=&lt;modell-id&gt;" target="_blank">Se påsen i 3D</a>
+<a href="https://v.marvify.io/?m=MODELL-ID" target="_blank">Se påsen i 3D</a>
 ```
 
 ***
@@ -68,7 +68,7 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
 **Lösning – klickbar bild med länk:**
 
 ```html
-<a href="https://v.marvify.io/?m=&lt;modell-id&gt;" target="_blank">
+<a href="https://v.marvify.io/?m=MODELL-ID" target="_blank">
   <img src="lakritsbild.jpg" alt="Se lakrits i 3D" />
 </a>
 ```
@@ -107,7 +107,7 @@ Javascript:
 ```js
 <script>
 function openFoto3D() {
-  window.open("https://v.marvify.io/?m=&lt;modell-id&gt;", "_blank", "width=800,height=600");
+  window.open("https://v.marvify.io/?m=MODELL-ID", "_blank", "width=800,height=600");
 }
 </script>
 ```
@@ -141,7 +141,7 @@ _Skanna för att se vår produkt i 3D_
 **Lösning – inbäddning med iframe:**
 
 ```html
-<iframe src="https://v.marvify.io/?m=&lt;modell-id&gt;" width="100%" height="500px" style="border:none;"></iframe>
+<iframe src="https://v.marvify.io/?m=MODELL-ID" width="100%" height="500px" style="border:none;"></iframe>
 ```
 
 ***
