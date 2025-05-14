@@ -39,7 +39,7 @@ Om ni är osäkra – klicka för en introduktion: [w3schools](https://www.w3sch
 *Mer info:*
 
 - [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
-- [`target="_blank"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target)
+- [`target="_blank"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a#target)
 
 ***
 
