@@ -1,10 +1,10 @@
 ---
 id: sa-anvander-du-foto3d
-title: Quick start
-sidebar_label: Quick start
+title: Snabbstart
+sidebar_label: Snabbstart
 slug: /
 ---
-# Quick-Start
+# Snabbstart
 
 ### Vad är Marvify FOTO-3D<sup>©</sup>?
 
@@ -31,7 +31,7 @@ Om ni är osäkra – klicka för en introduktion: [w3schools](https://www.w3sch
 **Lösning – textlänk på webbsida eller i artikel:**
 
 ```html
-<a href="https://v.marvify.io/?m=MODELL-ID" target="_blank">Se påsen i 3D</a>
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Se påsen i 3D</a>
 ```
 
 ***
@@ -48,7 +48,7 @@ Om ni är osäkra – klicka för en introduktion: [w3schools](https://www.w3sch
 **Lösning – länk stylad som knapp:**
 
 ```html
-<a href="https://v.marvify.io/?m=MODELL-ID" class="button" target="_blank">Se i 3D</a>
+<a href="https://v.marvify.io/?m=MODEL-ID" class="button" target="_blank">Se i 3D</a>
 ```
 
 Ni kan använda er webbplats eller e-handelsplattform för att formatera länken som en knapp, så att den smälter in i er design.
@@ -68,7 +68,7 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
 **Lösning – klickbar bild med länk:**
 
 ```html
-<a href="https://v.marvify.io/?m=MODELL-ID" target="_blank">
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">
   <img src="lakritsbild.jpg" alt="Se lakrits i 3D" />
 </a>
 ```
@@ -107,7 +107,7 @@ Javascript:
 ```js
 <script>
 function openFoto3D() {
-  window.open("https://v.marvify.io/?m=MODELL-ID", "_blank", "width=800,height=600");
+  window.open("https://v.marvify.io/?m=MODEL-ID", "_blank", "width=800,height=600");
 }
 </script>
 ```
@@ -129,7 +129,7 @@ function openFoto3D() {
 Exempel på QR-kodgenerator: [länk]
 
 Länk att använda:\
-`https://v.marvify.io/?m=Y2hvY2tib3gyMw==`
+`https://v.marvify.io/?m=MODEL-ID`
 
 Textförslag:\
 _Skanna för att se vår produkt i 3D_
@@ -141,7 +141,7 @@ _Skanna för att se vår produkt i 3D_
 **Lösning – inbäddning med iframe:**
 
 ```html
-<iframe src="https://v.marvify.io/?m=MODELL-ID" width="100%" height="500px" style="border:none;"></iframe>
+<iframe src="https://v.marvify.io/?m=MODEL-ID" width="100%" height="500px" style="border:none;"></iframe>
 ```
 
 ***
@@ -174,7 +174,7 @@ Ni kan lägga länken till er visare i profilen (bio) och därefter skapa ett va
 
 Skapa en Instagram Story med produktfoto och använd en **Link Sticker** för att lägga till klickbar länk direkt i bilden.
 
-* Länk: https://v.marvify.io/?m=MODELL-ID
+* Länk: `https://v.marvify.io/?m=MODEL-ID`
 * Text på stickern: _"Se i 3D"_
 
 ***
@@ -189,7 +189,7 @@ Exempel:
 
 Text:\
 Snurra vår nya snackspåse i 3D – zooma, rotera och utforska innan du beställer.\
-Länk: https://v.marvify.io/?m=MODELL-ID\
+Länk: `https://v.marvify.io/?m=MODEL-ID`\
 CTA-knapp: _Se mer_
 
 ***
@@ -205,7 +205,7 @@ Ni (eller någon ni samarbetar med) kan skapa ett inlägg i ert personliga flöd
 > Jag testade de här nya jordnötssnacksen från @CrispyCrunch – så sjukt goda!\
 > Man kan till och med snurra runt påsen i 3D.
 >
-> https://v.marvify.io/?m=MODELL-ID
+> `https://v.marvify.io/?m=MODEL-ID`
 
 ***
 
@@ -219,7 +219,7 @@ Exempel:
 
 Text:\
 Ge bort något speciellt – snurra runt vår exklusiva pralinask i 3D.\
-Länk: https://v.marvify.io/?m=MODELL-ID\
+Länk: `https://v.marvify.io/?m=MODEL-ID`\
 CTA-knapp: _Se i 3D_
 
 ***
@@ -235,7 +235,7 @@ Ni kan skriva en vanlig tweet där ni lägger in länken till visningen. Det hä
 > Hur coolt är det att kunna snurra en godispåse i 3D?\
 > Jag älskar den här från @SweetByte
 >
-> https://v.marvify.io/?m=MODELL-ID
+> `https://v.marvify.io/?m=MODEL-ID`
 
 ***
 
@@ -247,7 +247,7 @@ Ni kan skapa en sponsrad tweet via ert företagskonto som visas för en utvald m
 
 > Upptäck vår limited edition nötmix – se hela förpackningen i 3D innan du klickar hem den.
 >
-> https://v.marvify.io/?m=MODELL-ID
+> `https://v.marvify.io/?m=MODEL-ID`
 
 ***
 
@@ -262,7 +262,7 @@ Ni eller någon ni samarbetar med (t.ex. en branschperson, influencer eller anst
 > Otroligt hur mycket en 3D-visning kan höja kundupplevelsen.\
 > Här är ett exempel på en produkt jag själv gillar – en lyxig chokladask i 3D.
 >
-> https://v.marvify.io/?m=MODELL-ID
+> `https://v.marvify.io/?m=MODEL-ID`
 
 ***
 
@@ -275,7 +275,7 @@ Ni kan använda er företagssida för att publicera ett organiskt inlägg eller 
 > Vill ni visa era produkter på ett nytt sätt?\
 > Så här ser vår ekologiska snackspåse ut – i 3D, direkt i webbläsaren.
 >
-> https://v.marvify.io/?m=MODELL-ID
+> `https://v.marvify.io/?m=MODEL-ID`
 
 ***
 
@@ -292,7 +292,7 @@ På plattformar som WooCommerce, Shopify, Squarespace m.fl. kan ni enkelt länka
 I WooCommerce kan ni redigera produktens innehåll via WordPress admin. Lägg in en klickbar textlänk eller en knapp i beskrivningsfältet. Då ser kunden den direkt när de läser om produkten.
 
 ```html
-<a href="https://v.marvify.io/?m=MODELL-ID" target="_blank">Se produkten i 3D</a>
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Se produkten i 3D</a>
 ```
 
 ***
@@ -304,7 +304,7 @@ I WooCommerce kan ni redigera produktens innehåll via WordPress admin. Lägg in
 I Shopify går ni till adminpanelen → Produkter → Redigera produkt → Klicka på **“Visa HTML”** i beskrivningen. Där kan ni klistra in länken. Den syns sedan på produktsidan under produkttexten.
 
 ```html
-<a href="https://v.marvify.io/?m=MODELL-ID" target="_blank">Utforska produkten i 3D</a>
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Utforska produkten i 3D</a>
 ```
 
 ***
@@ -316,7 +316,7 @@ I Shopify går ni till adminpanelen → Produkter → Redigera produkt → Klick
 I Squarespace redigerar ni varje produktsida i editorn. Lägg till en vanlig länk i beskrivningsfältet. Den visas direkt för kunden under produktinformationen.
 
 ```html
-<a href="https://v.marvify.io/?m=MODELL-ID" target="_blank">Se produkten i 3D</a>
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Se produkten i 3D</a>
 ```
 
 ***
@@ -327,7 +327,7 @@ I Squarespace redigerar ni varje produktsida i editorn. Lägg till en vanlig lä
 
 I Webflow använder ni designer-editorn för att lägga in knappar eller textlänkar. Sätt länken till er 3D-visning som en extern URL. Ni kan placera den precis där ni vill på sidan.
 
-https://v.marvify.io/?m=MODELL-ID
+`https://v.marvify.io/?m=MODEL-ID`
 
 ***
 
@@ -338,7 +338,7 @@ https://v.marvify.io/?m=MODELL-ID
 I Magento kan ni lägga till HTML direkt i produktbeskrivningsfältet via backend. Länken syns sedan tillsammans med övrig produktinfo.
 
 ```html
-<a href="https://v.marvify.io/?m=MODELL-ID" target="_blank">Visa i 3D</a>
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Visa i 3D</a>
 ```
 
 ***
