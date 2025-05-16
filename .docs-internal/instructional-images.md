@@ -228,7 +228,7 @@
   - Profilnamn: något trovärdigt, t.ex. @exempelforetaget.  
   - Bio-text med t.ex.:  
     “See our products in 3D 👇”  
-    https://demo.foto3d.se/produkt456  
+    https://v.marvif.io/?m=MODEL-ID  
   - Länken ska vara klickbar (blå) i profilen.  
   - Visa hela profilhuvudet i skärmdumpen: profilbild, namn, bio, länk, ev. följarantal.
 
@@ -271,7 +271,7 @@
   - Öppna Instagram och skapa en ny Story.  
   - Lägg till en produktbild eller kort video.  
   - Använd Länk-sticker med texten t.ex. “Se i 3D”.  
-  - Klistra in en verklighetstrogen viewer-länk (t.ex. https://demo.foto3d.se/produkt456).  
+  - Klistra in en verklighetstrogen viewer-länk (t.ex. https://v.marvif.io/?m=MODEL-ID).  
   - Publicera Storyn.
 
   **Filmning IRL:**
@@ -303,7 +303,7 @@
   - Öppna Facebook som företagssida eller användare.  
   - Skriv ett kort inlägg, t.ex.:  
     "Upptäck vår nya produkt i 3D – klicka på länken för att utforska!"  
-  - Klistra in en viewer-länk (t.ex. https://demo.foto3d.se/produkt456).
+  - Klistra in en viewer-länk (t.ex. https://v.marvif.io/?m=MODEL-ID).
 
   **Visa slutresultatet:**
 
@@ -333,7 +333,7 @@
   - Öppna X och klicka på “Posta” eller motsvarande knapp.  
   - Skriv en kort text, t.ex.:  
     "Testa vår nya produkt i 3D direkt i mobilen!"  
-  - Klistra in viewer-länken (t.ex. https://demo.foto3d.se/produkt456).
+  - Klistra in viewer-länken (t.ex. https://v.marvif.io/?m=MODEL-ID).
 
   **Visa resultatet:**
 
@@ -364,7 +364,7 @@
   - Gå till startsidan på LinkedIn och klicka på “Starta ett inlägg”.  
   - Skriv en kort text, t.ex.:  
     "Nu kan du se vår produkt i 3D direkt i webbläsaren – klicka på länken nedan!"  
-  - Klistra in viewer-länken (t.ex. https://demo.foto3d.se/produkt456).
+  - Klistra in viewer-länken (t.ex. https://v.marvif.io/?m=MODEL-ID).
 
   **Visa resultatet:**
 
@@ -393,7 +393,7 @@
 
   - Skapa en digital mockup av en produkt, helst en vi har en 3D-modell av.  
   - Placera en QR-kod på förpackningen, tydligt men naturligt.  
-  - QR-koden ska länka till modellen (t.ex. https://demo.foto3d.se/produkt456).  
+  - QR-koden ska länka till modellen (t.ex. https://v.marvif.io/?m=MODEL-ID).  
   - Använd realistisk miljö och ljussättning för att visa hur det skulle se ut i verkligheten.
 
   Fokus:  
