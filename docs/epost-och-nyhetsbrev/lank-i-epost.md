@@ -28,7 +28,7 @@ Du kan länka till en FOTO-3D©-visning direkt i ett mejl eller nyhetsbrev. Det 
 *I dom flesta fallen så känner gmail igen en länk automatiskt.*
 
 [INFOGA BILD skapa mail]
-[INFOGA BILD slutresultat]
+[INFOGA GIF slutresultat öppnas]
 
 ---
 
