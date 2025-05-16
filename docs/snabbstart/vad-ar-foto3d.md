@@ -23,13 +23,4 @@ Genom att använda 3D modeller så skapar ni en stark visuell upplevelse som vä
   <img src={require('@site/static/img/Sushi_small.webp').default} alt="Sushi" />
 </p>
 
-import ZoomableImage from '@site/src/components/ZoomableImage';
-
-<p align="center">
-  <ZoomableImage
-    src={require('@site/static/img/Sushi_small.webp').default}
-    alt="Sushi"
-  />
-</p>
-
 
