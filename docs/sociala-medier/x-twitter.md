@@ -22,6 +22,8 @@ sidebar_label: X
 4. Klistra in din FOTO-3D-länk direkt i texten. Den blir klickbar automatiskt.
 5. Klicka på **“Posta”**
 
+[INFOGA GIF, ifrån sa-anvander-du-foto3d.md X]
+
 ---
 
 ### Tips:

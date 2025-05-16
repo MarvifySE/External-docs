@@ -17,6 +17,8 @@ Du kan göra en bild klickbar så att den öppnar en FOTO-3D©-visning i ett nyt
 </a>
 ```
 
+[INFOGA GIF, webplats klickbar bild ifrån sa-anvander-du-foto3d.md]
+
 ---
 
 ## Vad gör `target="_blank"`?

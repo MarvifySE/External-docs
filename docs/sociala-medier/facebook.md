@@ -28,6 +28,8 @@ sidebar_label: Facebook
    *Ifall ni har köpt sociala-medier paketet så kommer även en bild visas med beskrivningstext*
 6. Klicka på **“Publicera”**
 
+[INFOGA GIF, ifrån sa-anvander-du-foto3d.md Facebook]
+
 ---
 
 ### Tips:

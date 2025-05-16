@@ -31,6 +31,8 @@ Instagram tillåter endast en klickbar länk i profilen (bio).
 Tips: I inlägg kan du sedan skriva t.ex.:  
 > “Se vår nya produkt i 3D – länk i bio!”
 
+[INFOGA GIF, ifrån sa-anvander-du-foto3d.md Instagram link in bio]
+
 ---
 
 ### **Alternativ 2: Använd en länkaggregator (t.ex. Linktree)**
@@ -40,6 +42,8 @@ Om du vill visa flera länkar (till flera modeller eller sidor), kan du använda
 1. Skapa ett konto på Linktree
 2. Lägg till din FOTO-3D-länk som en av länkarna
 3. Klistra in din Linktree-adress i Instagram-bion
+
+[INFOGA GIF, ifrån sa-anvander-du-foto3d.md Instagram linktree]
 
 ---
 
@@ -54,9 +58,8 @@ Om du har ett företagskonto kan du lägga till klickbara länkar direkt i Stori
 5. Skriv en tydlig etikett, t.ex. *“Se i 3D”* eller *“Upptäck produkten”*
 6. Publicera
 
----
+[INFOGA GIF, ifrån sa-anvander-du-foto3d.md Instagram story]
 
-![Infoga skärmdump här av Instagram-profil med länk eller en Story med länk-sticker]
 
 ---
 

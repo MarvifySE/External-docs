@@ -25,6 +25,8 @@ Du kan använda en vanlig `<iframe>` för att visa visaren direkt på din webbsi
 **Tips:**
 - Du kan justera `width` och `height` som det passar din layout.
 
+[INFOGA GIF, (använd iframe stylad ifrån sa-anvander-du-foto3d.md)]
+
 ---
 
 ## Kompatibilitet
@@ -57,6 +59,8 @@ Om du inte kan bädda in visaren direkt (t.ex. i ett mejl eller på en plattform
 </a>
 ```
 
+[INFOGA GIF, webplats klickbar länk ifrån sa-anvander-du-foto3d.md]
+
 ### Klickbar knapp (popup)
 
 ```html
@@ -64,6 +68,8 @@ Om du inte kan bädda in visaren direkt (t.ex. i ett mejl eller på en plattform
   Öppna 3D-visning
 </button>
 ```
+
+[INFOGA GIF, webplats klickbar popup ifrån sa-anvander-du-foto3d.md]
 
 ---
 

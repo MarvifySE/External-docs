@@ -21,6 +21,8 @@ Du kan visa upp din 3D-visning genom att placera en länk eller QR-kod på:
 
 Kunden scannar QR-koden med mobilen och öppnar 3D-visningen direkt i webbläsaren – ingen app behövs.
 
+[INFOGA GIF, använd Menyer, QR-kod ifrån sa-anvander-du-foto3d.md]
+
 ---
 
 ## Vilken länk ska användas?

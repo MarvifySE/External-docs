@@ -43,6 +43,8 @@ Snabbt och tydligt gränssnitt.
 
 ---
 
+[INFOGA GIF, använd Menyer, QR-kod ifrån sa-anvander-du-foto3d.md]
+
 ## Tips
 
 - Använd gärna en **SVG**-version av QR-koden för tryck (skalbar utan att bli suddig)

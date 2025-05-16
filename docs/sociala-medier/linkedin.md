@@ -26,15 +26,13 @@ sidebar_label: Linkedin
 6. LinkedIn gör automatiskt länken klickbar i inlägget.
 7. Klicka på **“Publicera”**
 
+[INFOGA GIF, ifrån sa-anvander-du-foto3d.md Linkedin]
+
 ---
 
 ### Tips:
 - Lägg gärna till en bild eller skärmbild tillsammans med länken för att dra till dig uppmärksamhet.
 - Du kan också kommentera på andras inlägg och lägga till en FOTO-3D-länk som en del av din respons.
-
----
-
-![Infoga skärmdump här som visar ett LinkedIn-inlägg med FOTO-3D-länk]
 
 ---
 
