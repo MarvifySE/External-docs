@@ -11,6 +11,7 @@
 
   Instruktion:  
   Ta en skärmdump av ett färdigskrivet mejl i Gmail med en tydlig länk till en 3D-modell.
+  Låtsas vara kund.
 
 ---
 
@@ -37,6 +38,7 @@
 
   Instruktion:  
   Ta en skärmdump av ett färdigskrivet mejl i Outlook med en tydlig länk till en 3D-modell.
+  Låtsas vara kund.
 
 ---
 
@@ -60,9 +62,9 @@
 
 ### vad-ar-foto3d.md
 
-#### GIF: Modell montage
+#### Modell montage
 
-- Typ: Skärminspelning eller animerad GIF  
+- Typ: animerad GIF (webp)
   Syfte: Visa ett urval av olika FOTO-3D-modeller för att ge en känsla av hur de ser ut och rör sig.  
   Längd: 8–12 sek  
   Fokus: Variation, visuell kvalitet och att snabbt förmedla vad en 3D-modell från FOTO-3D kan vara.
@@ -102,7 +104,7 @@
 
 ##### klickbar knapp
 
-- Typ: Skärminspelning (GIF)  
+- Typ: Skärminspelning (GIF/WEBP)  
   Syfte: Visa hur en tydlig knapp på en webbsida öppnar FOTO-3D-viewern.  
   Längd: 4–6 sek  
   Fokus: Det ska vara tydligt att det är en knapp, och att klicket direkt visar modellen.
@@ -117,7 +119,7 @@
 
 ##### klickbar bild
 
-- Typ: Skärminspelning (GIF)  
+- Typ: Skärminspelning (GIF/WEBP)  
   Syfte: Visa hur en vanlig produktbild fungerar som en klickbar yta som öppnar FOTO-3D-viewern.  
   Längd: 4–6 sek  
   Fokus: Att bilden ser ut som en helt vanlig produktbild men är klickbar och leder till en interaktiv modell.
@@ -133,32 +135,32 @@
 
 ##### popup knapp
 
-- Typ: Skärminspelning (GIF)  
+- Typ: Skärminspelning (GIF/WEBP)  
   Syfte: Visa hur en knapp på en webbsida öppnar en popup med en inbäddad FOTO-3D-modell.  
   Längd: 5–7 sek  
   Fokus: Enkel och tydlig övergång från knapptryck till popup med 3D-modellen.
 
   Instruktion:
 
-  - Visa en webbsida med en tydlig knapp, t.ex. "Visa i 3D".  
+  - Visa en webbsida med en tydlig knapp, t.ex. "Show in 3D".  
   - Muspekaren klickar på knappen.  
-  - En popup/modal öppnas ovanpå sidan.  
+  - En popup öppnas ovanpå sidan.  
   - Inuti popuppen visas en inbäddad viewer med modellen.
 
 ---
 
 ##### popup länk
 
-- Typ: Skärminspelning (GIF)  
+- Typ: Skärminspelning (GIF/WEBP)  
   Syfte: Visa hur en klickbar textlänk öppnar en popup med FOTO-3D-modellen.  
   Längd: 5–7 sek  
   Fokus: Vanlig textlänk → popup med modellen. Länkens utseende ska vara diskret, men interaktionen tydlig.
 
   Instruktion:
 
-  - Visa en webbsida med en blå textlänk, t.ex. "Se i 3D".  
+  - Visa en webbsida med en blå textlänk, t.ex. "Show in 3D".  
   - Muspekaren klickar på länken.  
-  - En popup/modal öppnas på sidan.  
+  - En popup öppnas på sidan.  
   - I popuppen visas en inbäddad viewer med modellen.
 
 ---
@@ -167,7 +169,7 @@
 
 ##### QR-Kod
 
-- Typ: Filmad sekvens konverterad till GIF  
+- Typ: Filmad sekvens konverterad till GIF/WEBP  
   Syfte: Visa ett tryckt exempel (t.ex. meny eller broschyr) med en QR-kod som skannas för att öppna en FOTO-3D-modell.  
   Längd: 6–9 sek  
   Fokus: Fysiskt till digitalt — trycksak med QR → öppning av modell i mobil.
@@ -185,7 +187,7 @@
 
 ##### iframe
 
-- Typ: Skärminspelning (GIF)  
+- Typ: Skärminspelning (GIF/WEBP)  
   Syfte: Visa en inbäddad FOTO-3D-viewer via `<iframe>` och att den går att använda direkt på sidan.  
   Längd: 5–7 sek  
   Fokus: Det ska vara tydligt att modellen kan interageras med direkt utan att lämna sidan.
@@ -200,7 +202,7 @@
 
 ##### stylad iframe
 
-- Typ: Skärminspelning (GIF)  
+- Typ: Skärminspelning (GIF/WEBP)  
   Syfte: Visa en inbäddad FOTO-3D-viewer med anpassad design (t.ex. ram, skuggor, rubrik) och hur användaren interagerar med den.  
   Längd: 5–7 sek  
   Fokus: Snygg inbäddning – visar att modellen kan vara en naturlig del av ett designat gränssnitt, inte bara “klistrad in”.
