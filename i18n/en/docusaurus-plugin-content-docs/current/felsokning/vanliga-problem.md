@@ -1,9 +1,9 @@
 ---
 id: vanliga-problem
-title: vanliga problem
-sidebar_label: vanliga problem
+title: Common issues
+sidebar_label: Common issues
 ---
-> 🛠️ Den här sidan är fortfarande under uppbyggnad.  
-> Vi jobbar på att fylla den med användbar information – kika gärna tillbaka snart!
+> 🛠️ This page is still under construction.  
+> We're working on filling it with useful information – please check back soon!
 
-Tack för tålamodet!
+Thank you for your patience!
