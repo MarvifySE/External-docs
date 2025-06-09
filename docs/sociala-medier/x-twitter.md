@@ -31,10 +31,6 @@ sidebar_label: X
 
 ---
 
-![Infoga en skärmdump som visar ett inlägg på X med FOTO-3D-länk]
-
----
-
 Mer information: [X – Hjälpcenter om att posta inlägg](https://help.x.com/en/using-x/how-to-post)
 
 ---

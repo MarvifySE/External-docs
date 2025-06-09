@@ -33,7 +33,15 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'sv',
-    locales: ['sv'],
+    locales: ['sv', 'en'],
+    localeConfigs: {
+      sv: {
+        label: 'Svenska',
+      },
+      en: {
+        label: 'English',
+      },
+    },
   },
 
   presets: [
@@ -41,19 +49,24 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false, // Disable built-in docs plugin
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'default',
+        path: 'docs',
+        routeBasePath: '/',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
     ],
   ],
 
@@ -68,6 +81,10 @@ const config = {
           src: 'img/logo.webp',
         },
         items: [
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
         ],
       },
       prism: {

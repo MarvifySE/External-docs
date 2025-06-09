@@ -56,10 +56,6 @@ Om du har ett företagskonto kan du lägga till klickbara länkar direkt i Stori
 
 ---
 
-![Infoga skärmdump här av Instagram-profil med länk eller en Story med länk-sticker]
-
----
-
 ## Vill du använda Instagram-annonser?
 
 Du kan också använda din FOTO-3D-länk i annonser via **Meta Ads Manager**, precis som på Facebook. Det fungerar i både flödesannonser och Stories, och du kan rikta annonser mot en vald målgrupp.

@@ -36,11 +36,6 @@ sidebar_label: Facebook
 
 ---
 
-![Exempelbild med länk till visare i Facebook-inlägg]  
-*Infoga en skärmdump här som visar ett inlägg med FOTO-3D-länk*
-
----
-
 Mer information: [Facebooks officiella hjälpsida om inlägg](https://www.facebook.com/help/333140160100643)
 
 ---

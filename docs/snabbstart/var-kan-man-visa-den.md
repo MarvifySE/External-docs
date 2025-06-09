@@ -17,6 +17,7 @@ Så länge det går att klicka på en länk eller visa en sida i en webbläsare,
 - Som en **knapp**, **textlänk** eller **klickbar bild**
 - Inbäddad i en layout med `<iframe>`
 
+
 ---
 
 ## I utskick

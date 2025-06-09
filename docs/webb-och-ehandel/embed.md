@@ -23,7 +23,7 @@ Du kan använda en vanlig `<iframe>` för att visa visaren direkt på din webbsi
 ```
 
 **Tips:**
-- Du kan justera `width` och `height` som det passar din layout.
+- Du kan justera `width` och `height` så det passar din layout.
 
 ---
 

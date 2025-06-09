@@ -34,10 +34,6 @@ sidebar_label: Linkedin
 
 ---
 
-![Infoga skärmdump här som visar ett LinkedIn-inlägg med FOTO-3D-länk]
-
----
-
 Mer information: [LinkedIn – Skapa inlägg](https://www.linkedin.com/help/linkedin/answer/a518996)
 
 ---

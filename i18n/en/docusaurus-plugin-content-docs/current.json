@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Snabbstart": {
+    "message": "Quickstart",
+    "description": "The label for category Snabbstart in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Webb & E-handel": {
+    "message": "Web & E-commerce",
+    "description": "The label for category Webb & E-handel in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sociala Medier": {
+    "message": "Social media",
+    "description": "The label for category Sociala Medier in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.E-post & Nyhetsbrev": {
+    "message": "E-Mail and Newsletters",
+    "description": "The label for category E-post & Nyhetsbrev in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Trycksaker & QR": {
+    "message": "Print & QR",
+    "description": "The label for category Trycksaker & QR in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Felsökning": {
+    "message": "Troubleshooting",
+    "description": "The label for category Felsökning in sidebar tutorialSidebar"
+  }
+}

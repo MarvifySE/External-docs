@@ -54,7 +54,7 @@ Så här gör du i **Google Chrome**:
 
 Om något är fel – till exempel om länken inte kan laddas – brukar det synas här i form av ett felmeddelande.
 
-🟡 **Använder du en annan webbläsare?**  
+**Använder du en annan webbläsare?**  
 Dessa verktyg finns även i t.ex. Firefox, Edge och Safari – ofta under menyval som “Webbutvecklarverktyg” eller “Inspektera element”.
 
 Du behöver inte förstå allt som står – men ibland kan ett felmeddelande ge en tydlig ledtråd till vad som behöver justeras.
