@@ -1,65 +1,67 @@
 ---
 id: var-kan-man-visa-den
-title: Vart kan man visa FOTO-3D
-sidebar_label: Vart kan man visa FOTO-3D
+title: Where can you display FOTO-3D?
+sidebar_label: Where can you display FOTO-3D?
 ---
-# Var kan man visa FOTO-3D?
+# Where can you display FOTO-3D?
 
-Det enda som egentligen krävs är att platsen där du lägger länken kan öppnas i en webbläsare – och att den tillåter klickbara länkar eller inbäddning.  
-Så länge det går att klicka på en länk eller visa en sida i en webbläsare, kan du använda FOTO-3D© där. Enkelt!
+The only real requirement is that the place where you share the link can be opened in a web browser – and that it allows clickable links or embedding.  
+As long as it's possible to click a link or display a page in a browser, you can use PHOTO-3D© there. Simple!
 
----
-
-## På webben
-
-- På din **hemsida** eller **produkt­sida**
-- I en **blogg**, **artikel** eller **pressrelease**
-- Som en **knapp**, **textlänk** eller **klickbar bild**
-- Inbäddad i en layout med `<iframe>`
 
 ---
 
-## I utskick
+## On the web
 
-- Länk i **e-postkampanjer** och nyhetsbrev
-- Som länk i en **personlig mejlsignatur**
-- I interna meddelanden eller dokument (intranät, onboarding, PDF)
-
----
-
-## I sociala medier
-
-- På plattformar som **Instagram**, **Facebook**, **LinkedIn**, **X**, och **TikTok**
-- I bio, inlägg, stories eller kommentarer
-- Dela direkt eller via länkverktyg som Linktree
+- On your **website** or **product page**
+- In a **blog**, **article**, or **press release**
+- As a **button**, **text link**, or **clickable image**
+- Embedded in a layout using `<iframe>`
 
 ---
 
-## I e‑handel
+## In mailings
 
-- Länk i **produktsidan** i din e‑butik
-- I produktbeskrivningar eller vid köpknappen
-- Länkar stödjs i t.ex. **Shopify**, **WooCommerce**, **Squarespace**, **Magento**, **Webflow**, med flera
-
----
-
-## I tryckt material
-
-- Skapa en **QR-kod** som leder till visningen
-- Använd på förpackningar, butiksmaterial eller mässutskick
-- Lägg till på menyer, etiketter eller skyltar
+- Link in **email campaigns** and newsletters  
+- As a link in a **personal email signature**  
+- In internal messages or documents (intranet, onboarding, PDF)
 
 ---
 
-## Och lite varstans annars
+## On social media
 
-- I presentationer och pitchar
-- I digitala kataloger eller showroom
-- I appar, portaler eller interna verktyg
+- On platforms like **Instagram**, **Facebook**, **LinkedIn**, **X**, and **TikTok**  
+- In bio, posts, stories, or comments  
+- Share directly or via link tools like Linktree
 
 ---
 
-Kort sagt: om du kan lägga in en länk – då kan du visa FOTO-3D©.
+## In e-commerce
 
-> Har du en idé men är osäker på om det funkar? Hör av dig – vi hjälper gärna till!  
+- Link on the **product page** in your online store  
+- In product descriptions or near the buy button  
+- Links are supported in platforms like **Shopify**, **WooCommerce**, **Squarespace**, **Magento**, **Webflow**, and others
+
+---
+
+## In printed material
+
+- Create a **QR code** that links to the presentation  
+- Use it on packaging, in-store materials, or trade show mailings  
+- Add it to menus, labels, or signs
+
+---
+
+## And just about anywhere else
+
+- In presentations and pitches  
+- In digital catalogs or showrooms  
+- In apps, portals, or internal tools
+
+---
+
+In short: if you can insert a link – then you can display FOTO-3D©.
+
+> Have an idea but not sure if it will work? Get in touch – we're happy to help!  
 > [info@marvify.com](mailto:info@marvify.com)
+

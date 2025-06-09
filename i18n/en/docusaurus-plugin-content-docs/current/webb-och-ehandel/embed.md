@@ -5,13 +5,13 @@ sidebar_label: Embed
 ---
 # Embed
 
-Att bädda in **FOTO-3D visaren** är enkelt.
+Embedding the **FOTO-3D viewer** is easy.
 
-Du kan använda en vanlig `<iframe>` för att visa visaren direkt på din webbsida, landningssida, e‑handel eller liknande.
+You can use a standard `<iframe>` to display the viewer directly on your website, landing page, e-commerce platform, or similar.
 
 ---
 
-## Exempel – iframe
+## Example – iframe
 
 ```html
 <iframe
@@ -22,61 +22,63 @@ Du kan använda en vanlig `<iframe>` för att visa visaren direkt på din webbsi
 ></iframe>
 ```
 
-**Tips:**
-- Du kan justera `width` och `height` som det passar din layout.
+**Tip:**  
+- You can adjust the `width` and `height` to fit your layout.
 
 ---
 
-## Kompatibilitet
+## Compatibility
 
-Inbäddning fungerar på alla plattformar som tillåter att du använder HTML och `<iframe>` i din layout. Exempel:
+Embedding works on any platform that allows you to use HTML and `<iframe>` in your layout. Examples:
 
-| Plattform                  | Stöd för inbäddning | Kommentar                                      |
-| -------------------------- | ------------------- | ---------------------------------------------- |
-| WordPress (egen host)      | ✅ Ja                | Fungerar i blockredigeraren eller som HTML     |
-| Webflow                    | ✅ Ja                | Lägg till som Embed-element                    |
-| Shopify                    | ✅ Ja                | I anpassade mallar eller temaredigerare        |
-| Squarespace                | ✅ Ja                | Använd “Code”-block                            |
-| Wix                        | ✅ Ja                | Använd “Embed HTML”-komponent                  |
-| Vercel / Netlify / etc     | ✅ Ja                | Full kontroll över HTML och struktur           |
-| WordPress.com (hostad)     | ⚠️ Begränsat         | Endast med uppgraderade planer (Business+)     |
+| Platform                   | Embed Support       | Notes                                           |
+| -------------------------- | ------------------- | ----------------------------------------------- |
+| WordPress (self-hosted)    | ✅ Yes               | Works in the block editor or as custom HTML     |
+| Webflow                    | ✅ Yes               | Add as an Embed element                         |
+| Shopify                    | ✅ Yes               | In custom templates or theme editor             |
+| Squarespace                | ✅ Yes               | Use the “Code” block                            |
+| Wix                        | ✅ Yes               | Use the “Embed HTML” component                  |
+| Vercel / Netlify / etc     | ✅ Yes               | Full control over HTML and structure            |
+| WordPress.com (hosted)     | ⚠️ Limited           | Only with upgraded plans (Business+)            |
 
-> Om plattformen du använder tillåter HTML-inbäddning – då fungerar visaren också.
+> If your platform allows HTML embedding, the viewer will work there too.
+
 
 ---
 
-## Alternativ – Länk eller popup
+## Alternative – Link or popup
 
-Om du inte kan bädda in visaren direkt (t.ex. i ett mejl eller på en plattform utan stöd för iframes), kan du länka till den istället.
+If you can’t embed the viewer directly (e.g., in an email or on a platform that doesn’t support iframes), you can link to it instead.
 
-### Klickbar textlänk
+### Clickable text link
 
 ```html
-<a href="https://v.marvify.io/?m=<modell-id>" target="_blank" rel="noopener">
-  Se produkten i 3D
+<a href="https://v.marvify.io/?m=<model-id>" target="_blank" rel="noopener">
+  View the product in 3D
 </a>
 ```
 
-### Klickbar knapp (popup)
+### Clickable button (popup)
 
 ```html
-<button onclick="window.open('https://v.marvify.io/?m=<modell-id>', 'popup', 'width=800,height=600'); return false;">
-  Öppna 3D-visning
+<button onclick="window.open('https://v.marvify.io/?m=<model-id>', 'popup', 'width=800,height=600'); return false;">
+  Open 3D Viewer
 </button>
 ```
 
 ---
 
-## Behöver du hjälp?
+## Need help?
 
-Hör gärna av dig om du är osäker på vad som fungerar på just din plattform – vi hjälper gärna till!
+Feel free to reach out if you're unsure what works on your specific platform – we’re happy to help!
 
 **[info@marvify.com](mailto:info@marvify.com)**
 
 ---
 
-## Mer info
+## More info
 
-För dig som vill veta mer om `<iframe>` och hur det fungerar i webbläsare:
+For those who want to learn more about `<iframe>` and how it works in browsers:
 
-[MDN Web Docs – &lt;iframe&gt;](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
+[MDN Web Docs – iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
+

@@ -3,48 +3,47 @@ id: x-twitter
 title: X
 sidebar_label: X
 ---
-## Använda FOTO-3D på X (tidigare Twitter)
+## Using FOTO-3D on X (formerly Twitter)
 
-### Du behöver:
-- En delbar länk (URL) till din FOTO-3D©-modell  
-  Exempel: `https://v.marvify.io/?m=<modell-id>`
-- Ett konto hos X (https://x.com)
+### You’ll need:
+- A shareable link (URL) to your FOTO-3D© model  
+  Example: `https://v.marvify.io/?m=<model-id>`
+- An account on X (https://x.com)
 
 ---
 
-### Så här gör du:
+### Here's how:
 
-1. Logga in på **[X](https://x.com)**
-2. Klicka på **“Posta”** (tidigare “Tweet”)
-3. Skriv ett kort inlägg, t.ex.:
-   > Hur coolt är det att kunna snurra vår nya förpackning i 3D?  
-   > Se själv: https://v.marvify.io/?m=&lt;modell-id&gt;
-4. Klistra in din FOTO-3D-länk direkt i texten. Den blir klickbar automatiskt.
-5. Klicka på **“Posta”**
+1. Log in to **[X](https://x.com)**  
+2. Click **“Post”** (formerly “Tweet”)  
+3. Write a short post, for example: 
+``` 
+   > How cool is it to spin our new packaging in 3D?  
+   > See for yourself: https://v.marvify.io/?m=<model-id>
+```
+4. Paste your FOTO-3D link directly into the text. It will become clickable automatically.  
+5. Click **“Post”**
 
 ---
 
 ### Tips:
-- Du kan lägga till en bild eller emoji för att dra uppmärksamhet till inlägget.
-- Kortare inlägg med direkt länk fungerar bra på plattformen.
-- Använd gärna hashtags som är relevanta för din produkt eller bransch.
+- You can add an image or emoji to draw attention to the post.  
+- Shorter posts with a direct link work well on the platform.  
+- Feel free to use hashtags relevant to your product or industry.
 
 ---
 
-![Infoga en skärmdump som visar ett inlägg på X med FOTO-3D-länk]
+More information: [X – Help Center on posting](https://help.x.com/en/using-x/how-to-post)
 
 ---
 
-Mer information: [X – Hjälpcenter om att posta inlägg](https://help.x.com/en/using-x/how-to-post)
+## Want to use ads on X?
+
+You can also promote your FOTO-3D link using **X Ads (formerly Twitter Ads)**. This allows you to reach more users through targeted campaigns in the feed.
+
+Learn more: [Getting started with advertising on X](https://business.x.com/en/advertising)
 
 ---
 
-## Vill du använda annonser på X?
+> Note: X’s interface and features may change. If something doesn’t work as described in this guide, please refer to their documentation or contact us at [info@marvify.com](mailto:info@marvify.com).
 
-Du kan även marknadsföra din FOTO-3D-länk med hjälp av **X Ads (tidigare Twitter Ads)**. Det gör det möjligt att nå fler användare med riktade kampanjer i flödet.
-
-Läs mer: [Kom igång med annonsering på X](https://business.x.com/en/advertising)
-
----
-
-> Observera: X:s gränssnitt och funktioner kan förändras. Om något inte fungerar som i denna guide, se deras dokumentation eller kontakta oss på [info@marvify.com](mailto:info@marvify.com).
