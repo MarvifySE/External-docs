@@ -1,56 +1,57 @@
 ---
 id: klickbar-bild
-title: Klickbar bild
-sidebar_label: Klickbar bild
+title: Clickable image
+sidebar_label: Clickable image
 ---
-# Klickbar produktbild
+# Clickable product image
 
-Du kan göra en bild klickbar så att den öppnar en FOTO-3D©-visning i ett nytt fönster eller flik. Det här kan användas både i e-post och på vanliga webbsidor. Klickbara bilder är användbara när du vill att användaren intuitivt ska kunna klicka på en produkt för att se den i 3D, utan att använda extra text eller knappar.
+You can make an image clickable so that it opens a FOTO-3D© viewer in a new window or tab. This can be used in both emails and regular web pages. Clickable images are useful when you want the user to intuitively click on a product to see it in 3D, without using extra text or buttons.
+
 
 ---
 
-## Exempel
+## Example
 
 ```html
 <a href="https://v.marvify.io/?m=<modell-id>" target="_blank">
-  <img src="https://din-domän.se/bilder/produkt.jpg" alt="Se produkten i 3D" style="display:block; max-width:600px; width:100%;" />
+  <img src="https://your-domain.com/images/product.jpg" alt="See the product in 3D!" style="display:block; max-width:600px; width:100%;" />
 </a>
 ```
 
 ---
 
-## Vad gör `target="_blank"`?
+## What does `target="_blank"` do?
 
-Attributet `target="_blank"` instruerar webbläsaren att öppna länken i en **ny flik eller ett nytt fönster**, istället för att ersätta det aktuella innehållet.
+The `target="_blank"` attribute tells the browser to open the link in a **new tab or window**, instead of replacing the current content.
 
-**Fördelar:**
-- Användaren behåller den aktuella sidan öppen.
-- Rekommenderas för externa innehåll som t.ex. FOTO-3D©-visningar.
+**Advantages:**  
+- The user keeps the current page open.  
+- Recommended for external content like FOTO-3D© viewers.
 
-**Utan `target="_blank"`:**  
-Länken öppnas i **samma fönster**, vilket ersätter aktuell sida – något som kan skapa en sämre användarupplevelse i vissa sammanhang, som nyhetsbrev eller artiklar.
+**Without `target="_blank"`:**  
+The link opens in the **same window**, which replaces the current page – something that can result in a poorer user experience in certain contexts, such as newsletters or articles.
 
 ---
 
-## Vad gör `style`?
+## What does `style` do?
 
-Attributet `style` innehåller CSS-regler som styr hur bilden visas. I exemplet ovan används det för att:
-
-```css
-display: block;        /* Tar bort radbrytningen under bilden */
-max-width: 600px;      /* Begränsar bildens storlek på stora skärmar */
-width: 100%;           /* Gör bilden responsiv (anpassar sig efter behållaren) */
-```
-
-### Du kan även lägga till fler stilar, t.ex.:
+The `style` attribute contains CSS rules that control how the image is displayed. In the example above, it’s used to:
 
 ```css
-border: 2px solid #ddd;           /* Ljus kant runt bilden */
-border-radius: 8px;               /* Rundade hörn */
-box-shadow: 0 2px 10px rgba(0,0,0,0.15);  /* Skugga bakom bilden */
+display: block;        /* Removes line break under the image */
+max-width: 600px;      /* Limits the image size on large screens */
+width: 100%;           /* Makes the image responsive (adapts to the container) */
 ```
 
-**Exempel:**
+### You can also add more styles, for example:
+
+```css
+border: 2px solid #ddd;           /* Light border around the image */
+border-radius: 8px;               /* Rounded corners */
+box-shadow: 0 2px 10px rgba(0,0,0,0.15);  /* Shadow behind the image */
+```
+
+**Example:**
 
 ```html
 <img src="..." style="width:100%; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.15);" />
@@ -58,34 +59,35 @@ box-shadow: 0 2px 10px rgba(0,0,0,0.15);  /* Skugga bakom bilden */
 
 ---
 
-## Användningsområden
+## Use cases
 
-- **E-postutskick:** En produktbild i ett nyhetsbrev som leder till 3D-visningen.
-- **Bloggartiklar eller guider:** Klickbara bilder i brödtext.
-- **Produktgallerier eller kataloger:** Bilder som direkt länkar till 3D-visning istället för separat knapp.
-
----
-
-## Tillgänglighet
-
-Använd alltid `alt`-text som förklarar bilden och vad som händer vid klick.  
-Exempel: `"Se vår snackspåse i 3D"` eller `"3D-visning av chokladask"`
+- **Email campaigns:** A product image in a newsletter that links to the 3D viewer.  
+- **Blog articles or guides:** Clickable images in body text.  
+- **Product galleries or catalogs:** Images that link directly to the 3D viewer instead of using a separate button.
 
 ---
 
-## Kompatibilitet
+## Accessibility
 
-- Klickbara bilder fungerar i alla moderna webbläsare.
-- I e-post fungerar de i de flesta större klienter (Gmail, Outlook, Apple Mail), men vissa blockerar bilder tills användaren godkänner dem.
-- Lägg gärna till en **textlänk som backup** under bilden i e-postutskick.
+Always use `alt` text that describes the image and what happens when clicked.  
+Example: `"View our snack bag in 3D"` or `"3D viewer for chocolate box"`
 
 ---
 
-*Mer info:*
+## Compatibility
 
-- [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
-- [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
-- [Bild som länk](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#images-as-links)
-- [target-attributet](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target)
-- [style-attributet](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
+- Clickable images work in all modern web browsers.  
+- In email, they work in most major clients (Gmail, Outlook, Apple Mail), but some block images until the user approves them.  
+- It’s a good idea to add a **text link as a backup** below the image in email campaigns.
+
+---
+
+*More info:*
+
+- [`<a>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)  
+- [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)  
+- [Image as a link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#images-as-links)  
+- [target attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target)  
+- [style attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style)
+
 
