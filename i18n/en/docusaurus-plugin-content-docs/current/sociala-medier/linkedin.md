@@ -3,51 +3,48 @@ id: linkedin
 title: Linkedin
 sidebar_label: Linkedin
 ---
-## Använda FOTO-3D på LinkedIn
+## Using FOTO-3D on LinkedIn
 
-### Du behöver:
-- En delbar länk (URL) till din FOTO-3D©-modell  
-  Exempel: `https://v.marvify.io/?m=<modell-id>`
-- Ett LinkedIn-konto (företags- eller personligt)
+### You’ll need:
+- A shareable link (URL) to your FOTO-3D© model  
+  Example: `https://v.marvify.io/?m=<model-id>`
+- A LinkedIn account (business or personal)
+
 
 ---
 
-### Så här gör du:
+### Here's how:
 
-1. Logga in på **[LinkedIn](https://www.linkedin.com/)**
-2. Gå till din **företagssida** eller **profil**
-3. Klicka på **“Starta ett inlägg”**
-4. Skriv en kort introduktion, till exempel:
-   > “Vi lanserar en ny förpackning – se den i 3D direkt i webbläsaren!”
-5. Klistra in länken till din FOTO-3D-modell direkt i textfältet:
+1. Log in to **[LinkedIn](https://www.linkedin.com/)**  
+2. Go to your **company page** or **profile**  
+3. Click **“Start a post”**  
+4. Write a short introduction, for example:  
+   > “We’re launching new packaging – see it in 3D right in your browser!”
+5. Paste the link to your FOTO-3D model directly into the text field:  
    ```
    https://v.marvify.io/?m=<modell-id>
    ```
-6. LinkedIn gör automatiskt länken klickbar i inlägget.
-7. Klicka på **“Publicera”**
+6. LinkedIn will automatically make the link clickable in the post.  
+7. Click **“Post”**
 
 ---
 
 ### Tips:
-- Lägg gärna till en bild eller skärmbild tillsammans med länken för att dra till dig uppmärksamhet.
-- Du kan också kommentera på andras inlägg och lägga till en FOTO-3D-länk som en del av din respons.
+- Feel free to add an image or screenshot along with the link to attract attention.  
+- You can also comment on others’ posts and include a FOTO-3D link as part of your response.
 
 ---
 
-![Infoga skärmdump här som visar ett LinkedIn-inlägg med FOTO-3D-länk]
+More information: [LinkedIn – Create a post](https://www.linkedin.com/help/linkedin/answer/a518996)
 
 ---
 
-Mer information: [LinkedIn – Skapa inlägg](https://www.linkedin.com/help/linkedin/answer/a518996)
+## Want to use LinkedIn ads?
+
+You can also use your FOTO-3D link in ads via **LinkedIn Campaign Manager**. This allows you to target content to relevant audiences within your industry.
+
+Learn more: [Getting started with LinkedIn advertising](https://business.linkedin.com/marketing-solutions/success/getting-started)
 
 ---
 
-## Vill du använda LinkedIn-annonser?
-
-Du kan även använda din FOTO-3D-länk i annonser via **LinkedIn Campaign Manager**. Då kan du rikta innehåll till relevanta målgrupper inom din bransch.
-
-Läs mer: [Kom igång med annonsering på LinkedIn](https://business.linkedin.com/marketing-solutions/success/getting-started)
-
----
-
-> Observera: LinkedIns gränssnitt och funktioner kan förändras. Om något inte fungerar som i denna guide, se deras dokumentation eller kontakta oss på [info@marvify.com](mailto:info@marvify.com).
+> Note: LinkedIn’s interface and features may change. If something doesn’t work as described in this guide, please refer to their documentation or contact us at [info@marvify.com](mailto:info@marvify.com).
