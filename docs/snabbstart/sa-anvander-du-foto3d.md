@@ -173,6 +173,8 @@ _Skanna för att se vår produkt i 3D_
 
 ### Sociala medier
 
+<sub>*P.S. Följande plattformar tillhandahålls av externa leverantörer, och deras implementation kan avvika från vad som anges i vår nuvarande dokumentation. Vi rekommenderar att du konsulterar den officiella dokumentationen från respektive leverantör innan du gör några ändringar.*</sub>
+
 Här visar vi hur ni kan använda er unika Marvify-länk i sociala medier för att marknadsföra era produkter. Ni får konkreta exempel på hur ni kan publicera länken i vanliga inlägg, stories och annonser – oavsett om det görs via ert eget konto, en influencer eller en ambassadör.
 
 ***
