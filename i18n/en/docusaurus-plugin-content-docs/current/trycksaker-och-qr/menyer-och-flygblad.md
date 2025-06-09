@@ -1,88 +1,80 @@
 ---
 id: menyer-och-flygblad
-title: Menus & Flyers
-sidebar_label: Menus & Flyers
+title: Menyer & Flygblad
+sidebar_label: Menyer & Flygblad
 ---
-# Menus & Flyers
+# Menyer & Flygblad
 
-Want to give your customers something extra when they see your menu, flyer, or other printed material?  
-With Marvify FOTO-3D©, you can let them explore your products digitally – directly from a physical surface.
-
----
-
-## How is it used?
-
-You can showcase your 3D viewer by placing a link or QR code on:
-
-- **Printed menus** in restaurants, stores, or hotels  
-- **Flyers**, campaign sheets, or takeaway folders  
-- **Brochures**, price catalogs, or event materials  
-- **Signs** in stores, windows, or pop-up stands
-
-The customer scans the QR code with their phone and opens the 3D viewer directly in the browser – no app needed.
+Vill du ge dina kunder något extra när de ser din meny, ditt flygblad eller annat tryckt material?  
+Med Marvify FOTO-3D© kan du låta dem utforska dina produkter digitalt – direkt från en fysisk yta.
 
 ---
 
-## Which link should you use?
+## Hur används det?
 
-Use the direct link to your FOTO-3D model, for example:
+Du kan visa upp din 3D-visning genom att placera en länk eller QR-kod på:
+
+- **Tryckta menyer** i restaurang, butik eller hotell
+- **Flygblad**, kampanjblad eller takeaway-foldrar
+- **Broschyrer**, priskataloger eller eventmaterial
+- **Skyltar** i butik, fönster eller popup-stånd
+
+Kunden scannar QR-koden med mobilen och öppnar 3D-visningen direkt i webbläsaren – ingen app behövs.
+
+---
+
+## Vilken länk ska användas?
+
+Använd den direkta länken till din FOTO-3D-modell, t.ex.:
 
 ```
 https://v.marvify.io/?m=<modell-id>
 ```
 
-For a more brand-aligned appearance, you can also use a **custom short link or domain** that redirects to the Marvify link.  
-Example:
+För ett mer enhetligt och lättläst intryck kan du använda:
 
-```
-https://mybrand.com/snacks → https://v.marvify.io/?m=abc123
-```
+- En **egen kortdomän** eller sida som pekar vidare  
+  Exempel:  
+  `https://mittföretag.se/meny3d → https://v.marvify.io/?m=abc123`
+  
+- En **URL-förkortare** som:  
+  - [bit.ly](https://bitly.com)  
+  - [tinyurl.com](https://tinyurl.com)
 
-
-Alternatively, you can use a **URL shortening service** like:
-
-- [bit.ly](https://bitly.com)  
-- [tinyurl.com](https://tinyurl.com)
-
-This makes the link shorter and easier to place in small spaces – perfect for labels.
+Det gör länken enklare att läsa, skriva ut och placera i designen.
 
 ---
 
-## Add a QR code
+## Lägg till en QR-kod
 
-The easiest way to make the link accessible to customers is to create a **QR code** that leads to the viewer.  
-The QR code can be printed directly on packaging, stickers, menus, or signage.
+En QR-kod gör det superenkelt för kunden att komma till 3D-visningen från tryckt material. Perfekt för menyer, bordsställ, utdelningar eller affischer.
 
-See our guide: [Create a QR code »](./skapa-qr-kod.md)
-
+Se vår guide: [Skapa QR-kod »](./skapa-qr-kod.md)
 
 ---
 
-## Packaging design tips
+## Tips för design och placering
 
-- Place the QR code where it’s easy to scan (avoid bends or folds)  
-- Add a clear **call to action**, such as:  
-  - *“Scan to view in 3D”*  
-  - *“Explore the product digitally”*  
-  - *“Look around the entire package before you buy”*  
-- Test the QR code in advance – both on mobile and on printed materials
-
----
-
-## Remember the subscription period
-
-If you plan to print the link or QR code on a physical product, make sure that:
-
-- Your **Marvify subscription is active** for the entire time the product is on the market  
-- You don’t change or remove the model while the link is in use
-
-This is especially important for longer campaigns or when materials are printed in large quantities.
+- Placera QR-koden där den är tydlig, inte för nära vik eller skugga
+- Skriv gärna en liten instruktion under, t.ex.:
+  - *“Scanna för att se produkten i 3D”*
+  - *“Titta närmare innan du beställer”*
+  - *“Utforska innehållet – direkt i mobilen”*
+- Se till att allt fungerar på både mobil och desktop innan ni skickar till tryck
 
 ---
 
-## Questions?
+## Kom ihåg giltighetstiden
 
-We’re happy to help if you want to discuss ideas or double-check before printing.
+Om ni trycker en länk eller QR-kod i större upplaga eller för längre användning, tänk på att:
+
+- **Marvify-prenumerationen måste vara aktiv** så länge materialet är i omlopp
+- Länken ska vara kopplad till en modell som inte tas bort eller ändras under perioden
+
+---
+
+## Frågor?
+
+Vi hjälper gärna till om du vill testa innan tryck eller har frågor om vilken länk som passar bäst i din design.
 
 **[info@marvify.com](mailto:info@marvify.com)**
-

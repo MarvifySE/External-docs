@@ -7,7 +7,7 @@ sidebar_label: Quick-start
 
 ### What is Marvify FOTO-3D<sup>©</sup>?
 
-Marvify offers an interactive viewer that lets you showcase your products in FOTO-3D<sup>©</sup> digitally, in an engaging and flexible way.  
+Marvify offers an interactive viewer that lets you showcase your FOTO-3D<sup>©</sup> products digitally — in an engaging and flexible way.  
 With a simple link, your customers can rotate, zoom, and explore the product in detail, directly in their browser.  
 It works just as well on product and campaign pages as it does in ads, blogs, social media, and e-commerce platforms.
 
@@ -71,7 +71,7 @@ You can use your website or e-commerce platform to style the link as a button so
 
 ```html
 <a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">
-  <img src="licorice.jpg" alt="View licorice in 3D" />
+  <img src="lakritsbild.jpg" alt="View licorice in 3D" />
 </a>
 ```
 
@@ -156,8 +156,6 @@ _Scan to view our product in 3D_
 ***
 
 ### Social Media
-
-<sub>*P.S. The following platforms are managed by third parties, and their implementation details may differ from what is outlined in our current documentation. We recommend consulting the official documentation provided by the respective third-party vendors before making any changes.*</sub>
 
 Here we show how you can use your unique Marvify link on social media to promote your products.  
 You’ll get practical examples of how to share the link in regular posts, stories, and ads — whether it's through your own account, an influencer, or a brand ambassador.
@@ -291,28 +289,78 @@ You can use your company page to publish an organic post or a sponsored ad targe
 
 ### E-Commerce
 
-FOTO-3D<sup>©</sup> works with all major e-commerce platforms that allow you to add links in product descriptions, page content, or templates.  
-You can place the link wherever it fits best – for example, below the product description, next to the buy button, or in the image gallery.
+On platforms like WooCommerce, Shopify, Squarespace, and others, you can easily link to your FOTO-3D<sup>©</sup> viewer directly from your product pages.  
+The link works in all browsers, including on mobile devices.
 
-No special features or integrations are required – all you need is the ability to insert a standard link.
+***
 
-Works in all modern browsers, including mobile.
+#### "We have a WooCommerce store — how do we add our FOTO-3D<sup>©</sup> of the snack bag?"
 
----
+**Solution – Add a link directly in the product description:**
 
-#### More information coming soon
+In WooCommerce, you can edit the product content through the WordPress admin.  
+Insert a clickable text link or a button in the description field.  
+This way, customers see it right when they’re reading about the product.
 
-We’re working on more detailed documentation for specific e-commerce platforms and their editing tools.  
-Until then, feel free to contact us if you’d like help with your setup.
+```html
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">View the product in 3D</a>
+```
 
-**[info@marvify.com](mailto:info@marvify.com)**
+***
+
+#### "We use Shopify — how do we show our gummy candy in FOTO-3D<sup>©</sup>?"
+
+**Solution – Add the link in the HTML view of the product description:**
+
+In Shopify, go to the admin panel → Products → Edit product → Click **“Show HTML”** in the description field.  
+There, you can paste the link. It will then appear on the product page below the product description.
+
+```html
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Explore the product in 3D</a>
+```
+
+***
+
+#### "We use Squarespace — can we add FOTO-3D<sup>©</sup> of our chocolate pieces?"
+
+**Solution – Link directly in the product description using the editor:**
+
+In Squarespace, you edit each product page through the editor.  
+Add a regular link in the description field — it will appear right below the product information for the customer.
+
+```html
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">View the product in 3D</a>
+```
+
+***
+
+#### "We're building with Webflow — how do we include FOTO-3D<sup>©</sup> to show the nut mix?"
+
+**Solution – Add an external link in the product layout:**
+
+In Webflow, use the Designer editor to insert buttons or text links.  
+Set the link to your 3D viewer as an external URL. You can place it exactly where you want on the page.
+
+`https://v.marvify.io/?m=MODEL-ID`
+
+***
+
+#### "Our store is built in Magento — how do we show the product in FOTO-3D<sup>©</sup> there?"
+
+**Solution – Edit the product description in the admin panel:**
+
+In Magento, you can add HTML directly into the product description field via the backend.  
+The link will then appear alongside the rest of the product information.
+
+```html
+<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">View in 3D</a>
+```
 
 ***
 
 #### Tips
 
 * Place the link near the buy button or product image  
-* Use text like _“View in 3D”_, _“Explore visually”_, or _“Spin around”_  
-* Consider adding a QR code to packaging or printed materials
-
+* Use phrases like _“View in 3D”_, _“Explore visually”_, or _“Spin around”_  
+* Consider adding a QR code to your packaging or printed materials
 

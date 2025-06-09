@@ -3,50 +3,54 @@ id: facebook
 title: Facebook
 sidebar_label: Facebook
 ---
-## Using FOTO-3D on Facebook
+## Använda FOTO-3D på Facebook
 
-### You’ll need:
-- A shareable link (URL) to your FOTO-3D© model  
-  Example: `https://v.marvify.io/?m=<model-id>`
-- A Facebook account with access to a business page
+### Du behöver:
+- En delbar länk (URL) till din FOTO-3D©-modell  
+  Exempel: `https://v.marvify.io/?m=<modell-id>`
+- Ett Facebook-konto med åtkomst till en företagssida (Page)
 
 ---
 
-### Here's how:
+### Så här gör du:
 
-1. Log in to **[Facebook](https://www.facebook.com/)**
-2. Go to your **business page**
-3. Click **“Create post”**
-4. Write a short description, for example:  
-   > Explore our new packaging in 3D – rotate, zoom, and see every detail!
-5. Paste your FOTO-3D link directly into the text field, e.g.:
+1. Logga in på **[Facebook](https://www.facebook.com/)**
+2. Gå till din **företagssida** (Page)
+3. Klicka på **“Skapa inlägg”**
+4. Skriv en kort beskrivning, till exempel:
+   > Utforska vår nya förpackning i 3D – rotera, zooma och se varje detalj!
+5. Klistra in din FOTO-3D-länk direkt i textfältet, t.ex.:
    ```
    https://v.marvify.io/?m=<modell-id>
    ```
-Facebook will automatically display a clickable link in the post.
+   Facebook kommer automatiskt att visa en klickbar länk i inlägget.
 
-*If you've purchased the social media package, an image with a description will also be shown.*
-6. Click **“Publish”**
+   *Ifall ni har köpt sociala-medier paketet så kommer även en bild visas med beskrivningstext*
+6. Klicka på **“Publicera”**
 
 ---
 
 ### Tips:
-- Feel free to add a product image or screenshot along with the link to grab attention.  
-- Keep the text short and action-oriented, e.g., “View in 3D” or “Explore directly in your browser.”
+- Lägg gärna till en produktbild eller skärmbild tillsammans med länken för att fånga uppmärksamhet.
+- Håll texten kort och handlingsinriktad, t.ex. “Se i 3D” eller “Upptäck direkt i webbläsaren”.
 
 ---
 
-More information: [Facebook’s official help page on posts](https://www.facebook.com/help/333140160100643)
+![Exempelbild med länk till visare i Facebook-inlägg]  
+*Infoga en skärmdump här som visar ett inlägg med FOTO-3D-länk*
 
 ---
 
-## Want to use Facebook ads?
-
-You can also use your FOTO-3D link in ads via **Meta Ads Manager** to reach more customers. It works in both feed ads and Stories.
-
-Learn more: [Facebook – Getting started with ads](https://www.facebook.com/business/tools/ads-manager/get-started)
+Mer information: [Facebooks officiella hjälpsida om inlägg](https://www.facebook.com/help/333140160100643)
 
 ---
 
-> Note: Facebook’s interface and features may change over time. If something doesn’t work as described here, please refer to Facebook’s documentation or contact us at [info@marvify.com](mailto:info@marvify.com).
+## Vill du använda Facebook-annonser?
 
+Du kan även använda din FOTO-3D-länk i annonser via **Meta Ads Manager** för att nå fler kunder. Det fungerar i både flödesannonser och Stories.
+
+Läs mer: [Facebook – Kom igång med annonsering](https://www.facebook.com/business/tools/ads-manager/get-started)
+
+---
+
+> Observera: Facebooks gränssnitt och funktioner kan ändras över tid. Om något inte fungerar som beskrivet här, se Facebooks dokumentation eller kontakta oss på [info@marvify.com](mailto:info@marvify.com).

@@ -1,87 +1,84 @@
 ---
 id: forpackning-etikett
-title: Packaging & Label
-sidebar_label: Packaging & Label
+title: Förpackning & Etikett
+sidebar_label: Förpackning & Etikett
 ---
-# Packaging & Label
+# Förpackning & Etikett
 
-Want to connect your physical product to a digital experience?  
-With Marvify FOTO-3D©, you can let customers explore the product in 3D – directly from the packaging.
-
----
-
-## How is it used?
-
-You can place a link to your 3D viewer on, for example:
-
-- The product’s **label** or **packaging**  
-- A **printed menu**, brochure, or in-store sign  
-- A **display** in a store or showroom
-
-The customer scans the link (or QR code) with their phone and opens the product in 3D, directly in the browser – no app needed.
+Vill du koppla ihop din fysiska produkt med en digital upplevelse?  
+Med Marvify FOTO-3D© kan du låta kunder utforska produkten i 3D – direkt från förpackningen.
 
 ---
 
-## Which link should you use?
+## Hur används det?
 
-Use the direct link to your FOTO-3D model, for example:
+Du kan placera en länk till din 3D-visning på till exempel:
+
+- Produktens **etikett** eller **förpackning**
+- En **tryckt meny**, broschyr eller butiksskylt
+- En **display** i butik eller showroom
+
+Kunden scannar länken (eller QR-koden) med mobilen och öppnar produkten i 3D, direkt i webbläsaren – utan app.
+
+---
+
+## Vilken länk ska användas?
+
+Använd den direkta länken till din FOTO-3D-modell, t.ex.:
 
 ```
 https://v.marvify.io/?m=<modell-id>
 ```
 
-For a more brand-aligned appearance, you can also use a **custom short link or domain** that redirects to the Marvify link.  
-Example:
+För ett mer varumärkesanpassat intryck kan du också använda en **egen kortlänk eller domän** som vidarebefordrar till Marvify-länken.  
+Exempel:
 
 ```
-https://mybrand.com/snacks → https://v.marvify.io/?m=abc123
+https://mittvarumarke.se/snackspase → https://v.marvify.io/?m=abc123
 ```
 
+Alternativt kan du använda en **URL-förkortningstjänst** som:
 
-Alternatively, you can use a **URL shortening service** like:
-
-- [bit.ly](https://bitly.com)  
+- [bit.ly](https://bitly.com)
 - [tinyurl.com](https://tinyurl.com)
 
-This makes the link shorter and easier to place in small spaces – perfect for labels.
-
-
----
-
-## Add a QR code
-
-The easiest way to make the link accessible to customers is to create a **QR code** that leads to the viewer.  
-The QR code can be printed directly on packaging, stickers, menus, or signage.
-
-See our guide: [Create a QR code »](./skapa-qr-kod.md)
+Det gör länken kortare och enklare att placera på små ytor – perfekt för etiketter.
 
 ---
 
-## Packaging design tips
+## Lägg till en QR-kod
 
-- Place the QR code where it’s easy to scan (avoid bends or folds)  
-- Add a clear **call to action**, such as:  
-  - *“Scan to view in 3D”*  
-  - *“Explore the product digitally”*  
-  - *“Look around the entire package before you buy”*  
-- Test the QR code in advance – both on mobile and on printed materials
+Det enklaste sättet att göra länken lättillgänglig för kunder är att skapa en **QR-kod** som leder till visaren.  
+QR-koden kan tryckas direkt på förpackningen, klistermärken, menyer eller skyltmaterial.
+
+Se vår guide: [Skapa QR-kod »](./skapa-qr-kod.md)
 
 ---
 
-## Remember the subscription period
+## Tips för förpackningsdesign
 
-If you plan to print the link or QR code on a physical product, make sure that:
-
-- Your **Marvify subscription is active** for the entire time the product is on the market  
-- You don’t change or remove the model while the link is in use
-
-This is especially important for longer campaigns or when materials are printed in large quantities.
+- Placera QR-koden på en plats där den är lätt att scanna (ej nära böjningar eller vik)
+- Lägg till en tydlig **call to action**, t.ex.:
+  - *“Scanna för att se i 3D”*
+  - *“Utforska produkten digitalt”*
+  - *“Titta runt hela förpackningen innan du köper”*
+- Testa QR-koden i förväg – både på mobil och tryckmaterial
 
 ---
 
-## Questions?
+## Kom ihåg giltighetstiden
 
-We’re happy to help if you want to discuss ideas or double-check before printing.
+Om du planerar att trycka länken eller QR-koden på en fysisk produkt, se till att:
+
+- Din **Marvify-prenumeration är aktiv** under hela perioden då produkten är ute på marknaden
+- Du inte ändrar eller tar bort modellen så länge länken används
+
+Det är extra viktigt för längre kampanjer eller när material trycks i stora upplagor.
+
+---
+
+## Frågor?
+
+Vi hjälper gärna till om du vill bolla idéer eller dubbelkolla material innan tryck.
 
 **[info@marvify.com](mailto:info@marvify.com)**
-

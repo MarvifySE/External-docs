@@ -1,16 +1,15 @@
 ---
 id: kontakta-support
-title: Contact support
-sidebar_label: Contact support
+title: kontakta support
+sidebar_label: kontakta support
 ---
-# Contact Support
+# Kontakta support
 
-Do you have questions, concerns, or need help with something?
+Har du frågor, funderingar eller behöver hjälp med något?
 
-You're always welcome to reach out to us at:  
+Du är alltid välkommen att höra av dig till oss på:  
 **[info@marvify.com](mailto:info@marvify.com)**
 
-We’ll get back to you as soon as we can and are happy to assist — whether it’s about integration, viewers, or using Marvify FOTO-3D©.
+Vi svarar så snart vi kan och hjälper dig gärna vidare – oavsett om det gäller integration, visningar eller användning av Marvify FOTO-3D©.
 
-Don’t hesitate to contact us!
-
+Tveka inte att kontakta oss!

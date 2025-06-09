@@ -3,7 +3,7 @@ id: wix
 title: Wix
 sidebar_label: Wix
 ---
-> 🛠️ This page is still under construction.  
-> We're working on filling it with useful information – please check back soon!
+> 🛠️ Den här sidan är fortfarande under uppbyggnad.  
+> Vi jobbar på att fylla den med användbar information – kika gärna tillbaka snart!
 
-Thank you for your patience!
+Tack för tålamodet!
