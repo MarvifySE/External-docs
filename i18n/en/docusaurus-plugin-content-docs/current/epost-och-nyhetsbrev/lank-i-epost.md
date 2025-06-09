@@ -1,70 +1,70 @@
 ---
 id: lank-i-epost
-title: Länk i e-post
-sidebar_label: Länk i e-post
+title: Link in e-mail
+sidebar_label: Link in e-mail
 ---
-# Länk i e-post
+# Link in Email
 
-Du kan länka till en FOTO-3D©-visning direkt i ett mejl eller nyhetsbrev. Det är ett enkelt och effektivt sätt att låta mottagaren öppna visningen i ett nytt fönster – till exempel från ett nyhetsbrev, kampanjutskick eller en personlig kontakt.
-
----
-
-## Viktigt att känna till
-
-> Om du skickar ett vanligt mejl (t.ex. via Gmail eller Outlook) fungerar det **inte** att klistra in HTML-kod som `<a href="...">`.  
-> I så fall visas det bara som text. För att skapa en klickbar länk måste du använda e-postprogrammets **infoga länk**-funktion.
+You can link to a FOTO-3D© viewer directly in an email or newsletter. It's a simple and effective way to let the recipient open the viewer in a new window — for example, from a newsletter, campaign email, or personal outreach.
 
 ---
 
-## Så gör du – manuellt i Gmail
+## Important to Know
 
-1. Skriv till exempel: `Se produkten i 3D`
-2. Markera texten
-3. Klicka på **infoga länk** (ikonen med en kedja 🔗)
-4. Klistra in länken:  
-   `https://v.marvify.io/?m=<modell-id>`
-5. Klicka på **OK**
-
-*I dom flesta fallen så känner gmail igen en länk automatiskt.*
+> If you're sending a regular email (e.g., via Gmail or Outlook), **pasting HTML code** like `<a href="...">` will **not** work.  
+> In that case, it will just appear as plain text. To create a clickable link, you need to use your email program’s **insert link** function.
 
 ---
 
-## Så gör du – manuellt i Outlook
+## How to Do It – Manually in Gmail
 
-1. Skriv till exempel: `Se produkten i 3D`
-2. Markera texten
-3. Högerklicka och välj **Länk > Infoga länk** (eller använd menyfliken Infoga → Länk)
-4. Klistra in länken:  
-   `https://v.marvify.io/?m=<modell-id>`
-5. Bekräfta
+1. Write something like: `View the product in 3D`
+2. Highlight the text
+3. Click **Insert link** (the chain icon 🔗)
+4. Paste the link:  
+   `https://v.marvify.io/?m=<model-id>`
+5. Click **OK**
 
-*I dom flesta fallen så känner outlook igen en länk automatiskt.*
+*In most cases, Gmail automatically recognizes a link.*
 
 ---
 
-## Om du använder ett e-postverktyg
+## How to Do It – Manually in Outlook
 
-Om du använder ett utskicksverktyg som **Mailchimp**, **Brevo** eller liknande, kan du välja att:
+1. Write something like: `View the product in 3D`
+2. Highlight the text
+3. Right-click and choose **Link > Insert Link** (or use the Insert tab → Link)
+4. Paste the link:  
+   `https://v.marvify.io/?m=<model-id>`
+5. Confirm
 
-- Använda deras **visuella editor** (markera text → lägg till länk)
-- Eller, om du är van vid det, använda deras **HTML-block** för att klistra in HTML-kod direkt:
+*In most cases, Outlook automatically recognizes a link.*
+
+---
+
+## If You're Using an Email Tool
+
+If you're using a mailing tool like **Mailchimp**, **Brevo**, or similar, you can choose to:
+
+- Use their **visual editor** (highlight text → add link)
+- Or, if you're comfortable with it, use their **HTML block** to paste in HTML code directly:
 
 ```html
-<a href="https://v.marvify.io/?m=<modell-id>" target="_blank" rel="noopener noreferrer">Se produkten i 3D</a>
+<a href="https://v.marvify.io/?m=<model-id>" target="_blank" rel="noopener noreferrer">View the product in 3D</a>
 ```
 
 ---
 
-## Vad gör `target="_blank"`?
+## What Does `target="_blank"` Do?
 
-Den öppnar länken i ett nytt fönster eller flik, så att mottagaren kan fortsätta läsa mejlet efteråt.
+It opens the link in a new window or tab, allowing the recipient to continue reading the email afterward.
 
 ---
 
-## Kompatibilitet
+## Compatibility
 
-- Klickbara textlänkar fungerar i alla moderna e-postklienter (Gmail, Outlook, Apple Mail m.fl.)
-- Om mottagaren inte ser HTML (ovanligt), är det bra att även visa länken i sin helhet:
+- Clickable text links work in all modern email clients (Gmail, Outlook, Apple Mail, etc.)
+- If the recipient can't view HTML (rare), it's a good idea to also display the full link:
 
 ```
 https://v.marvify.io/?m=<modell-id>
@@ -72,13 +72,14 @@ https://v.marvify.io/?m=<modell-id>
 
 ---
 
-## Tips – om ni vill använda ett e-postverktyg
+## Tips – If You Want to Use an Email Tool
 
-Vanliga verktyg som stöder klickbara länkar och HTML-utskick:
+Common tools that support clickable links and HTML emails:
 
-- [Mailchimp](https://mailchimp.com/?currency=SEK) – En av de mest använda, lätt att komma igång med.
-- [Brevo](https://www.brevo.com/) – Europeiskt verktyg med fokus på GDPR och kostnadseffektivitet.
+- [Mailchimp](https://mailchimp.com/?currency=SEK) – One of the most popular, easy to get started with.
+- [Brevo](https://www.brevo.com/) – A European tool focused on GDPR and cost-efficiency.
 
-> FOTO-3D©-visningar fungerar i alla verktyg så länge HTML-länkar stöds.
+> FOTO-3D© viewers work in all tools as long as HTML links are supported.
 
-<sub>Notering: Vi har ingen koppling till de tjänster som nämns ovan och får ingen ersättning. De listas bara som exempel.</sub>
+<sub>Note: We have no affiliation with the services mentioned above and receive no compensation. They are listed purely as examples.</sub>
+
