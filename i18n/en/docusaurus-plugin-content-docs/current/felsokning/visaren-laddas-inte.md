@@ -1,77 +1,78 @@
 ---
 id: visaren-laddas-inte
-title: visaren laddas inte
-sidebar_label: visaren laddas inte
+title: Viewer not loading
+sidebar_label: Viewer not loading
 ---
-# Felsökning – Visaren visas inte
+# Troubleshooting – Viewer Not Displaying
 
-Om din FOTO-3D©-visning inte laddas eller visas som den ska, finns det några vanliga saker du kan kontrollera själv innan du kontaktar support.
+If your FOTO-3D© viewer isn't loading or displaying correctly, there are a few common things you can check yourself before contacting support.
 
 ---
 
-## Checklista – vanliga orsaker
+## Checklist – Common Causes
 
-### 1. **Är länken korrekt?**
-Se till att du använder rätt URL. Den ska se ut så här:
+### 1. **Is the Link Correct?**
+Make sure you're using the correct URL. It should look like this:
 
 ```
-https://v.marvify.io/?m=<modell-id>
+https://v.marvify.io/?m=<model-id>
 ```
 
-Dubbelkolla att:
-- Modell-ID är korrekt och inte innehåller extra tecken.
-- Inga mellanslag eller felstavningar har smugit sig in.
-- Du inte råkat lägga till HTML-taggar eller extra citationstecken.
+Double-check that:
+- The model ID is correct and doesn't contain any extra characters.
+- There are no spaces or typos.
+- You haven’t accidentally added HTML tags or extra quotation marks.
 
 ---
 
-### 2. **Är din prenumeration aktiv?**
-Visningar fungerar endast om kontot har en aktiv prenumeration.  
-Om du är osäker – kontakta oss på [info@marvify.com](mailto:info@marvify.com), så hjälper vi dig att kontrollera status.
+### 2. **Is Your Subscription Active?**
+Viewers only work if the account has an active subscription.  
+If you're unsure — contact us at [info@marvify.com](mailto:info@marvify.com) and we’ll help you check the status.
 
 ---
 
-### 3. **Använder du rätt protokoll (https)?**
-Sidan och länken behöver använda **https://** – inte http://.  
-Många webbläsare blockerar innehåll som laddas utan kryptering.
+### 3. **Are You Using the Correct Protocol (https)?**
+The page and the link need to use **https://** – not http://.  
+Many browsers block content that is loaded without encryption.
 
 ---
 
-### 4. **Visas ett felmeddelande?**
-I vissa fall visas ett tydligt felmeddelande i visaren. Läs texten noga – det kan ge dig en ledtråd till vad som saknas eller är fel.
+### 4. **Is an Error Message Displayed?**
+In some cases, a clear error message is shown in the viewer. Read the message carefully, it may give you a clue about what’s missing or incorrect.
 
 ---
 
-## Tips: Titta i webbläsarens utvecklarverktyg
+## Tip: Check the Browser’s Developer Tools
 
-Om inget syns alls, eller om du bara får en tom yta, kan du prova att öppna webbläsarens **utvecklarverktyg** för att se om några fel visas i konsolen.
+If nothing appears at all, or you only see a blank space, you can try opening the browser’s **developer tools** to see if any errors are shown in the console.
 
-Så här gör du i **Google Chrome**:
+Here’s how to do it in **Google Chrome**:
 
-1. Högerklicka på sidan där visaren borde visas
-2. Välj **“Inspektera”**
-3. Klicka på fliken **“Console”**
+1. Right-click on the page where the viewer should appear
+2. Select **“Inspect”**
+3. Click the **“Console”** tab
 
-Om något är fel – till exempel om länken inte kan laddas – brukar det synas här i form av ett felmeddelande.
+If something is wrong — for example, if the link can’t be loaded — it will often show up here as an error message.
 
-🟡 **Använder du en annan webbläsare?**  
-Dessa verktyg finns även i t.ex. Firefox, Edge och Safari – ofta under menyval som “Webbutvecklarverktyg” eller “Inspektera element”.
+**Using a different browser?**  
+These tools are also available in browsers like Firefox, Edge, and Safari — usually under menu options like “Web Developer Tools” or “Inspect Element.”
 
-Du behöver inte förstå allt som står – men ibland kan ett felmeddelande ge en tydlig ledtråd till vad som behöver justeras.
+You don’t need to understand everything shown — but sometimes an error message can offer a clear clue about what needs to be fixed.
 
 ---
 
-## Fortsatt problem?
+## Still Having Trouble?
 
-Om du har kontrollerat punkterna ovan men visningen fortfarande inte fungerar, hör gärna av dig till oss så hjälper vi dig vidare:
+If you've checked the points above but the viewer still isn’t working, feel free to reach out to us — we’re happy to help:
 
 **[info@marvify.com](mailto:info@marvify.com)**
 
-Skicka gärna med:
-- Den exakta länken du försöker använda
-- Hur du visar den (t.ex. i iframe, e-post eller knapp)
-- Om möjligt: en skärmbild eller felmeddelande från konsolen
+Please include:
+- The exact link you’re trying to use
+- How you’re displaying it (e.g., in an iframe, email, or button)
+- If possible: a screenshot or error message from the browser console
 
 ---
 
-Vi hjälper dig gärna!
+We’re happy to assist you!
+
