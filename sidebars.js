@@ -4,8 +4,8 @@ module.exports = {
       type: 'category',
       label: 'Snabbstart',
       items: [
-        'snabbstart/sa-anvander-du-foto3d',
         'snabbstart/vad-ar-foto3d',
+        'snabbstart/sa-anvander-du-foto3d',
         'snabbstart/var-kan-man-visa-den',
       ],
     },
