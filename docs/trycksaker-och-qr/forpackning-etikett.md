@@ -20,8 +20,6 @@ Du kan placera en länk till din 3D-visning på till exempel:
 
 Kunden scannar länken (eller QR-koden) med mobilen och öppnar produkten i 3D, direkt i webbläsaren – utan app.
 
-[INFOGA Bild, av produkt mockup med QR]
-
 ---
 
 ## Vilken länk ska användas?
@@ -54,8 +52,6 @@ Det enklaste sättet att göra länken lättillgänglig för kunder är att skap
 QR-koden kan tryckas direkt på förpackningen, klistermärken, menyer eller skyltmaterial.
 
 Se vår guide: [Skapa QR-kod »](./skapa-qr-kod.md)
-
-[INFOGA GIF, använd Menyer, QR-kod ifrån sa-anvander-du-foto3d.md]
 
 ---
 

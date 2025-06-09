@@ -26,8 +26,6 @@ sidebar_label: Linkedin
 6. LinkedIn gör automatiskt länken klickbar i inlägget.
 7. Klicka på **“Publicera”**
 
-[INFOGA GIF, ifrån sa-anvander-du-foto3d.md Linkedin]
-
 ---
 
 ### Tips:

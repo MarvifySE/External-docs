@@ -27,9 +27,6 @@ Du kan länka till en FOTO-3D©-visning direkt i ett mejl eller nyhetsbrev. Det 
 
 *I dom flesta fallen så känner gmail igen en länk automatiskt.*
 
-[INFOGA BILD skapa mail]
-[INFOGA GIF slutresultat öppnas]
-
 ---
 
 ## Så gör du – manuellt i Outlook
@@ -43,7 +40,6 @@ Du kan länka till en FOTO-3D©-visning direkt i ett mejl eller nyhetsbrev. Det 
 
 *I dom flesta fallen så känner outlook igen en länk automatiskt.*
 
-[INFOGA BILD]
 ---
 
 ## Om du använder ett e-postverktyg

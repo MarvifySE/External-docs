@@ -22,18 +22,12 @@ sidebar_label: X
 4. Klistra in din FOTO-3D-länk direkt i texten. Den blir klickbar automatiskt.
 5. Klicka på **“Posta”**
 
-[INFOGA GIF, ifrån sa-anvander-du-foto3d.md X]
-
 ---
 
 ### Tips:
 - Du kan lägga till en bild eller emoji för att dra uppmärksamhet till inlägget.
 - Kortare inlägg med direkt länk fungerar bra på plattformen.
 - Använd gärna hashtags som är relevanta för din produkt eller bransch.
-
----
-
-![Infoga en skärmdump som visar ett inlägg på X med FOTO-3D-länk]
 
 ---
 

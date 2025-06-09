@@ -17,7 +17,6 @@ Så länge det går att klicka på en länk eller visa en sida i en webbläsare,
 - Som en **knapp**, **textlänk** eller **klickbar bild**
 - Inbäddad i en layout med `<iframe>`
 
-[INFOGA GIF montage, många sätta man kan implementera]
 
 ---
 
@@ -27,8 +26,6 @@ Så länge det går att klicka på en länk eller visa en sida i en webbläsare,
 - Som länk i en **personlig mejlsignatur**
 - I interna meddelanden eller dokument (intranät, onboarding, PDF)
 
-[INFOGA GIF montage, många sätta man kan skicka]
-
 ---
 
 ## I sociala medier
@@ -36,8 +33,6 @@ Så länge det går att klicka på en länk eller visa en sida i en webbläsare,
 - På plattformar som **Instagram**, **Facebook**, **LinkedIn**, **X**, och **TikTok**
 - I bio, inlägg, stories eller kommentarer
 - Dela direkt eller via länkverktyg som Linktree
-
-[INFOGA GIF montage, många sätt man kan visa]
 
 ---
 
@@ -47,8 +42,6 @@ Så länge det går att klicka på en länk eller visa en sida i en webbläsare,
 - I produktbeskrivningar eller vid köpknappen
 - Länkar stödjs i t.ex. **Shopify**, **WooCommerce**, **Squarespace**, **Magento**, **Webflow**, med flera
 
-[INFOGA GIF montage, exempel ifall möjligt]
-
 ---
 
 ## I tryckt material
@@ -57,8 +50,6 @@ Så länge det går att klicka på en länk eller visa en sida i en webbläsare,
 - Använd på förpackningar, butiksmaterial eller mässutskick
 - Lägg till på menyer, etiketter eller skyltar
 
-[INFOGA GIF ifrån webplats meny i sa-anvander-du-foto3d.md]
-
 ---
 
 ## Och lite varstans annars
@@ -66,8 +57,6 @@ Så länge det går att klicka på en länk eller visa en sida i en webbläsare,
 - I presentationer och pitchar
 - I digitala kataloger eller showroom
 - I appar, portaler eller interna verktyg
-
-[INFOGA GIF, montage ifrån vad-ar-foto-3d.md]
 
 ---
 

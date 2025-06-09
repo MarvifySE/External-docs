@@ -9,7 +9,6 @@ sidebar_label: Snabbstart
 
 Marvify erbjuder en interaktiv visare som gör det möjligt för er att visa upp era FOTO-3D<sup>©</sup> produkter digitalt – på ett engagerande och flexibelt sätt. Med en enkel länk kan ni låta era kunder rotera, zooma och utforska produkten i detalj, direkt i webbläsaren. Det fungerar lika bra på produkt- och kampanjsidor som i annonser, bloggar, sociala medier och e-commerce.
 
-[INFOGA BILD/VIDEO (visa en modell)]
 
 ***
 
@@ -34,7 +33,7 @@ Om ni är osäkra – klicka för en introduktion: [w3schools](https://www.w3sch
 ```html
 <a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Se påsen i 3D</a>
 ```
-[INFOGA GIF (Ett exemepl på blå klickbar länk som öppnar viewer)]
+
 ***
 
 *Mer info:*
@@ -53,8 +52,6 @@ Om ni är osäkra – klicka för en introduktion: [w3schools](https://www.w3sch
 ```
 
 Ni kan använda er webbplats eller e-handelsplattform för att formatera länken som en knapp, så att den smälter in i er design.
-
-[INFOGA GIF (Klicka på knapp som öppnar viewer)]
 
 ***
 
@@ -75,8 +72,6 @@ Ni kan använda er webbplats eller e-handelsplattform för att formatera länken
   <img src="lakritsbild.jpg" alt="Se lakrits i 3D" />
 </a>
 ```
-
-[INFOGA GIF (Klicka på exempel bild öppna viewer)]
 
 ***
 
@@ -101,15 +96,11 @@ Exempel med knapp:
 <button onclick="openFoto3D()">Se produkten i 3D</button>
 ```
 
-[INFOGA GIF (klickbar knapp som öppnar popup)]
-
 Exempel med länk:
 
 ```html
 <a href="#" onclick="openFoto3D()">Öppna 3D-visning</a>
 ```
-
-[INFOGA GIF (klickbar länk som öppnar popup)]
 
 Javascript:
 
@@ -143,8 +134,6 @@ Länk att använda:\
 Textförslag:\
 _Skanna för att se vår produkt i 3D_
 
-[INFOGA BILD (ett meny exempel i print med QR-KOD, kanske filma en hand med mobil som öppnar QR-länk)]
-
 ***
 
 #### "Vi vill bädda in visningen av våra FOTO-3D<sup>©</sup> praliner direkt på hemsidan!"
@@ -154,12 +143,6 @@ _Skanna för att se vår produkt i 3D_
 ```html
 <iframe src="https://v.marvify.io/?m=MODEL-ID" width="100%" height="500px" style="border:none;"></iframe>
 ```
-
-[INFOGA GIF (exempel på iframe och öppning)]
-
-[INFOGA STYLING INSTRUKTIONER]
-
-[INFOGA GIF (exempel på stylad iframe och öppning)]
 
 ***
 
@@ -189,17 +172,12 @@ Ni kan lägga länken till er visare i profilen (bio) och därefter skapa ett va
 > Jag blev helt kär i de här nya småkakorna från @SweetCrave – och man kan faktiskt se hela förpackningen i 3D.\
 > Klicka på länken i min bio!
 
-[INFOGA Bild på exempel bio]
-[INFOGA Bild på exempel linktree]
-
 **Lösning – Story med Link Sticker:**
 
 Skapa en Instagram Story med produktfoto och använd en **Link Sticker** för att lägga till klickbar länk direkt i bilden.
 
 * Länk: `https://v.marvify.io/?m=MODEL-ID`
 * Text på stickern: _"Se i 3D"_
-
-[INFOGA GIF på story och klicka på länk]
 
 ***
 
@@ -231,8 +209,6 @@ Ni (eller någon ni samarbetar med) kan skapa ett inlägg i ert personliga flöd
 >
 > `https://v.marvify.io/?m=MODEL-ID`
 
-[INFOGA GIF (skriva inlägg med slutresultat)]
-
 ***
 
 **Företagssida & annonser**
@@ -263,8 +239,6 @@ Ni kan skriva en vanlig tweet där ni lägger in länken till visningen. Det hä
 >
 > `https://v.marvify.io/?m=MODEL-ID`
 
-[INFOGA GIF (skapa ett inlägg med resultat)]
-
 ***
 
 **Företagskonto & annonser**
@@ -291,8 +265,6 @@ Ni eller någon ni samarbetar med (t.ex. en branschperson, influencer eller anst
 > Här är ett exempel på en produkt jag själv gillar – en lyxig chokladask i 3D.
 >
 > `https://v.marvify.io/?m=MODEL-ID`
-
-[INFOGA GIF (skapa ett inlägg med resultat)]
 
 ***
 
