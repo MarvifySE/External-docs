@@ -2,6 +2,7 @@
 id: vad-ar-foto3d
 title: what is FOTO-3D?
 sidebar_label: what is FOTO-3D?
+slug: /
 ---
 ## What is FOTO-3D?
 

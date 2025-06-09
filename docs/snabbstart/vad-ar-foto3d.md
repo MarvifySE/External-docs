@@ -2,6 +2,7 @@
 id: vad-ar-foto3d
 title: vad är foto-3d
 sidebar_label: vad är foto-3d
+slug: /
 ---
 ## Vad är FOTO-3D©?
 

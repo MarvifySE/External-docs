@@ -2,7 +2,6 @@
 id: sa-anvander-du-foto3d
 title: Snabbstart
 sidebar_label: Snabbstart
-slug: /
 ---
 # Snabbstart
 

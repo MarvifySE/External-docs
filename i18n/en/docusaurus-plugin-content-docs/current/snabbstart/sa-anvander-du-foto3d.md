@@ -2,7 +2,6 @@
 id: sa-anvander-du-foto3d
 title: Quick-start
 sidebar_label: Quick-start
-slug: /
 ---
 # Quick-Start
 
