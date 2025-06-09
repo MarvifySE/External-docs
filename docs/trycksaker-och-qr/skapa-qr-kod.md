@@ -19,7 +19,10 @@ När kunden scannar QR-koden med sin mobilkamera öppnas produkten direkt i 3D, 
 
 ---
 
-## 🔧 Skapa QR-kod med gratistjänster
+## Skapa QR-kod med gratistjänster
+
+> Observera: De QR-kodgeneratorer som nämns är tredjepartstjänster och kan ändras eller sluta fungera utan förvarning. Om det händer rekommenderar vi att du använder en sökmotor för att hitta alternativa QR-kodgeneratorer (det finns många kostnadsfria alternativ).
+
 
 ### 1. **Via qr-code-generator.com**
 
