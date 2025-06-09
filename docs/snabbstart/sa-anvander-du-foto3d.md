@@ -308,69 +308,23 @@ Ni kan använda er företagssida för att publicera ett organiskt inlägg eller 
 
 ***
 
-### E-Commerce
+### E-handel
 
-[INFOGA Ändra detta så att det säger vart vi kan användas och länka docs]
+FOTO-3D<sup>©</sup> fungerar med alla vanliga e-handelsplattformar som tillåter att du lägger in länkar i produktbeskrivningar, sidinnehåll eller mallar.  
+Länken till din visning kan placeras där det passar bäst – till exempel under produkttexten, bredvid köpknappen eller i bildgalleriet.
 
-På plattformar som WooCommerce, Shopify, Squarespace m.fl. kan ni enkelt länka till er FOTO-3D<sup>©</sup>-visning direkt från produktsidorna. Länken fungerar i alla webbläsare, även på mobil.
+Du behöver inga specialfunktioner eller integrationer – det räcker att kunna lägga in en vanlig länk.
 
-***
+Fungerar i alla moderna webbläsare, även på mobil.
 
-#### "Vi har en WooCommerce-butik – hur lägger vi in vår FOTO-3D<sup>©</sup> av snackspåsen?"
+---
 
-**Lösning – Lägg in en länk direkt i produktbeskrivningen:**
+#### Mer information kommer
 
-I WooCommerce kan ni redigera produktens innehåll via WordPress admin. Lägg in en klickbar textlänk eller en knapp i beskrivningsfältet. Då ser kunden den direkt när de läser om produkten.
+Vi arbetar med att ta fram mer detaljerad dokumentation för specifika e-handelsplattformar och deras redigeringsverktyg.  
+Tills dess är du alltid välkommen att kontakta oss om du vill ha hjälp med just din lösning.
 
-```html
-<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Se produkten i 3D</a>
-```
-
-***
-
-#### "Vi använder Shopify – hur visar vi våra gelégodis i FOTO-3D<sup>©</sup>?"
-
-**Lösning – Lägg in länken i HTML-vyn i produktbeskrivningen:**
-
-I Shopify går ni till adminpanelen → Produkter → Redigera produkt → Klicka på **“Visa HTML”** i beskrivningen. Där kan ni klistra in länken. Den syns sedan på produktsidan under produkttexten.
-
-```html
-<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Utforska produkten i 3D</a>
-```
-
-***
-
-#### "Vi har Squarespace – kan vi lägga in FOTO-3D<sup>©</sup> av chokladbitarna?"
-
-**Lösning – Länka direkt i produktbeskrivningen via editor:**
-
-I Squarespace redigerar ni varje produktsida i editorn. Lägg till en vanlig länk i beskrivningsfältet. Den visas direkt för kunden under produktinformationen.
-
-```html
-<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Se produkten i 3D</a>
-```
-
-***
-
-#### "Vi bygger med Webflow – hur får vi med FOTO-3D<sup>©</sup> som visar nötmixen?"
-
-**Lösning – Lägg till en extern länk i produktens layout:**
-
-I Webflow använder ni designer-editorn för att lägga in knappar eller textlänkar. Sätt länken till er 3D-visning som en extern URL. Ni kan placera den precis där ni vill på sidan.
-
-`https://v.marvify.io/?m=MODEL-ID`
-
-***
-
-#### "Vi har vår butik i Magento – hur visar vi produkten i FOTO-3D<sup>©</sup> där?"
-
-**Lösning – Redigera produktbeskrivningen i adminpanelen:**
-
-I Magento kan ni lägga till HTML direkt i produktbeskrivningsfältet via backend. Länken syns sedan tillsammans med övrig produktinfo.
-
-```html
-<a href="https://v.marvify.io/?m=MODEL-ID" target="_blank">Visa i 3D</a>
-```
+**[info@marvify.com](mailto:info@marvify.com)**
 
 ***
 
