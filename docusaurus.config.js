@@ -84,6 +84,7 @@ const config = {
           {
             type: 'localeDropdown',
             position: 'right',
+            dropdownActiveClassDisabled: true,
           },
         ],
       },
