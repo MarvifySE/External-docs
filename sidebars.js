@@ -4,6 +4,7 @@ module.exports = {
       type: 'category',
       label: 'Snabbstart',
       items: [
+        'snabbstart/marvify-viewer',
         'snabbstart/vad-ar-foto3d',
         'snabbstart/sa-anvander-du-foto3d',
         'snabbstart/var-kan-man-visa-den',
