@@ -1,3 +1,8 @@
+---
+id: marvify-viewer
+title: Marvify Viewer
+sidebar_label: Marvify Viewer
+---
 # Marvify Model Viewer
 
 *A drop‑in web component for rendering 3D product models on your site.*

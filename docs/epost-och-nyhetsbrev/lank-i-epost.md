@@ -1,4 +1,5 @@
 ---
+draft: true
 id: lank-i-epost
 title: Länk i e-post
 sidebar_label: Länk i e-post
