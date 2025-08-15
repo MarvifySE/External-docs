@@ -1,4 +1,5 @@
 ---
+draft: true
 id: menyer-och-flygblad
 title: Menyer & Flygblad
 sidebar_label: Menyer & Flygblad

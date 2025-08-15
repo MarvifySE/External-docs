@@ -1,4 +1,5 @@
 ---
+draft: true
 id: forpackning-etikett
 title: Förpackning & Etikett
 sidebar_label: Förpackning & Etikett

@@ -1,4 +1,5 @@
 ---
+draft: true
 id: skapa-qr-kod
 title: QR-Kod
 sidebar_label: QR-Kod

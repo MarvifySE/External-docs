@@ -1,4 +1,5 @@
 ---
+draft: true
 id: vanliga-problem
 title: vanliga problem
 sidebar_label: vanliga problem
