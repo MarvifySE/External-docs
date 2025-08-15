@@ -1,4 +1,5 @@
 ---
+draft: true
 id: klickbar-bild
 title: Klickbar bild
 sidebar_label: Klickbar bild

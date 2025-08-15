@@ -1,4 +1,5 @@
 ---
+draft: true
 id: visaren-laddas-inte
 title: visaren laddas inte
 sidebar_label: visaren laddas inte
