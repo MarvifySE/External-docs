@@ -1,4 +1,5 @@
 ---
+draft: true
 id: var-kan-man-visa-den
 title: Vart kan man visa FOTO-3D
 sidebar_label: Vart kan man visa FOTO-3D

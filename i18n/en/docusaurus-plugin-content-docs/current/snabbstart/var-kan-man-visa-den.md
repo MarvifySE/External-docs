@@ -1,4 +1,5 @@
 ---
+draft: true
 id: var-kan-man-visa-den
 title: Where can you display FOTO-3D?
 sidebar_label: Where can you display FOTO-3D?
