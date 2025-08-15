@@ -1,3 +1,8 @@
+---
+id: marvify-viewer
+title: Marvify Viewer
+sidebar_label: Marvify Viewer
+---
 # Marvify Model Viewer
 
 *En färdig webkomponent för att rendera 3D-produktmodeller på din webbplats.*

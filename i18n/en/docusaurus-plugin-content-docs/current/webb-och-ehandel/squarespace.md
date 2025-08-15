@@ -1,4 +1,5 @@
 ---
+draft: true
 id: squarespace
 title: Squarespace
 sidebar_label: Squarespace

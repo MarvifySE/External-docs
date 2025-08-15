@@ -1,4 +1,5 @@
 ---
+draft: true
 id: wordpress-woocommerce
 title: Wordpress & Woocommerce
 sidebar_label: Wordpress & Woocommerce

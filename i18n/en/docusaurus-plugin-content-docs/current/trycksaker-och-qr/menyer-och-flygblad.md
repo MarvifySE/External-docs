@@ -1,4 +1,5 @@
 ---
+draft: true
 id: menyer-och-flygblad
 title: Menus & Flyers
 sidebar_label: Menus & Flyers

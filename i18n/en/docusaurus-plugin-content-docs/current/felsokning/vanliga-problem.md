@@ -1,4 +1,5 @@
 ---
+draft: true
 id: vanliga-problem
 title: Common issues
 sidebar_label: Common issues

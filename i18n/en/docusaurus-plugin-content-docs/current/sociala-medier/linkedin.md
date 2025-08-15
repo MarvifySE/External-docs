@@ -1,4 +1,5 @@
 ---
+draft: true
 id: linkedin
 title: Linkedin
 sidebar_label: Linkedin

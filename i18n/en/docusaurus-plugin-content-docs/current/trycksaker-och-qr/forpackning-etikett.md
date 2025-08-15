@@ -1,4 +1,5 @@
 ---
+draft: true
 id: forpackning-etikett
 title: Packaging & Label
 sidebar_label: Packaging & Label

@@ -1,4 +1,5 @@
 ---
+draft: true
 id: wix
 title: Wix
 sidebar_label: Wix
