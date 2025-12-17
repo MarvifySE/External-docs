@@ -126,7 +126,7 @@ Se alltid till att ta bort dev token innan du publicerar din sida i produktion.
 | `maxZoom` | nummer | auto | Största tillåtna zoomavstånd relativt modellens storlek. |
 | `minCameraTilt` | nummer (grader) | `10` | Minsta vertikala orbitvinkel. |
 | `maxCameraTilt` | nummer (grader) | `85` | Största vertikala orbitvinkel. |
-| `initialCameraAngle` | sträng "yaw pitch" | "0 0" | Initial kamerayaw och pitch i grader (exempel: `-45 30`). |
+| `initialCameraAngle` | sträng "yaw pitch" | auto | Initial kamera yaw och pitch i grader (exempel: `"-45 30"`). |
 | `allowPan` | boolean | false | Aktiverar panorering med högerklick och tvåfingerspanorering på touch när satt till true. |
 | `autorotate` | boolean | true | Aktiverar automatisk kamerarotation om den inte uttryckligen sätts till `false`. |
 | `autorotateSpeed` | nummer (grader/sek) | `10` | Hastighet för automatisk rotation. |

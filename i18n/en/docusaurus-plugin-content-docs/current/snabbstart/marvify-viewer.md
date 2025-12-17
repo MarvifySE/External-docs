@@ -126,7 +126,7 @@ Always remove the dev token before deploying your site to production.
 | `maxZoom`                        | number               | auto    | Maximum allowed zoom distance relative to model size. |
 | `minCameraTilt`                  | number (deg)         | `10`    | Minimum vertical orbit angle. |
 | `maxCameraTilt`                  | number (deg)         | `85`    | Maximum vertical orbit angle. |
-| `initialCameraAngle`             | string `"yaw pitch"` | `"0 0"` | Initial camera yaw and pitch in degrees (example: `-45 30`). |
+| `initialCameraAngle`             | string `"yaw pitch"` | auto | Initial camera yaw and pitch in degrees (example: `"-45 30"`). |
 | `allowPan`                       | boolean              | false   | Enables right-click mouse panning and two-finger touch panning when set to true. |
 | `autorotate`                     | boolean              | true    | Enables automatic camera rotation unless explicitly set to `false`. |
 | `autorotateSpeed`                | number (deg/sec)     | `10`    | Speed of automatic rotation. |
