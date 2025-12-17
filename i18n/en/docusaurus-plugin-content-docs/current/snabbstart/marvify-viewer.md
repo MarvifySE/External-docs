@@ -179,10 +179,10 @@ These attributes control WebXR and VR behavior when supported by the browser and
 | Attribute        | Type    | Default | Description |
 | ---------------- | ------- | ------- | ----------- |
 | `enable-vr`      | boolean | false     | Enables a VR experience for the viewer. |
-| `vr-user-height` | number  | auto    | Height offset in meters added to the XR user height. |
-| `vr-user-distance` | number | auto    | Distance offset in meters for the initial XR camera position. |
-| `vr-minZoom`     | number  | auto    | Minimum allowed XR zoom radius. |
-| `vr-maxZoom`     | number  | auto    | Maximum allowed XR zoom radius. |
+| `vr-user-height` | number  | auto    | Height offset in meters +/- to the user height. |
+| `vr-user-distance` | number | auto    | Distance offset in meters +/- for the initial camera position. |
+| `vr-minZoom`     | number  | auto    | Minimum allowed zoom radius. |
+| `vr-maxZoom`     | number  | auto    | Maximum allowed zoom radius. |
 
 **Notes**
 * The Enter VR button appears only on WebXR-compatible devices and browsers.
@@ -192,6 +192,7 @@ These attributes control WebXR and VR behavior when supported by the browser and
 
 Model scale varies across products, so VR positioning may require adjustment to achieve a comfortable viewing experience.
 
+- `enable-vr="true"` must be set for VR to be enabled.
 - Use `vr-user-distance` to control how far the model appears from the user when entering VR. Larger models typically require a greater distance to fit comfortably in view.
 - Use `vr-user-height` to adjust the vertical placement of the model relative to the user’s eye level.
 - Use `vr-minZoom` to prevent users from getting too close to the model. Very close distances can reduce visual fidelity and make surface detail appear distorted.

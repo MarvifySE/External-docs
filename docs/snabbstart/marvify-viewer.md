@@ -181,10 +181,10 @@ Dessa attribut styr WebXR och VR-beteende när det stöds av webbläsare och enh
 | Attribut | Typ | Standard | Beskrivning |
 | -------- | --- | -------- | ----------- |
 | `enable-vr` | boolean | false | Aktiverar en VR-upplevelse för viewern. |
-| `vr-user-height` | nummer | auto | Höjdoffset i meter som läggs till XR-användarens höjd. |
-| `vr-user-distance` | nummer | auto | Avståndsoffset i meter för den initiala XR-kamerapositionen. |
-| `vr-minZoom` | nummer | auto | Minsta tillåtna XR-zoomradie. |
-| `vr-maxZoom` | nummer | auto | Största tillåtna XR-zoomradie. |
+| `vr-user-height` | nummer | auto | Höjdoffset i meter +/- till användarens höjd. |
+| `vr-user-distance` | nummer | auto | Avståndsoffset i meter +/- för den initiala kamerapositionen. |
+| `vr-minZoom` | nummer | auto | Minsta tillåtna zoomradie. |
+| `vr-maxZoom` | nummer | auto | Största tillåtna zoomradie. |
 
 **Noteringar**
 * Enter VR-knappen visas endast på WebXR-kompatibla enheter och webbläsare.
@@ -196,6 +196,7 @@ Dessa attribut styr WebXR och VR-beteende när det stöds av webbläsare och enh
 
 Modellskala varierar mellan produkter, så VR-positionering kan behöva justeras för att ge en bekväm visningsupplevelse.
 
+- `enable-vr="true"` måste vara satt för att VR ska fungera.
 - Använd `vr-user-distance` för att styra hur långt från användaren modellen placeras när VR startar. Större modeller kräver oftast större avstånd för att få plats bekvämt i vyn.
 - Använd `vr-user-height` för att justera modellens vertikala placering i förhållande till användarens ögonhöjd.
 - Använd `vr-minZoom` för att förhindra att användare kommer för nära modellen. Mycket korta avstånd kan försämra visuell kvalitet och göra att detaljer upplevs som förvrängda.
