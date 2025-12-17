@@ -29,7 +29,11 @@ Embed our module script once, then place the custom element where you want the v
 ></marvify-model-viewer>
 ```
 
-**Minimum required attributes:** `model-id`, `width`.
+**Minimum required attributes:** `model-id`.
+
+Width and height may be provided via attributes or regular CSS. At least one dimension must resolve to a non-zero size unless `fullscreen` is used.
+
+> Only one viewer is active at a time by design. Activating another instance resets the previously active one to ensure performance.
 
 ---
 
@@ -71,30 +75,128 @@ Embed our module script once, then place the custom element where you want the v
   initialCameraAngle="45 10"
 ></marvify-model-viewer>
 ```
+---
+
+## Development token (dev token)
+
+When developing your page with your own provisioned models (for example to position, tune, and configure models before going live), you must use a Marvify **development token**.
+
+A dev token is added as an attribute on the script tag that loads the viewer:
+
+    <script
+      src="https://js.marvify.io/marvify.js"
+      type="module"
+      data-marvify-devtoken="YOUR_DEV_TOKEN">
+    </script>
+
+> **Warning:** Only one dev token is valid at a time. Creating a new token invalidates the previous one.
+
+
+Your dev token is available in your **Marvify online account**. Log in to your account to view or regenerate your dev token.
+
+Without a dev token present, your provisioned models may fail to load during development. This is because model access is normally validated against your domain name.
+
+A dev token temporarily bypasses these requirements so you can work locally or in other non-production environments.
+
+**IMPORTANT**
+- Dev tokens are strictly for development use.
+- DO NOT use a dev token in production.
+- A dev token disables the normal production authentication flow.
+- If a dev token is accidentally used in production and you later regenerate the token, models will stop loading until the page is updated and redeployed without the dev token.
+- Dev tokens can be regenerated from your Marvify account page.
+
+Always remove the dev token before deploying your site to production.
+
 
 ---
 
 ## Custom Attributes
 
-| Attribute                        | Type or Range        | Default | Description                                                                                                                   |
-| -------------------------------- | -------------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| `model-id` **(required)**        | string               | n/a     | Model identifier in Marvify's service.                                                                                        |
-| `width` **(required)**           | CSS length           | n/a     | Sets element width (e.g. `320px`, `100%`).                                                                                    |
-| `height`                         | CSS length           | n/a     | Sets host element height.                                                                                                     |
-| `fullscreen`                     | boolean              | off     | When present, the viewer takes over the viewport (`position: fixed; top/left: 0; width/height: 100vw/100vh; z-index: 9999`). |
-| `bgColor`                        | CSS color            | `#f2f2f2` | Background color. Hex and rgb(a) supported.                                                                                   |
-| `fov`                            | number (deg)         | `55`    | Camera field-of-view.                                                                                                         |
-| `minZoom`, `maxZoom`             | number               | auto    | Minimum and maximum zoom allowed.                                                                                             |
-| `minCameraTilt`, `maxCameraTilt` | number (deg)         | `10` / `85` | Pitch angle clamps.                                                                                                           |
-| `initialCameraAngle`             | string `"yaw pitch"` | `"0 0"` | Starting camera position horizontal and vertical (e.g. `-45 90`).                                                             |
+| Attribute                        | Type or Range        | Default | Description |
+| -------------------------------- | -------------------- | ------- | ----------- |
+| `model-id` **(required)**        | string               | n/a     | Model identifier in Marvify's service. |
+| `width`                          | CSS length           | n/a     | Sets element width (e.g. `320px`, `100%`). |
+| `height`                         | CSS length           | n/a     | Sets host element height. |
+| `fullscreen`                     | boolean              | false   | Takes over the viewport using fixed positioning. |
+| `autoplay`                       | boolean              | false   | When present, loads the model immediately without waiting for user interaction. Autoplay only applies to the first activated viewer to prevent multiple models loading simultaneously. |
+| `bgColor`                        | CSS color            | `#f2f2f2` | Background color. Hex, rgb, and rgba supported. |
+| `fov`                            | number (deg)         | `55`    | Camera field of view. |
+| `minZoom`                        | number               | auto    | Minimum allowed zoom distance relative to model size. |
+| `maxZoom`                        | number               | auto    | Maximum allowed zoom distance relative to model size. |
+| `minCameraTilt`                  | number (deg)         | `10`    | Minimum vertical orbit angle. |
+| `maxCameraTilt`                  | number (deg)         | `85`    | Maximum vertical orbit angle. |
+| `initialCameraAngle`             | string `"yaw pitch"` | `"0 0"` | Initial camera yaw and pitch in degrees (example: `-45 30`). |
+| `allowPan`                       | boolean              | false   | Enables right-click mouse panning and two-finger touch panning when set to true. |
+| `autorotate`                     | boolean              | true    | Enables automatic camera rotation unless explicitly set to `false`. |
+| `autorotateSpeed`                | number (deg/sec)     | `10`    | Speed of automatic rotation. |
+| `autorotateResume`               | number (seconds)     | `3`     | Delay after user interaction before auto rotation resumes. |
+| `stats`                          | boolean              | false   | Enables performance and debug stats overlay. |
+
 
 **Behavioral notes**
 
-* If neither `width` or `height` nor `fullscreen` is set, size the host via CSS. The component enforces a minimum height fallback when collapsed.
+* If neither `width` nor `height` nor `fullscreen` is set, the host must be sized via CSS. The component enforces a minimum height fallback to avoid collapsing to zero.
+* Boolean attributes are enabled by presence unless explicitly set to false. To disable `autorotate`, explicitly set `autorotate="false"`.
 
----
+## Carousel
 
-> Only one viewer is active at a time by design. Activating another instance resets the previously active one to ensure performance.
+The `carousel` attribute allows multiple models to be viewed within a single viewer instance.
+
+| Attribute  | Type       | Description |
+| ---------- | ---------- | ----------- |
+| `carousel` | JSON array | A list of models to cycle through. Each item must include `model-id` and may include any other viewer attributes to apply for that slide. |
+
+**Notes**
+- Carousel items can override viewer settings such as `bgColor`, `initialCameraAngle`, or zoom limits.
+- The viewer does not render navigation UI automatically. You are responsible for adding your own buttons or controls in HTML.
+- Use the global helpers to change slides:  
+  `MarvifyCarousel.next(viewerId)` and `MarvifyCarousel.prev(viewerId)`.
+
+**Example**
+
+```html
+<marvify-model-viewer
+  id="mixed-carousel"
+  bgColor="#f2f2f2"
+  carousel='[
+    { "model-id": "model_a", "bgColor": "#ffffff" },
+    { "model-id": "model_b" }
+  ]'>
+</marvify-model-viewer>
+
+<button type="button" onclick="MarvifyCarousel.prev('mixed-carousel')">Prev</button>
+<button type="button" onclick="MarvifyCarousel.next('mixed-carousel')">Next</button>
+```
+
+In the example above, model_a applies its own background color, overriding the viewer’s default background color for that slide only.
+
+
+## VR Attributes
+
+These attributes control WebXR and VR behavior when supported by the browser and device.
+
+| Attribute        | Type    | Default | Description |
+| ---------------- | ------- | ------- | ----------- |
+| `enable-vr`      | boolean | false     | Enables a VR experience for the viewer. |
+| `vr-user-height` | number  | auto    | Height offset in meters added to the XR user height. |
+| `vr-user-distance` | number | auto    | Distance offset in meters for the initial XR camera position. |
+| `vr-minZoom`     | number  | auto    | Minimum allowed XR zoom radius. |
+| `vr-maxZoom`     | number  | auto    | Maximum allowed XR zoom radius. |
+
+**Notes**
+* The Enter VR button appears only on WebXR-compatible devices and browsers.
+* Enabling VR does not make it available on unsupported hardware.
+
+## VR Setup
+
+Model scale varies across products, so VR positioning may require adjustment to achieve a comfortable viewing experience.
+
+- Use `vr-user-distance` to control how far the model appears from the user when entering VR. Larger models typically require a greater distance to fit comfortably in view.
+- Use `vr-user-height` to adjust the vertical placement of the model relative to the user’s eye level.
+- Use `vr-minZoom` to prevent users from getting too close to the model. Very close distances can reduce visual fidelity and make surface detail appear distorted.
+- Use `vr-maxZoom` to limit how far users can move away from the model and keep it within a useful viewing range.
+
+There is no single correct configuration. Values should be tuned per model using real headset testing to ensure the object is clearly visible, well framed, and comfortable to view when entering VR.
 
 ---
 
