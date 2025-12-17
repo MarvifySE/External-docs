@@ -130,7 +130,7 @@ Se alltid till att ta bort dev token innan du publicerar din sida i produktion.
 | `allowPan` | boolean | false | Aktiverar panorering med högerklick och tvåfingerspanorering på touch när satt till true. |
 | `autorotate` | boolean | true | Aktiverar automatisk kamerarotation om den inte uttryckligen sätts till `false`. |
 | `autorotateSpeed` | nummer (grader/sek) | `10` | Hastighet för automatisk rotation. |
-| `autorotateResume` | nummer (sekunder) | `3` | Fördröjning efter användarinteraktion innan automatisk rotation återupptas. |
+| `autorotateResume` | nummer (sekunder) | `3` | Fördröjning efter användarinteraktion innan automatisk rotation återupptas. Om autorotateResume sätts till 0 återupptas den automatiska rotationen inte efter användarinteraktion. |
 | `stats` | boolean | false | Aktiverar prestanda- och debug-overlay. |
 
 **Beteendenoteringar**

@@ -130,7 +130,7 @@ Always remove the dev token before deploying your site to production.
 | `allowPan`                       | boolean              | false   | Enables right-click mouse panning and two-finger touch panning when set to true. |
 | `autorotate`                     | boolean              | true    | Enables automatic camera rotation unless explicitly set to `false`. |
 | `autorotateSpeed`                | number (deg/sec)     | `10`    | Speed of automatic rotation. |
-| `autorotateResume`               | number (seconds)     | `3`     | Delay after user interaction before auto rotation resumes. |
+| `autorotateResume`               | number (seconds)     | `3`     | Delay after user interaction before auto rotation resumes. Setting autorotateResume to 0 disables automatic resumption after user interaction. |
 | `stats`                          | boolean              | false   | Enables performance and debug stats overlay. |
 
 
