@@ -82,12 +82,13 @@ Width and height may be provided via attributes or regular CSS. At least one dim
 When developing your page with your own provisioned models (for example to position, tune, and configure models before going live), you must use a Marvify **development token**.
 
 A dev token is added as an attribute on the script tag that loads the viewer:
-
-    <script
-      src="https://js.marvify.io/marvify.js"
-      type="module"
-      data-marvify-devtoken="YOUR_DEV_TOKEN">
-    </script>
+```html
+<script
+  src="https://js.marvify.io/marvify.js"
+  type="module"
+  data-marvify-devtoken="YOUR_DEV_TOKEN">
+</script>
+```
 
 > **Warning:** Only one dev token is valid at a time. Creating a new token invalidates the previous one.
 

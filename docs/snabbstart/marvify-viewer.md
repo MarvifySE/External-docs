@@ -83,11 +83,13 @@ När du utvecklar din sida med dina egna provisionerade modeller (till exempel f
 
 Dev token läggs till som ett attribut på script-taggen som laddar viewern:
 
-    <script
-      src="https://js.marvify.io/marvify.js"
-      type="module"
-      data-marvify-devtoken="DIN_DEV_TOKEN">
-    </script>
+```html
+<script
+  src="https://js.marvify.io/marvify.js"
+  type="module"
+  data-marvify-devtoken="DIN_DEV_TOKEN">
+</script>
+```
 
 > **Varning:** Endast en dev token är giltig åt gången. Att skapa en ny token gör den tidigare ogiltig.
 
