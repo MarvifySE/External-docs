@@ -52,6 +52,34 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Exempel',
+      items: [
+        'exempel/webpage-integration',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Marknadsföring & Tips',
+      items: [
+        'marknadsforing-och-tips/email-marketing-med-rule',
+        'marknadsforing-och-tips/sms-rcs-marketing',
+        'marknadsforing-och-tips/pos-kiosk-integration',
+        'marknadsforing-och-tips/vr-guide',
+        {
+          type: 'category',
+          label: 'Sociala Medier',
+          items: [
+            'marknadsforing-och-tips/sociala-medier/facebook-post',
+            'marknadsforing-och-tips/sociala-medier/instagram-post',
+            'marknadsforing-och-tips/sociala-medier/facebook-instagram-ads',
+            'marknadsforing-och-tips/sociala-medier/x-post',
+            'marknadsforing-och-tips/sociala-medier/x-ads',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Felsökning',
       items: [
         'felsokning/kontakta-support',

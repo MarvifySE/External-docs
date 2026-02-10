@@ -23,6 +23,14 @@
     "message": "Print & QR",
     "description": "The label for category Trycksaker & QR in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.Marknadsföring & Tips": {
+    "message": "Marketing & Tips",
+    "description": "The label for category Marknadsföring & Tips in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Exempel": {
+    "message": "Examples",
+    "description": "The label for category Exempel in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.Felsökning": {
     "message": "Troubleshooting",
     "description": "The label for category Felsökning in sidebar tutorialSidebar"
