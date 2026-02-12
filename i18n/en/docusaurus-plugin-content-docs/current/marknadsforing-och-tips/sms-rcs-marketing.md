@@ -33,11 +33,60 @@ Before sending your message you will select which subscribers should receive it.
 
 At the end of your SMS or RCS text include the link you copied earlier. For example:
 
-<!-- ![Short message with a link to the 3D viewer](pics/sms-example.png) -->
+<div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    gap: '2rem',
+    flexWrap: 'wrap'
+  }}
+>
+  {/* Video */}
+  <div style={{ width: '45%', textAlign: 'center' }}>
+    <video
+      width="100%"
+      autoPlay
+      loop
+      muted
+      playsInline
+    >
+      <source
+        src={require('@site/static/img/rcs.webm').default}
+        type="video/webm"
+      />
+    </video>
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      RCS meddelande
+    </em>
+  </div>
 
-:::info Image Placeholder
-*Add screenshot: sms-example.png - Short message with a link to the 3D viewer*
-:::
+  {/* Image */}
+  <div style={{ width: '41.5%', textAlign: 'center' }}>
+    <img
+      src={require('@site/static/img/sms-example.webp').default}
+      alt="Short message with a link to the 3D viewer"
+      style={{ width: '100%' }}
+    />
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      SMS meddelande
+    </em>
+  </div>
+</div>
 
 Many brands add a short descriptive phrase to help the recipient understand why the link is included. Examples:
 
@@ -49,13 +98,31 @@ Many brands add a short descriptive phrase to help the recipient understand why 
 
 RCS and certain enhanced SMS platforms support images or rich cards. These can be used to preview your product. A still image or a lightweight animated preview can help show that a 3D experience is available after the click.
 
-<!-- <video src="pics/RCS-example.mp4" autoplay muted loop playsinline controls style={{maxWidth: '100%'}}>
-Your browser does not support the video tag.
-</video> -->
-
-:::info Video Placeholder
-*Add video: RCS-example.mp4 - Example of a richer visual message using RCS*
-:::
+<p align="center">
+  <video
+    width="60%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source
+      src={require('@site/static/img/RCS-example.webm').default}
+      type="video/webm"
+    />
+    Din webbläsare stöder inte video-taggen.
+  </video>
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    RCS meddelande
+  </em>
+</p>
 
 If your platform only sends standard SMS the message must be text only. Images are not supported in SMS, so any visuals should be placed on the webpage you link to.
 
