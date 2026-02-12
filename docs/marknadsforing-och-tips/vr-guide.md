@@ -15,13 +15,32 @@ Om du ännu inte har bäddat in Marvify-visaren på din webbplats, börja med de
 - [Teknisk dokumentation](https://docs.marvify.io/snabbstart/marvify-viewer/)
 - [Exempelguide](/exempel/webpage-integration)
 
-<!-- <video src="pics/vr.webm" autoplay muted loop playsinline controls style={{maxWidth: '60%'}}>
-Din webbläsare stöder inte video-taggen.
-</video> -->
+<p align="center">
+  <video
+    width="60%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source
+      src={require('@site/static/img/vr.webm').default}
+      type="video/webm"
+    />
+    Your browser does not support the video tag.
+  </video>
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    VR example
+  </em>
+</p>
 
-:::info Videoplatshållare
-*Lägg till video: vr.webm - VR-exempel*
-:::
 
 Virtual Reality lägger till ett immersivt lager till Marvify Model Viewer för både webbplatsbesökare och publik på plats. Istället för att se produkter på en skärm låter VR besökare utforska dem på ett mer engagerande och minnesvärt sätt med hjälp av naturliga rörelser och kontroller.
 
