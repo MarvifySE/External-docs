@@ -17,21 +17,43 @@ To create an ad, go to the X Ads Manager at [ads.x.com](https://ads.x.com) and s
 
 Continue to the ad group level, where you can set your budget, schedule, audience targeting, and placements. This step defines where your ad appears, who sees it, and how much you spend. When these settings are ready, move on to creating the actual ad.
 
-<!-- ![Budget and audience settings in an X ad group](pics/x-ads-targeting.png) -->
-
-:::info Image Placeholder
-*Add screenshot: x-ads-targeting.png - Budget and audience settings in an X ad group*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/x-ads-targeting.webp').default}
+    alt="Budget and demographics/scheduling options"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Budget and demographics/scheduling options
+  </em>
+</p>
 
 In the ad creation view, choose the format you want to run, such as a single image or carousel. Under the destination URL field, paste the link to your Marvify FOTO-3D experience that you copied earlier. This link will be used when someone taps or clicks the ad.
 
 You can then add your ad copy: headline, main text, and call-to-action button. These fields define how your ad appears in the feed. The preview panel in X Ads Manager will show how the ad looks in different placements as you make changes.
 
-<!-- ![Ad preview inside X Ads Manager](pics/x-ads-preview.png) -->
-
-:::info Image Placeholder
-*Add screenshot: x-ads-preview.png - Ad preview inside X Ads Manager*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/x-ads-preview.webp').default}
+    alt="Ad previews in X Ads Manager"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Ad previews in X Ads Manager
+  </em>
+</p>
 
 When you are satisfied with your settings and ad preview, publish the campaign. After review by X, your ad will begin delivering to your selected audience. When viewers tap the link or link card, they will be taken directly to your 3D experience on your website.
 
