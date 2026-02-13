@@ -21,7 +21,19 @@ FOTO-3D© kan användas i alla typer av digital kommunikation:
 Genom att använda 3D modeller så skapar ni en stark visuell upplevelse som väcker intresse, fördjupar produktförståelsen och stärker ert varumärke – redan innan era kunder har produkten i sin hand. När kunderna vet vad de kan förvänta sig minskar dessutom risken för missförstånd, felköp och onödiga returer.
 
 <p align="center">
-  <img src={require('@site/static/img/Sushi_small.webp').default} alt="Sushi" />
+  <video
+    width="100%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source
+      src={require('@site/static/img/cap_for_docs_optimized.mp4').default}
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 

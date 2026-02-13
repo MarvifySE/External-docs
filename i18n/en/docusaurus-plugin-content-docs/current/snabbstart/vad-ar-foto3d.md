@@ -26,5 +26,17 @@ When customers know what to expect, the risk of misunderstandings, mistaken purc
 
 
 <p align="center">
-  <img src={require('@site/static/img/Sushi_small.webp').default} alt="Sushi" />
+  <video
+    width="100%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source
+      src={require('@site/static/img/cap_for_docs_optimized.mp4').default}
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
 </p>
