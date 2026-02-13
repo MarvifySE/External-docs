@@ -12,13 +12,22 @@ This guide gives an overview of how to add the Marvify FOTO-3D viewer to a webpa
 
 Here is a short demonstration showing the Marvify FOTO-3D viewer running with a single product model on a clean, simple product-page.
 
-<!-- <video src="pics/output720Single.webm" autoplay muted loop playsinline controls style={{maxWidth: '100%'}}>
-Your browser does not support the video tag.
-</video> -->
-
-:::info Video Placeholder
-*Add video: output720Single.webm - Example of the basic Marvify viewer embedded on a product page*
-:::
+<p align="center">
+  <video
+    width="80%"
+    autoPlay
+    loop
+    muted
+    playsInline
+    style={{ display: 'block' }}
+  >
+    <source
+      src={require('@site/static/img/size_visualization_optimized.mp4').default}
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 ---
 
@@ -89,13 +98,22 @@ You can configure the start angle, zoom limits and background color to match you
 
 After you have the basic viewer working, you can also place it inside more advanced layouts. One example is a fashion lookbook page with an image grid, where each outfit can be opened in 3D.
 
-<!-- <video src="pics/look720.webm" autoplay muted loop playsinline controls style={{maxWidth: '100%'}}>
-Your browser does not support the video tag.
-</video> -->
-
-:::info Video Placeholder
-*Add video: look720.webm - Example of a lookbook style grid where a Marvify FOTO-3D viewer opens when you click an image*
-:::
+<p align="center">
+  <video
+    width="30%"
+    autoPlay
+    loop
+    muted
+    playsInline
+    style={{ display: 'block' }}
+  >
+    <source
+      src={require('@site/static/img/lookbook_optimized.mp4').default}
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 The lookbook example is built with regular HTML, CSS and a small script. At a high level, Marvify is used in the page like this:
 
