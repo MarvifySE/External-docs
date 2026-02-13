@@ -12,13 +12,22 @@ Den här guiden ger en översikt över hur du lägger till Marvify FOTO-3D-visar
 
 Här är en kort demonstration som visar Marvify FOTO-3D-visaren som körs med en enda produktmodell på en ren, enkel produktsida.
 
-<!-- <video src="pics/output720Single.webm" autoplay muted loop playsinline controls style={{maxWidth: '100%'}}>
-Din webbläsare stöder inte video-taggen.
-</video> -->
-
-:::info Videoplatshållare
-*Lägg till video: output720Single.webm - Exempel på den grundläggande Marvify-visaren inbäddad på en produktsida*
-:::
+<p align="center">
+  <video
+    width="80%"
+    autoPlay
+    loop
+    muted
+    playsInline
+    style={{ display: 'block' }}
+  >
+    <source
+      src={require('@site/static/img/size_visualization_optimized.mp4').default}
+      type="video/mp4"
+    />
+    Din webbläsare stöder inte video-taggen.
+  </video>
+</p>
 
 ---
 
@@ -28,7 +37,7 @@ Den här artikeln är en översikt över hur du integrerar Marvify-visaren på d
 
 ## 1. Ladda visarskriptet
 
-Lägg till Marvify-visarskriptet en gång i huvudsektionen av din webbsida. Detta gör det anpassade elementet tillgängligt var som helst i din layout och säkerställer att visaren är redo när sidan laddas.
+Lägg till Marvify-visarskriptet en gång i header-sektionen av din webbsida. Detta gör det anpassade elementet tillgängligt var som helst i din layout och säkerställer att visaren är redo när sidan laddas.
 
 ```html
 <script src="https://js.marvify.io/marvify.js" type="module"></script>
@@ -85,17 +94,27 @@ Du kan konfigurera startvinkel, zoomgränser och bakgrundsfärg för att matcha 
 </marvify-model-viewer>
 ```
 
-## Exempel: Marvify FOTO-3D i ett lookbook-stil bildgaller
+## Exempel: Marvify FOTO-3D i ett lookbook-stil bildgalleri
 
 Efter att du har fått grundvisaren att fungera kan du också placera den inuti mer avancerade layouter. Ett exempel är en modelookbook-sida med ett bildgaller, där varje outfit kan öppnas i 3D.
 
-<!-- <video src="pics/look720.webm" autoplay muted loop playsinline controls style={{maxWidth: '100%'}}>
-Din webbläsare stöder inte video-taggen.
-</video> -->
+<p align="center">
+  <video
+    width="30%"
+    autoPlay
+    loop
+    muted
+    playsInline
+    style={{ display: 'block' }}
+  >
+    <source
+      src={require('@site/static/img/lookbook_optimized.mp4').default}
+      type="video/mp4"
+    />
+    Din webbläsare stöder inte video-taggen.
+  </video>
+</p>
 
-:::info Videoplatshållare
-*Lägg till video: look720.webm - Exempel på ett lookbook-stil galler där en Marvify FOTO-3D-visare öppnas när du klickar på en bild*
-:::
 
 Lookbook-exemplet är byggt med vanlig HTML, CSS och ett litet skript. På en hög nivå används Marvify på sidan så här:
 

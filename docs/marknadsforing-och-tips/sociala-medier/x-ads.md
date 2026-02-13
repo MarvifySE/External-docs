@@ -17,21 +17,45 @@ För att skapa en annons, gå till X Ads Manager på [ads.x.com](https://ads.x.c
 
 Fortsätt till annonsgruppsnivån, där du kan ställa in din budget, schema, målgruppsinriktning och placeringar. Detta steg definierar var din annons visas, vem som ser den och hur mycket du spenderar. När dessa inställningar är klara, gå vidare till att skapa själva annonsen.
 
-<!-- ![Budget- och målgruppsinställningar i en X-annonsgrupp](pics/x-ads-targeting.png) -->
+<p align="center">
+  <img
+    src={require('@site/static/img/x-ads-targeting.webp').default}
+    alt="Budget- och målgruppsinställningar i en X-annonsgrupp"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Budget- och målgruppsinställningar i en X-annonsgrupp
+  </em>
+</p>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: x-ads-targeting.png - Budget- och målgruppsinställningar i en X-annonsgrupp*
-:::
 
 I annonsskaparvyn väljer du det format du vill köra, till exempel en enstaka bild eller karusell. Under destinationsURL-fältet klistrar du in länken till din Marvify FOTO-3D-upplevelse som du kopierade tidigare. Denna länk kommer att användas när någon trycker på eller klickar på annonsen.
 
 Du kan sedan lägga till din annontext: rubrik, huvudtext och uppmaning till handling-knapp. Dessa fält definierar hur din annons visas i flödet. Förhandsgranskningspanelen i X Ads Manager visar hur annonsen ser ut i olika placeringar medan du gör ändringar.
 
-<!-- ![Annonsförhandsgranskning i X Ads Manager](pics/x-ads-preview.png) -->
+<p align="center">
+  <img
+    src={require('@site/static/img/x-ads-preview.webp').default}
+    alt="Annonsförhandsgranskning i X Ads Manager"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Annonsförhandsgranskning i X Ads Manager
+  </em>
+</p>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: x-ads-preview.png - Annonsförhandsgranskning i X Ads Manager*
-:::
 
 När du är nöjd med dina inställningar och annonsförhandsgranskning, publicera kampanjen. Efter granskning av X kommer din annons att börja levereras till din valda målgrupp. När tittare trycker på länken eller länkkortet kommer de att tas direkt till din 3D-upplevelse på din webbplats.
 

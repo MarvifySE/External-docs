@@ -33,11 +33,61 @@ Innan du skickar ditt meddelande väljer du vilka prenumeranter som ska få det.
 
 I slutet av din SMS- eller RCS-text inkluderar du länken du kopierade tidigare. Till exempel:
 
-<!-- ![Kort meddelande med en länk till 3D-visaren](pics/sms-example.png) -->
+<div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    gap: '2rem',
+    flexWrap: 'wrap'
+  }}
+>
+  {/* Video */}
+  <div style={{ width: '45%', textAlign: 'center' }}>
+    <video
+      width="100%"
+      autoPlay
+      loop
+      muted
+      playsInline
+    >
+      <source
+        src={require('@site/static/img/rcs.webm').default}
+        type="video/webm"
+      />
+    </video>
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      RCS meddelande
+    </em>
+  </div>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: sms-example.png - Kort meddelande med en länk till 3D-visaren*
-:::
+  {/* Image */}
+  <div style={{ width: '41.5%', textAlign: 'center' }}>
+    <img
+      src={require('@site/static/img/sms-example.webp').default}
+      alt="Short message with a link to the 3D viewer"
+      style={{ width: '100%' }}
+    />
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      SMS meddelande
+    </em>
+  </div>
+</div>
+
 
 Många varumärken lägger till en kort beskrivande fras för att hjälpa mottagaren att förstå varför länken är inkluderad. Exempel:
 
@@ -49,13 +99,31 @@ Många varumärken lägger till en kort beskrivande fras för att hjälpa mottag
 
 RCS och vissa förbättrade SMS-plattformar stöder bilder eller rich cards. Dessa kan användas för att förhandsgranska din produkt. En stillbild eller en lättviktig animerad förhandsgranskning kan hjälpa till att visa att en 3D-upplevelse är tillgänglig efter klicket.
 
-<!-- <video src="pics/RCS-example.mp4" autoplay muted loop playsinline controls style={{maxWidth: '100%'}}>
-Din webbläsare stöder inte video-taggen.
-</video> -->
-
-:::info Videoplatshållare
-*Lägg till video: RCS-example.mp4 - Exempel på ett rikare visuellt meddelande med RCS*
-:::
+<p align="center">
+  <video
+    width="60%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source
+      src={require('@site/static/img/RCS-example.webm').default}
+      type="video/webm"
+    />
+    Din webbläsare stöder inte video-taggen.
+  </video>
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    RCS meddelande
+  </em>
+</p>
 
 Om din plattform bara skickar standard-SMS måste meddelandet vara enbart text. Bilder stöds inte i SMS, så alla visuella element bör placeras på webbsidan du länkar till.
 

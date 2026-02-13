@@ -12,13 +12,31 @@ This guide shows how to enable the Marvify FOTO-3D Viewer directly inside POS (P
 
 ## Example: Marvify FOTO-3D inside a POS kiosk
 
-<!-- <video src="pics/odoo_demo.webm" autoplay muted loop playsinline controls style={{maxWidth: '100%', maxHeight: '500px'}}>
-Your browser does not support the video tag.
-</video> -->
-
-:::info Video Placeholder
-*Add video: odoo_demo.webm - The viewer opens in a responsive, touch-friendly overlay that feels native to the kiosk*
-:::
+<p align="center">
+  <video
+    width="100%"
+    autoPlay
+    loop
+    muted
+    playsInline
+    style={{ maxHeight: '500px' }}
+  >
+    <source
+      src={require('@site/static/img/kiosk_optimized.mp4').default}
+      type="video/webm"
+    />
+  </video>
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Odoo demo
+  </em>
+</p>
 
 ---
 
@@ -36,11 +54,22 @@ odoo/addons/pos_marvify
 
 Then install **POS Marvify Photo-3D Viewer** from the Odoo Apps menu.
 
-<!-- ![Odoo apps](pics/odoo_apps.png) -->
-
-:::info Image Placeholder
-*Add screenshot: odoo_apps.png - Install the addon from the Odoo Apps menu*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/odoo_apps.webp').default}
+    alt="Odoo apps"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Odoo apps
+  </em>
+</p>
 
 **Requirements:**
 - Odoo 18.5+
@@ -54,11 +83,22 @@ To enable 3D viewing:
 - Go to the **Point of Sale** tab
 - Enter your **Marvify Model ID**
 
-<!-- ![Odoo product](pics/odoo_product.png) -->
-
-:::info Image Placeholder
-*Add screenshot: odoo_product.png - Add a model ID to your product*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/odoo_product_page.webp').default}
+    alt="Odoo apps"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Add a model-id to your product
+  </em>
+</p>
 
 As soon as a model ID is added, the product tile automatically shows the 3D viewer button.
 
@@ -73,17 +113,51 @@ For testing, you may set a **Marvify Developer Token** under:
 - Tapping it opens the Marvify FOTO-3D viewer in a smooth, full-screen overlay.
 - The viewer closes by tapping ×, tapping outside, or when the kiosk times out.
 
-<!-- ![Odoo POS kiosk](pics/odoo_pos.png) -->
+<div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    gap: '2rem',
+    flexWrap: 'wrap'
+  }}
+>
+  <div style={{ width: '35%', textAlign: 'center' }}>
+    <img
+      src={require('@site/static/img/odoo_fashion_options.webp').default}
+      alt="Odoo POS-kiosk"
+      style={{ width: '100%' }}
+    />
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      Odoo POS-kiosk
+    </em>
+  </div>
 
-:::info Image Placeholder
-*Add screenshot: odoo_pos.png - Odoo POS kiosk*
-:::
-
-<!-- ![3D viewer overlay](pics/odoo_viewer.png) -->
-
-:::info Image Placeholder
-*Add screenshot: odoo_viewer.png - Marvify FOTO-3D viewer*
-:::
+  <div style={{ width: '35%', textAlign: 'center' }}>
+    <img
+      src={require('@site/static/img/odoo_fashion_viewer.webp').default}
+      alt="Odoo viewer"
+      style={{ width: '100%' }}
+    />
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      Odoo viewer
+    </em>
+  </div>
+</div>
 
 ## Integrating Marvify FOTO-3D with other POS systems
 

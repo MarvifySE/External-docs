@@ -15,29 +15,62 @@ If you have not yet set up your Marvify viewer on your website, you can use our 
 
 To create the ad, go to [Meta Ads Manager](https://www.facebook.com/business/tools/ads-manager) and choose to create a new campaign. Select an objective that sends people to your website, such as traffic or sales. This ensures the ad format supports a clickable link that leads directly to your 3D viewer page.
 
-<!-- ![Select a campaign objective](pics/facebook-ad-01.png) -->
-
-:::info Image Placeholder
-*Add screenshot: facebook-ad-01.png - Select a campaign objective*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-ad-01.webp').default}
+    alt="Choose a campaign goal"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Choose a campaign goal
+  </em>
+</p>
 
 Continue to the ad set where you can define audience, placements, budget, and schedule according to your needs. Under placements, you can choose whether the ad should appear on Facebook, Instagram, or both, since both platforms use the same Ads Manager. These settings are flexible and can be adjusted according to your target audiences and markets. When this is complete, proceed to the ad itself.
 
-<!-- ![Example budget and audience](pics/facebook-ad-03.png) -->
-
-:::info Image Placeholder
-*Add screenshot: facebook-ad-03.png - Example budget and audience*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-ad-03.webp').default}
+    alt="Example budget and audience controls"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Example budget and audience controls
+  </em>
+</p>
 
 In the ad settings, choose an ad format that works for you with a link, such as a single image or carousel format. In the website URL field, paste the link to your Marvify FOTO-3D page that you copied earlier. This URL is used as the destination when someone clicks on the ad.
 
 You can then add primary text, headline, description, and a call to action button. These fields control how the ad appears in the feed and how the link is presented. The preview in Ads Manager shows what the ad will look like in different placements as you make changes.
 
-<!-- ![Previews of your ads](pics/facebook-ad-02.png) -->
-
-:::info Image Placeholder
-*Add screenshot: facebook-ad-02.png - Previews of your ads*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-ad-02.webp').default}
+    alt="Preview of your ads"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Preview of your ads
+  </em>
+</p>
 
 When you are satisfied with the settings and preview, publish the campaign in Ads Manager. After review, Facebook will begin showing the ad and people who click will be sent directly to the 3D experience on your website where they can explore the product.
 

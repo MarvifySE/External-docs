@@ -23,11 +23,22 @@ Open the online page where your Marvify viewer is available. This can be a produ
 
 ## 2. Open Rule and create or edit an email template
 
-<!-- ![Default new campaign editor in Rule](pics/campaign-interface.png) -->
-
-:::info Image Placeholder
-*Add screenshot: campaign-interface.png - Default new campaign editor in Rule*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/campaign-interface.webp').default}
+    alt="Standard campaign editor in Rule"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Campaign editor in Rule
+  </em>
+</p>
 
 Log in to Rule and open the campaign editor. You can create a new mailing or update an existing template. Inside the editor you can choose where in your layout you want to highlight your 3D content.
 
@@ -51,21 +62,50 @@ To add a link in Rule:
 - Paste your Marvify viewer URL into the link field
 - Choose whether the link should open in a new tab
 
-<!-- ![Linking interface](pics/rule-linking-interface.png) -->
-
-:::info Image Placeholder
-*Add screenshot: rule-linking-interface.png - Linking a product image to your 3D viewer inside Rule's email editor*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/rule-linking-interface.webp').default}
+    alt="Change link"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Add a link
+  </em>
+</p>
 
 ## 4. Using an animated GIF to preview the 3D experience
 
-<!-- <video src="pics/email-preview.mp4" autoplay muted loop playsinline controls style={{maxWidth: '100%'}}>
-Your browser does not support the video tag.
-</video> -->
-
-:::info Video Placeholder
-*Add video: email-preview.mp4 - Example of a rotating preview used inside an email*
-:::
+<p align="center">
+  <video
+    width="90%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source
+      src={require('@site/static/img/email-preview.webm').default}
+      type="video/webm"
+    />
+    Example of a rotating view of the 3D object
+  </video>
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    E-mail preview
+  </em>
+</p>
 
 A small animated element can help indicate that a 3D experience awaits after the click. One option is a short rotating GIF generated from your Marvify model, but other visual cues can also work depending on your design. Any animation can be uploaded to Rule as a standard image block and linked to your viewer page.
 
@@ -75,11 +115,16 @@ Some versions of desktop Outlook (2007-2016) do not support GIF animations and w
 
 ## 5. Add a call to action button if you want extra clarity
 
-<!-- ![Example CTA button](pics/cta.png) -->
-
-:::info Image Placeholder
-*Add screenshot: cta.png - Example CTA button*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/cta.webp').default}
+    alt="Example CTA button"
+  />
+  <br />
+  <em style={{ fontSize: '0.9rem', color: '#666' }}>
+    Example CTA button
+  </em>
+</p>
 
 A call to action button makes the purpose of the link more visible. Common examples include:
 

@@ -15,19 +15,43 @@ Om du ännu inte har din Marvify-visare konfigurerad på din webbplats kan du h�
 
 Gå därefter till Facebook och växla till profilen eller sidan du vill publicera från. Om du arbetar med en varumärkessida, se till att du visar den sidan så att inlägget publiceras på rätt plats. Rutan för att skapa inlägg väntar högst upp i ditt flöde.
 
-<!-- ![Facebook-inläggsskapare](pics/facebook-post-whats-on-your-mind.webp) -->
-
-:::info Bildplatshållare
-*Lägg till skärmbild: facebook-post-whats-on-your-mind.webp - Facebook-ruta för att skapa inlägg*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-post-whats-on-your-mind.webp').default}
+    alt="Facebook-inläggsskapare"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Facebook-inläggsskapare
+  </em>
+</p>
 
 När du klickar eller trycker i den rutan, klistra in länken du kopierade tidigare. Facebook tar ett ögonblick för att ladda en förhandsgranskning. Efter att den visas kommer du att se ett litet kort med en bild, titel och kort beskrivning som hämtas från din webbplats. Denna förhandsgranskning fungerar som den klickbara länken för alla som ser inlägget. Om du föredrar att ta bort den vanliga URL:en från textfältet efter att förhandsgranskningen har laddats, kommer förhandsgranskningen att förbli aktiv.
 
-<!-- ![Facebook länkförhandsgranskning](pics/facebook-post-preview.png) -->
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-post-preview.webp').default}
+    alt="Facebook länkförhandsgranskning"
+    style={{ width: '70%' }}
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Facebook länkförhandsgranskning
+  </em>
+</p>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: facebook-post-preview.png - Facebook länkförhandsgranskningskort*
-:::
 
 I detta skede kan du inkludera ytterligare text, bilder eller video om de är användbara för ditt inlägg. Dessa element är valfria, och Facebook låter dig publicera länkkortet med eller utan dem. Om du publicerar från en personlig profil kan du välja vem som får se inlägget. Varumärkessidor publicerar vanligtvis offentligt.
 

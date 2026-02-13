@@ -23,11 +23,24 @@ Om din Marvify-visare ännu inte är konfigurerad på din webbplats kan du hänv
 
 ## 2. Öppna Rule och skapa eller redigera en e-postmall
 
-<!-- ![Standard ny kampanjredigerare i Rule](pics/campaign-interface.png) -->
 
-:::info Bildplatshållare
-*Lägg till skärmbild: campaign-interface.png - Standard ny kampanjredigerare i Rule*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/campaign-interface.webp').default}
+    alt="Standard ny kampanjredigerare i Rule"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Kampanjredigerare i Rule
+  </em>
+</p>
+
 
 Logga in på Rule och öppna kampanjredigeraren. Du kan skapa ett nytt utskick eller uppdatera en befintlig mall. I redigeraren kan du välja var i din layout du vill lyfta fram ditt 3D-innehåll.
 
@@ -51,21 +64,53 @@ För att lägga till en länk i Rule:
 - Klistra in din Marvify-visare URL i länkfältet
 - Välj om länken ska öppnas i en ny flik
 
-<!-- ![Länkgränssnitt](pics/rule-linking-interface.png) -->
+<p align="center">
+  <img
+    src={require('@site/static/img/rule-linking-interface.webp').default}
+    alt="Länka i högra fältet"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Lägg till länk
+  </em>
+</p>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: rule-linking-interface.png - Länka en produktbild till din 3D-visare i Rules e-postredigerare*
-:::
 
 ## 4. Använd en animerad GIF för att förhandsgranska 3D-upplevelsen
 
-<!-- <video src="pics/email-preview.mp4" autoplay muted loop playsinline controls style={{maxWidth: '100%'}}>
-Din webbläsare stöder inte video-taggen.
-</video> -->
+<p align="center">
+  <video
+    width="90%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source
+      src={require('@site/static/img/email-preview.webm').default}
+      type="video/webm"
+    />
+    Exempel på en roterande förhandsgranskning som används i ett e-postmeddelande
+  </video>
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    E-mail förhandsvisning
+  </em>
+</p>
 
-:::info Videoplatshållare
-*Lägg till video: email-preview.mp4 - Exempel på en roterande förhandsgranskning som används i ett e-postmeddelande*
-:::
+
 
 Ett litet animerat element kan hjälpa till att indikera att en 3D-upplevelse väntar efter klicket. Ett alternativ är en kort roterande GIF genererad från din Marvify-modell, men andra visuella ledtrådar kan också fungera beroende på din design. Alla animationer kan laddas upp till Rule som ett standardbildblock och länkas till din visarsida.
 
@@ -75,11 +120,16 @@ Vissa versioner av desktop Outlook (2007-2016) stöder inte GIF-animationer och 
 
 ## 5. Lägg till en uppmaning till handling för extra tydlighet
 
-<!-- ![Exempel på CTA-knapp](pics/cta.png) -->
-
-:::info Bildplatshållare
-*Lägg till skärmbild: cta.png - Exempel på CTA-knapp*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/cta.webp').default}
+    alt="Länka i högra fältet"
+  />
+  <br />
+  <em style={{ fontSize: '0.9rem', color: '#666' }}>
+    Exempel på en CTA knapp
+  </em>
+</p>
 
 En uppmaning till handling gör syftet med länken mer synligt. Vanliga exempel inkluderar:
 

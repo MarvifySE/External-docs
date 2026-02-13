@@ -15,13 +15,31 @@ If you have not yet embedded the Marvify viewer on your website, start with the 
 - [Technical documentation](https://docs.marvify.io/en/snabbstart/marvify-viewer/)
 - [Sample setup guide](/en/exempel/webpage-integration)
 
-<!-- <video src="pics/vr.webm" autoplay muted loop playsinline controls style={{maxWidth: '60%'}}>
-Your browser does not support the video tag.
-</video> -->
-
-:::info Video Placeholder
-*Add video: vr.webm - VR example*
-:::
+<p align="center">
+  <video
+    width="60%"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source
+      src={require('@site/static/img/vr.webm').default}
+      type="video/webm"
+    />
+    Your browser does not support the video tag.
+  </video>
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    VR example
+  </em>
+</p>
 
 Virtual Reality adds an immersive layer to the Marvify Model Viewer for both website visitors and in person audiences. Instead of viewing products on a screen, VR allows visitors to explore them in a more engaging and memorable way using natural movement and controllers.
 

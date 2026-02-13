@@ -12,13 +12,31 @@ Den här guiden visar hur du aktiverar Marvify FOTO-3D Viewer direkt i POS-kiosk
 
 ## Exempel: Marvify FOTO-3D i en POS-kiosk
 
-<!-- <video src="pics/odoo_demo.webm" autoplay muted loop playsinline controls style={{maxWidth: '100%', maxHeight: '500px'}}>
-Din webbläsare stöder inte video-taggen.
-</video> -->
-
-:::info Videoplatshållare
-*Lägg till video: odoo_demo.webm - Visaren öppnas i ett responsivt, touchvänligt överlägg som känns inbyggt i kiosken*
-:::
+<p align="center">
+  <video
+    width="100%"
+    autoPlay
+    loop
+    muted
+    playsInline
+    style={{ maxHeight: '500px' }}
+  >
+    <source
+      src={require('@site/static/img/kiosk_optimized.mp4').default}
+      type="video/webm"
+    />
+  </video>
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Odoo demo
+  </em>
+</p>
 
 ---
 
@@ -36,11 +54,22 @@ odoo/addons/pos_marvify
 
 Installera sedan **POS Marvify Photo-3D Viewer** från Odoo Apps-menyn.
 
-<!-- ![Odoo apps](pics/odoo_apps.png) -->
-
-:::info Bildplatshållare
-*Lägg till skärmbild: odoo_apps.png - Installera tillägget från Odoo Apps-menyn*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/odoo_apps.webp').default}
+    alt="Odoo apps"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Odoo apps
+  </em>
+</p>
 
 **Krav:**
 - Odoo 18.5+
@@ -54,11 +83,22 @@ För att aktivera 3D-visning:
 - Gå till fliken **Point of Sale**
 - Ange ditt **Marvify Model ID**
 
-<!-- ![Odoo product](pics/odoo_product.png) -->
-
-:::info Bildplatshållare
-*Lägg till skärmbild: odoo_product.png - Lägg till ett modell-ID till din produkt*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/odoo_product_page.webp').default}
+    alt="Odoo apps"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Lägg till ett modell-ID till din produkt
+  </em>
+</p>
 
 Så snart ett modell-ID läggs till visar produktrutan automatiskt 3D-visarknappen.
 
@@ -73,17 +113,52 @@ För testning kan du ställa in en **Marvify Developer Token** under:
 - Att trycka på den öppnar Marvify FOTO-3D-visaren i ett smidigt helskärmsöverlägg.
 - Visaren stängs genom att trycka på ×, trycka utanför eller när kiosken går i timeout.
 
-<!-- ![Odoo POS kiosk](pics/odoo_pos.png) -->
+<div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    gap: '2rem',
+    flexWrap: 'wrap'
+  }}
+>
+  <div style={{ width: '35%', textAlign: 'center' }}>
+    <img
+      src={require('@site/static/img/odoo_fashion_options.webp').default}
+      alt="Odoo POS-kiosk"
+      style={{ width: '100%' }}
+    />
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      Odoo POS-kiosk
+    </em>
+  </div>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: odoo_pos.png - Odoo POS-kiosk*
-:::
+  <div style={{ width: '35%', textAlign: 'center' }}>
+    <img
+      src={require('@site/static/img/odoo_fashion_viewer.webp').default}
+      alt="Odoo viewer"
+      style={{ width: '100%' }}
+    />
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      Odoo viewer
+    </em>
+  </div>
+</div>
 
-<!-- ![3D viewer overlay](pics/odoo_viewer.png) -->
-
-:::info Bildplatshållare
-*Lägg till skärmbild: odoo_viewer.png - Marvify FOTO-3D-visare*
-:::
 
 ## Integrera Marvify FOTO-3D med andra kassasystem
 
