@@ -15,29 +15,64 @@ Om du ännu inte har satt upp din Marvify viewer på din webbplats kan du använ
 
 För att skapa annonsen går du till [Meta Ads Manager](https://www.facebook.com/business/tools/ads-manager) och väljer att skapa en ny kampanj. Välj ett mål som skickar personer till din webbplats, till exempel trafik eller försäljning. Det säkerställer att annonsformatet stöder en klickbar länk som leder direkt till din 3D viewer sida.
 
-<!-- ![Välj ett kampanjmål](pics/facebook-ad-01.png) -->
-
-:::info Bildplatshållare
-*Lägg till skärmbild: facebook-ad-01.png - Välj ett kampanjmål*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-ad-01.webp').default}
+    alt="Välj ett kampanjmål"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Välj ett kampanjmål
+  </em>
+</p>
 
 Fortsätt till annonsuppsättningen där du kan definiera målgrupp, placeringar, budget och schema beroende på dina behov. Under placeringar kan du välja om annonsen ska visas på Facebook, Instagram eller båda, eftersom båda plattformarna använder samma Ads Manager. Dessa inställningar är flexibla och kan anpassas efter dina målgrupper och marknader. När detta är klart går du vidare till själva annonsen.
 
-<!-- ![Exempel på budget och målgrupp](pics/facebook-ad-03.png) -->
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-ad-03.webp').default}
+    alt="Exempel på budget och målgrupp"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Exempel på budget och målgrupp
+  </em>
+</p>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: facebook-ad-03.png - Exempel på budget och målgrupp*
-:::
 
 I annonsens inställningar väljer du ett annonsformat som passar dig med en länk, till exempel en enstaka bild eller ett karusellformat. Under fältet för webbplatsens URL klistrar du in länken till din Marvify FOTO-3D sida som du kopierade tidigare. Denna URL används som destination när någon klickar på annonsen.
 
 Du kan sedan lägga till primär text, rubrik, beskrivning och en call to action-knapp. Dessa fält styr hur annonsen visas i flödet och hur länken presenteras. Förhandsgranskningen i Ads Manager visar hur annonsen kommer att se ut i olika placeringar medan du gör ändringar.
 
-<!-- ![Förhandsvisningar av dina annonser](pics/facebook-ad-02.png) -->
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-ad-02.webp').default}
+    alt="Förhandsvisningar av dina annonser"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Förhandsvisningar av dina annonser
+  </em>
+</p>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: facebook-ad-02.png - Förhandsvisningar av dina annonser*
-:::
 
 När du är nöjd med inställningarna och förhandsvisningen publicerar du kampanjen i Ads Manager. Efter granskning börjar Facebook att visa annonsen och personer som klickar kommer att skickas direkt till 3D-upplevelsen på din webbplats där de kan utforska produkten.
 
