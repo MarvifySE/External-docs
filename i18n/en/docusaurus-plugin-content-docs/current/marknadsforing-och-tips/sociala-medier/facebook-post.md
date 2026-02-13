@@ -15,19 +15,42 @@ If you do not yet have your Marvify viewer set up on your website, you can refer
 
 From there, head over to Facebook and switch into the profile or Page you want to post from. If you are working with a brand Page, make sure you are viewing that Page so the post is published in the right place. The post creation box will be waiting at the top of your feed.
 
-<!-- ![Facebook post composer](pics/facebook-post-whats-on-your-mind.webp) -->
-
-:::info Image Placeholder
-*Add screenshot: facebook-post-whats-on-your-mind.webp - Facebook post creation box*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-post-whats-on-your-mind.webp').default}
+    alt="Facebook post creation"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Facebook post creation
+  </em>
+</p>
 
 Once you click or tap into that box, paste the link you copied earlier. Facebook will take a moment to load a preview. After it appears, you will see a small card with an image, title, and short description pulled from your website. This preview serves as the clickable link for anyone who views the post. If you prefer to remove the plain URL from the text field after the preview loads, the preview will remain active.
 
-<!-- ![Facebook link preview](pics/facebook-post-preview.png) -->
-
-:::info Image Placeholder
-*Add screenshot: facebook-post-preview.png - Facebook link preview card*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/facebook-post-preview.webp').default}
+    alt="Facebook link-preview"
+    style={{ width: '70%' }}
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Facebook link-preview
+  </em>
+</p>
 
 At this stage you can include additional text, images, or video if they are helpful for your post. These elements are optional, and Facebook allows you to publish the link card with or without them. If you are posting from a personal profile, you can choose who is allowed to see the post. Brand Pages usually publish publicly.
 
