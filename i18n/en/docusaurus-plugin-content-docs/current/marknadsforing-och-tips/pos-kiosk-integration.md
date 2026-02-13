@@ -22,7 +22,7 @@ This guide shows how to enable the Marvify FOTO-3D Viewer directly inside POS (P
     style={{ maxHeight: '500px' }}
   >
     <source
-      src={require('@site/static/img/odoo_demo.webm').default}
+      src={require('@site/static/img/kiosk_optimized.mp4').default}
       type="video/webm"
     />
   </video>
@@ -85,7 +85,7 @@ To enable 3D viewing:
 
 <p align="center">
   <img
-    src={require('@site/static/img/odoo_product.webp').default}
+    src={require('@site/static/img/odoo_product_page.webp').default}
     alt="Odoo apps"
   />
   <em
@@ -113,39 +113,51 @@ For testing, you may set a **Marvify Developer Token** under:
 - Tapping it opens the Marvify FOTO-3D viewer in a smooth, full-screen overlay.
 - The viewer closes by tapping ×, tapping outside, or when the kiosk times out.
 
-<p align="center">
-  <img
-    src={require('@site/static/img/odoo_pos.webp').default}
-    alt="Odoo apps"
-  />
-  <em
-    style={{
-      display: 'block',
-      marginTop: '0.5rem',
-      fontSize: '0.9rem',
-      color: '#666'
-    }}
-  >
-    Odoo POS-kiosk
-  </em>
-</p>
+<div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    gap: '2rem',
+    flexWrap: 'wrap'
+  }}
+>
+  <div style={{ width: '35%', textAlign: 'center' }}>
+    <img
+      src={require('@site/static/img/odoo_fashion_options.webp').default}
+      alt="Odoo POS-kiosk"
+      style={{ width: '100%' }}
+    />
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      Odoo POS-kiosk
+    </em>
+  </div>
 
-<p align="center">
-  <img
-    src={require('@site/static/img/odoo_viewer.webp').default}
-    alt="Odoo apps"
-  />
-  <em
-    style={{
-      display: 'block',
-      marginTop: '0.5rem',
-      fontSize: '0.9rem',
-      color: '#666'
-    }}
-  >
-    Odoo viewer
-  </em>
-</p>
+  <div style={{ width: '35%', textAlign: 'center' }}>
+    <img
+      src={require('@site/static/img/odoo_fashion_viewer.webp').default}
+      alt="Odoo viewer"
+      style={{ width: '100%' }}
+    />
+    <em
+      style={{
+        display: 'block',
+        marginTop: '0.5rem',
+        fontSize: '0.9rem',
+        color: '#666'
+      }}
+    >
+      Odoo viewer
+    </em>
+  </div>
+</div>
 
 ## Integrating Marvify FOTO-3D with other POS systems
 
