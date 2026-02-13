@@ -15,19 +15,43 @@ Om du ännu inte har konfigurerat din Marvify-visare på din webbplats kan du h�
 
 Gå till [x.com](https://x.com) eller X-mobilappen och logga in på kontot du vill publicera från. På skrivbordet hittar du inläggsredigeraren högst upp på hemtidslinjen, eller genom att klicka på "Inlägg"-knappen. I appen kan du starta ett nytt inlägg från ikonen för att skriva.
 
-<!-- ![Inläggsredigerare på X](pics/x-post-compose.png) -->
+<p align="center">
+  <img
+    src={require('@site/static/img/x-post-compose.webp').default}
+    alt="Inläggsredigerare på X"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Inläggsredigerare på X
+  </em>
+</p>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: x-post-compose.png - Inläggsredigerare på X*
-:::
 
 Klicka eller tryck i redigeraren och klistra in länken du kopierade tidigare. X kommer att bearbeta länken och, när det stöds för ditt konto och länktyp, kan generera ett förhandsgranskningskort som visar en bild, titel och kort beskrivning från din webbplats. Detta kort blir det klickbara elementet som leder till din 3D-upplevelse.
 
-<!-- ![Exempel på ett förhandsgranskningskort genererat från en länk](pics/x-post-preview.png) -->
+<p align="center">
+  <img
+    src={require('@site/static/img/x-post-preview.webp').default}
+    alt="Exempel på ett förhandsgranskningskort genererat från en länk"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Exempel på ett förhandsgranskningskort genererat från en länk
+  </em>
+</p>
 
-:::info Bildplatshållare
-*Lägg till skärmbild: x-post-preview.png - Exempel på ett förhandsgranskningskort genererat från en länk*
-:::
 
 Du kan lägga till vilken medföljande text du behöver i samma inlägg. Länkar på X förkortas automatiskt, och du kan valfritt bifoga bilder eller videor utöver länken. När du är nöjd med innehållet, välj dina målgruppsinställningar om det är tillämpligt och förbered att publicera.
 

@@ -15,19 +15,41 @@ If you do not yet have your Marvify viewer set up on your website, you can refer
 
 Go to [x.com](https://x.com) or the X mobile app and sign in to the account you want to post from. On desktop, you will find the post composer at the top of the Home timeline, or by clicking the "Post" button. In the app, you can start a new post from the compose icon.
 
-<!-- ![Post composer on X](pics/x-post-compose.png) -->
-
-:::info Image Placeholder
-*Add screenshot: x-post-compose.png - Post composer on X*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/x-post-compose.webp').default}
+    alt="Post editor on X"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Post editor on X
+  </em>
+</p>
 
 Click or tap into the composer and paste the link you copied earlier. X will process the link and, when supported for your account and link type, may generate a preview card showing an image, title and short description from your website. This card becomes the clickable element that leads to your 3D experience.
 
-<!-- ![Example of a preview card generated from a link](pics/x-post-preview.png) -->
-
-:::info Image Placeholder
-*Add screenshot: x-post-preview.png - Example of a preview card generated from a link*
-:::
+<p align="center">
+  <img
+    src={require('@site/static/img/x-post-preview.webp').default}
+    alt="Example of a preview card generated from a link"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Example of a preview card generated from a link
+  </em>
+</p>
 
 You can add any accompanying text you need in the same post. Links on X are automatically shortened, and you can optionally attach images or videos in addition to the link. When you are satisfied with the content, choose your audience settings if applicable and prepare to publish.
 
