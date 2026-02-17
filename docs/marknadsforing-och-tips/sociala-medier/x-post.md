@@ -1,12 +1,12 @@
 ---
 id: x-post
-title: Hur du delar FOTO-3D i ett inlägg på X
+title: Hur du delar Marvify 3D i ett inlägg på X
 sidebar_label: X (Twitter)
 ---
 
-# Hur du delar FOTO-3D i ett inlägg på X
+# Hur du delar Marvify 3D i ett inlägg på X
 
-Börja med att öppna sidan på din webbplats där din Marvify FOTO-3D-upplevelse finns och kopiera den fullständiga länken från din webbläsare. Detta är länken du kommer att inkludera i ditt inlägg på X.
+Börja med att öppna sidan på din webbplats där din Marvify 3D-upplevelse finns och kopiera den fullständiga länken från din webbläsare. Detta är länken du kommer att inkludera i ditt inlägg på X.
 
 Om du ännu inte har konfigurerat din Marvify-visare på din webbplats kan du hänvisa till vår tekniska dokumentation och exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för delning.
 
@@ -55,7 +55,7 @@ Klicka eller tryck i redigeraren och klistra in länken du kopierade tidigare. X
 
 Du kan lägga till vilken medföljande text du behöver i samma inlägg. Länkar på X förkortas automatiskt, och du kan valfritt bifoga bilder eller videor utöver länken. När du är nöjd med innehållet, välj dina målgruppsinställningar om det är tillämpligt och förbered att publicera.
 
-När allt ser korrekt ut, publicera inlägget. Det kommer att visas i dina följares tidslinjer och var som helst ditt inlägg visas, och att klicka på länken eller dess förhandsgranskning tar personer direkt till Marvify FOTO-3D-upplevelsen på din webbplats.
+När allt ser korrekt ut, publicera inlägget. Det kommer att visas i dina följares tidslinjer och var som helst ditt inlägg visas, och att klicka på länken eller dess förhandsgranskning tar personer direkt till Marvify 3D-upplevelsen på din webbplats.
 
 ## Felsökning: Saknat förhandsgranskningskort
 

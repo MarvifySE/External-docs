@@ -1,16 +1,16 @@
 ---
 id: pos-kiosk-integration
-title: How to add FOTO-3D to POS systems
+title: How to add Marvify 3D to POS systems
 sidebar_label: POS & Kiosk Integration
 ---
 
-# How to add FOTO-3D to POS systems
+# How to add Marvify 3D to POS systems
 
-This guide shows how to enable the Marvify FOTO-3D Viewer directly inside POS (Point of Sale) kiosks and self-service systems.
+This guide shows how to enable the Marvify Marvify 3D Viewer directly inside POS (Point of Sale) kiosks and self-service systems.
 
 **In this guide we use Odoo POS Self-Order as the example platform**, but the integration approach applies to any JavaScript-capable POS system. With a simple setup, your products gain an interactive 3D viewer that drives engagement and helps customers explore items in detail.
 
-## Example: Marvify FOTO-3D inside a POS kiosk
+## Example: Marvify Marvify 3D inside a POS kiosk
 
 <p align="center">
   <video
@@ -110,7 +110,7 @@ For testing, you may set a **Marvify Developer Token** under:
 ## 4. How it works in the kiosk
 
 - A play-button overlay appears on products with a model ID.
-- Tapping it opens the Marvify FOTO-3D viewer in a smooth, full-screen overlay.
+- Tapping it opens the Marvify Marvify 3D viewer in a smooth, full-screen overlay.
 - The viewer closes by tapping ×, tapping outside, or when the kiosk times out.
 
 <div
@@ -159,11 +159,11 @@ For testing, you may set a **Marvify Developer Token** under:
   </div>
 </div>
 
-## Integrating Marvify FOTO-3D with other POS systems
+## Integrating Marvify Marvify 3D with other POS systems
 
 Although this module is built for Odoo using Python, XML, and JavaScript, the Marvify viewer itself is entirely JavaScript-based—just like the standalone webpage examples in our documentation.
 
-This means **any POS system capable of running JavaScript can integrate Marvify FOTO-3D** with ease.
+This means **any POS system capable of running JavaScript can integrate Marvify Marvify 3D** with ease.
 
 - No Odoo-specific components required
 - No backend dependencies

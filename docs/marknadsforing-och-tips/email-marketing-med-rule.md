@@ -1,16 +1,16 @@
 ---
 id: email-marketing-med-rule
-title: Hur du använder FOTO-3D i e-postmarknadsföring
+title: Hur du använder Marvify 3D i e-postmarknadsföring
 sidebar_label: E-postmarknadsföring
 ---
 
-# Hur du använder FOTO-3D i e-postmarknadsföring
+# Hur du använder Marvify 3D i e-postmarknadsföring
 
-Den här guiden förklarar hur du kan integrera Marvify FOTO-3D i e-postmarknadsföring oavsett vilken plattform du använder. De flesta e-posttjänster fungerar på liknande sätt när det gäller att länka till externa upplevelser.
+Den här guiden förklarar hur du kan integrera Marvify 3D i e-postmarknadsföring oavsett vilken plattform du använder. De flesta e-posttjänster fungerar på liknande sätt när det gäller att länka till externa upplevelser.
 
 **I den här guiden använder vi Rule som exempelplattform**, men samma tillvägagångssätt gäller för andra verktyg som Mailchimp, Klaviyo, Drip och liknande tjänster.
 
-E-postklienter stödjer inte inbäddad 3D eller skript, så visaren öppnas vanligtvis på en sida på din webbplats. E-postmeddelanden kan istället lyfta fram produkten visuellt och länka prenumeranter till den fullständiga 3D-upplevelsen i vilket format som passar din kommunikationsstil.
+E-postklienter stödjer inte inbäddad 3D eller skript, så visaren öppnas vanligtvis på en sida på din webbplats. E-postmeddelanden kan istället lyfta fram produkten visuellt och länka mottagare till den fullständiga 3D-upplevelsen i vilket format som passar din kommunikationsstil.
 
 Om din Marvify-visare ännu inte är konfigurerad på din webbplats kan du hänvisa till den tekniska dokumentationen och exempelguiden.
 
@@ -44,11 +44,11 @@ Om din Marvify-visare ännu inte är konfigurerad på din webbplats kan du hänv
 
 Logga in på Rule och öppna kampanjredigeraren. Du kan skapa ett nytt utskick eller uppdatera en befintlig mall. I redigeraren kan du välja var i din layout du vill lyfta fram ditt 3D-innehåll.
 
-E-postmeddelanden kan inte visa interaktiv 3D direkt, så innehållet du lägger till i Rule kommer att länka prenumeranter till din webbsida där visaren körs.
+E-postmeddelanden kan inte visa interaktiv 3D direkt, så innehållet du lägger till i Rule kommer att länka mottagare till din webbsida där visaren körs.
 
-### Lägga till prenumeranter i Rule
+### Lägga till mottagare i Rule
 
-Innan du skickar din kampanj väljer du vilka prenumeranter som ska få den. I Rule kan du lägga till prenumeranter genom att importera en CSV-fil, manuellt lägga till enskilda personer eller synkronisera från stödda integrationer. När din mall är klar väljer du en eller flera prenumerantlistor när du schemalägger eller skickar kampanjen.
+Innan du skickar din kampanj väljer du vilka mottagare som ska få den. I Rule kan du lägga till mottagare genom att importera en CSV-fil, manuellt lägga till enskilda personer eller synkronisera från stödda integrationer. När din mall är klar väljer du en eller flera mottagar-listor när du schemalägger eller skickar kampanjen.
 
 ## 3. Lägg till en bild, GIF eller knapp som länkar till din 3D-visare
 
@@ -114,7 +114,7 @@ För att lägga till en länk i Rule:
 
 Ett litet animerat element kan hjälpa till att indikera att en 3D-upplevelse väntar efter klicket. Ett alternativ är en kort roterande GIF genererad från din Marvify-modell, men andra visuella ledtrådar kan också fungera beroende på din design. Alla animationer kan laddas upp till Rule som ett standardbildblock och länkas till din visarsida.
 
-:::tip Pro-Tips
+:::tip Pro-Tip
 Vissa versioner av desktop Outlook (2007-2016) stöder inte GIF-animationer och visar endast den **första bildrutan**. Se till att din GIF:s första bildruta ser bra ut som en statisk bild!
 :::
 
@@ -149,7 +149,7 @@ Eftersom e-postklienter beter sig olika kan det vara användbart att skicka ett 
 
 ## 7. Skicka eller schemalägg din kampanj
 
-När ditt e-postmeddelande är klart kan du välja dina prenumerantlistor och antingen skicka kampanjen omedelbart eller schemalägga den till senare. Alla som klickar på dina bilder eller knappar kommer att tas till din webbsida där de kan utforska produkten i 3D.
+När ditt e-postmeddelande är klart kan du välja dina mottagar-listor och antingen skicka kampanjen omedelbart eller schemalägga den till senare. Alla som klickar på dina bilder eller knappar kommer att tas till din webbsida där de kan utforska produkten i 3D.
 
 Detta tillvägagångssätt låter dig introducera interaktiv 3D i din e-postmarknadsföring utan att kräva något speciellt stöd för e-postklienter.
 
@@ -198,4 +198,4 @@ Nedan finns en förenklad struktur för en 3D-produktlänk med en bild och en kn
 
 ### Leveransbarhet och skräppostmedvetenhet
 
-När du utvecklar anpassade kampanjer hjälper det att bibehålla ett balanserat förhållande mellan text och bilder för att säkerställa hög leveransbarhet. Dessutom är verifiering av din domäns SPF/DKIM-poster och att inkludera en tydlig avregistreringslänk standardpraxis för att upprätthålla ett professionellt avsändarrykte.
+När du utvecklar anpassade kampanjer hjälper det att bibehålla ett balanserat förhållande mellan text och bilder för att säkerställa hög leveransbarhet. Dessutom är verifiering av din domäns SPF/DKIM-poster och att inkludera en tydlig avregistreringslänk standardpraxis för att upprätthålla ett professionellt avsändarrykte. Leverantörer av denna typ av tjänst kringgår dessa problem mestadels.

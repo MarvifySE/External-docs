@@ -1,12 +1,12 @@
 ---
 id: sms-rcs-marketing
-title: Hur du använder FOTO-3D i SMS och RCS-marknadsföring
+title: Hur du använder Marvify 3D i SMS och RCS-marknadsföring
 sidebar_label: SMS & RCS-marknadsföring
 ---
 
-# Hur du använder FOTO-3D i SMS och RCS-marknadsföring
+# Hur du använder Marvify 3D i SMS och RCS-marknadsföring
 
-Den här guiden förklarar hur du kan inkludera Marvify FOTO-3D i SMS- och RCS-kommunikation oavsett vilken meddelandeplattform du använder. Arbetsflödet är liknande över de flesta verktyg.
+Den här guiden förklarar hur du kan inkludera Marvify 3D i SMS- och RCS-kommunikation oavsett vilken meddelandeplattform du använder. Arbetsflödet är liknande över de flesta verktyg.
 
 **I den här guiden använder vi Rule som exempeltjänst**, men samma principer gäller för andra kanaler som Klaviyo SMS, Twilio, Voyado och liknande plattformar.
 

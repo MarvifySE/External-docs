@@ -1,12 +1,12 @@
 ---
 id: facebook-instagram-ads
-title: How to create Facebook/Instagram ads with FOTO-3D
+title: How to create Facebook/Instagram ads with Marvify 3D
 sidebar_label: Facebook & Instagram Ads
 ---
 
-# How to create Facebook/Instagram ads with FOTO-3D
+# How to create Facebook/Instagram ads with Marvify 3D
 
-Begin by opening the page on your website where your Marvify FOTO-3D experience is located and copy the full link from your browser. This is the link you will use as the destination for your Facebook ad.
+Begin by opening the page on your website where your Marvify Marvify 3D experience is located and copy the full link from your browser. This is the link you will use as the destination for your Facebook ad.
 
 If you have not yet set up your Marvify viewer on your website, you can use our technical documentation and sample guide. These resources will help you prepare your 3D experience for use in ads.
 
@@ -51,7 +51,7 @@ Continue to the ad set where you can define audience, placements, budget, and sc
   </em>
 </p>
 
-In the ad settings, choose an ad format that works for you with a link, such as a single image or carousel format. In the website URL field, paste the link to your Marvify FOTO-3D page that you copied earlier. This URL is used as the destination when someone clicks on the ad.
+In the ad settings, choose an ad format that works for you with a link, such as a single image or carousel format. In the website URL field, paste the link to your Marvify 3D page that you copied earlier. This URL is used as the destination when someone clicks on the ad.
 
 You can then add primary text, headline, description, and a call to action button. These fields control how the ad appears in the feed and how the link is presented. The preview in Ads Manager shows what the ad will look like in different placements as you make changes.
 

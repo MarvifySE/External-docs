@@ -117,7 +117,9 @@ Dessa värden är relativa till modellstorleken och bör testas med ett riktigt 
 
 VR-justering bör alltid valideras med riktig hårdvara. Skrivbordsförhandsvisningar och emulatorer är användbara för utveckling, men kan inte fullt ut representera komfort och interaktion i immersivt läge.
 
-När du testar med dina egna modeller i utvecklingsmiljöer krävs en Marvify-utvecklingstoken. Instruktioner för att skapa och använda dev-tokens finns i den tekniska dokumentationen.
+När du testar med dina egna modeller i utvecklingsmiljöer krävs en Marvify-utvecklingstoken. Instruktioner för att skapa och använda dev-tokens finns i den tekniska dokumentationen [Dev token för utveckling](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start)
+
+
 
 ## 6. Enheter och begränsningar som stöds
 
@@ -126,7 +128,7 @@ VR-funktionen förlitar sig på WebXR och är endast tillgänglig på webbläsar
 - Fristående VR-headset med en WebXR-kompatibel webbläsare
 - Skrivbordswebbläsare med ansluten VR-hårdvara
 
-Att aktivera VR tvingar inte VR-användning. Besökare utan kompatibla enheter får fortfarande den standard 3D-visarupplevelsen.
+Att aktivera VR tvingar inte VR-användning. Besökare utan kompatibla enheter får fortfarande en standard 3D-visarupplevelse.
 
 ## 7. Rekommenderat arbetsflöde
 

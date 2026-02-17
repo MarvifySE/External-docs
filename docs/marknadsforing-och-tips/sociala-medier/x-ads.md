@@ -1,19 +1,19 @@
 ---
 id: x-ads
-title: Hur du skapar annonser på X med FOTO-3D
+title: Hur du skapar annonser på X med Marvify 3D
 sidebar_label: X Ads
 ---
 
-# Hur du skapar annonser på X med FOTO-3D
+# Hur du skapar annonser på X med Marvify 3D
 
-Börja med att öppna sidan på din webbplats där din Marvify FOTO-3D-upplevelse finns och kopiera den fullständiga länken från din webbläsare. Detta är länken du kommer att använda som destination för din annons på X.
+Börja med att öppna sidan på din webbplats där din Marvify Marvify 3D-viewer finns och kopiera den fullständiga länken från din webbläsare. Detta är länken du kommer att använda som destination för din annons på X.
 
 Om du ännu inte har konfigurerat din Marvify-visare på din webbplats kan du hänvisa till vår tekniska dokumentation och exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för användning i annonser.
 
 - [Teknisk dokumentation](https://docs.marvify.io/snabbstart/marvify-viewer/)
 - [Exempelguide](/exempel/webpage-integration)
 
-För att skapa en annons, gå till X Ads Manager på [ads.x.com](https://ads.x.com) och logga in på kontot du vill annonsera från. När du är inne väljer du att skapa en ny kampanj. Välj ett kampanjmål som skickar personer till din webbplats, såsom "Webbtrafik" eller "Konverteringar". Detta säkerställer att annonsformatet stöder en klickbar länk som leder direkt till din Marvify FOTO-3D-visarsida.
+För att skapa en annons, gå till X Ads Manager på [ads.x.com](https://ads.x.com) och logga in på kontot du vill annonsera från. När du är inne väljer du att skapa en ny kampanj. Välj ett kampanjmål som skickar personer till din webbplats, såsom "Webbtrafik" eller "Konverteringar". Detta säkerställer att annonsformatet stöder en klickbar länk som leder direkt till din Marvify 3D-visarsida.
 
 Fortsätt till annonsgruppsnivån, där du kan ställa in din budget, schema, målgruppsinriktning och placeringar. Detta steg definierar var din annons visas, vem som ser den och hur mycket du spenderar. När dessa inställningar är klara, gå vidare till att skapa själva annonsen.
 
@@ -35,7 +35,7 @@ Fortsätt till annonsgruppsnivån, där du kan ställa in din budget, schema, m�
 </p>
 
 
-I annonsskaparvyn väljer du det format du vill köra, till exempel en enstaka bild eller karusell. Under destinationsURL-fältet klistrar du in länken till din Marvify FOTO-3D-upplevelse som du kopierade tidigare. Denna länk kommer att användas när någon trycker på eller klickar på annonsen.
+I annonsskaparvyn väljer du det format du vill köra, till exempel en enstaka bild eller karusell. Under destinationsURL-fältet klistrar du in länken till din Marvify Marvify 3D-upplevelse som du kopierade tidigare. Denna länk kommer att användas när någon trycker på eller klickar på annonsen.
 
 Du kan sedan lägga till din annontext: rubrik, huvudtext och uppmaning till handling-knapp. Dessa fält definierar hur din annons visas i flödet. Förhandsgranskningspanelen i X Ads Manager visar hur annonsen ser ut i olika placeringar medan du gör ändringar.
 

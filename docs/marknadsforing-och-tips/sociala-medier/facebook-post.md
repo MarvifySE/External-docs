@@ -1,10 +1,10 @@
 ---
 id: facebook-post
-title: Hur du delar FOTO-3D i ett Facebook-inlägg
+title: Hur du delar Marvify 3D i ett Facebook-inlägg
 sidebar_label: Facebook
 ---
 
-# Hur du delar FOTO-3D i ett Facebook-inlägg
+# Hur du delar Marvify 3D i ett Facebook-inlägg
 
 Börja med att öppna sidan på din webbplats där din 3D-upplevelse finns och kopiera den fullständiga länken från din webbläsare. Att ha den kopierad i förväg gör processen smidigare.
 

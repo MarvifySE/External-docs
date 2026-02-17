@@ -19,17 +19,29 @@ För att använda Marvify med dina egna modeller måste du vara Marvify-kund och
 Ladda in vårt modulscripts en gång och placera sedan det anpassade elementet där du vill att visaren ska renderas.
 
 ```html
-<!-- Ladda visaren -->
-<script src="https://js.marvify.io/marvify.js" type="module"></script>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Exempel</title>
 
-<!-- Lägg till visaren -->
-<marvify-model-viewer
-  model-id="demo"
-  style="width: 300px; height: 300px"
-></marvify-model-viewer>
+  <!-- Ladda visaren (placeras i <head>) -->
+  <script src="https://js.marvify.io/marvify.js" type="module"></script>
+</head>
+<body>
+
+  <!-- Lägg till visaren i <body> -->
+  <marvify-model-viewer
+    model-id="demo"
+    width: "100%" 
+    height: "300px"
+  ></marvify-model-viewer>
+
+</body>
+</html>
 ```
 
-**Minimikrav på attribut:** `model-id`.
+**Minimikrav på attribut:** `model-id`, `width` eller `height`.
 
 Bredd och höjd kan anges via attribut eller vanlig CSS. Minst en dimension måste resultera i ett värde större än noll om inte `fullscreen` används.
 
@@ -69,6 +81,7 @@ Bredd och höjd kan anges via attribut eller vanlig CSS. Minst en dimension mås
 <marvify-model-viewer
   model-id="demo"
   bgColor="#f7f7f7"
+  height="300px"
   fov="55"
   minZoom="0.5" maxZoom="3"
   minCameraTilt="10" maxCameraTilt="85"
@@ -76,7 +89,7 @@ Bredd och höjd kan anges via attribut eller vanlig CSS. Minst en dimension mås
 ></marvify-model-viewer>
 ```
 ---
-
+<a id="dev-token-for-utveckling-start"></a>
 ## Dev token för utveckling
 
 När du utvecklar din sida med dina egna provisionerade modeller (till exempel för att positionera, finjustera och konfigurera modeller inför produktion) måste du använda en Marvify **dev token**.
@@ -150,8 +163,8 @@ Attributet `carousel` gör det möjligt att visa flera modeller i samma viewer-i
 
 **Noteringar**
 - Carousel-objekt kan skriva över viewer-inställningar som `bgColor`, `initialCameraAngle` eller zoomgränser.
-- Viewern renderar inget navigationsgränssnitt automatiskt. Du ansvarar själv för att lägga till knappar eller kontroller i HTML.
-- Använd de globala hjälpfunktionerna för att byta slide:  
+- Viewern renderar inget navigationsgränssnitt automatiskt för att undvika en stil-krock med eran hemsida, du måste skapa knapparna separat.
+- Använd de globala hjälpfunktionerna för att byta model:  
   `MarvifyCarousel.next(viewerId)` och `MarvifyCarousel.prev(viewerId)`.
 
 **Exempel**
@@ -171,6 +184,8 @@ Attributet `carousel` gör det möjligt att visa flera modeller i samma viewer-i
 ```
 
 I exemplet ovan använder model_a sin egen bakgrundsfärg som skriver över viewerns standardbakgrund endast för den sliden.
+
+Två knappar har skapats i exemplet ovan som växlar till föregående respektive nästa modell när man klickar på dem. Observera att funktionen körs på "mixed-carousel". ID-värdet måste stämma överens med det som anges i karusellen.
 
 ---
 

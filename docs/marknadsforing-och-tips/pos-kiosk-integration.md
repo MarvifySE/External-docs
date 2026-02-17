@@ -1,16 +1,16 @@
 ---
 id: pos-kiosk-integration
-title: Hur du lägger till FOTO-3D i kassasystem
+title: Hur du lägger till Marvify 3D i kassasystem
 sidebar_label: Kassasystem & Kiosker
 ---
 
-# Hur du lägger till FOTO-3D i kassasystem
+# Hur du lägger till Marvify 3D i kassasystem
 
-Den här guiden visar hur du aktiverar Marvify FOTO-3D Viewer direkt i POS-kiosker (Point of Sale) och självbetjäningssystem.
+Den här guiden visar hur du aktiverar Marvify 3D-Viewer direkt i POS-kiosker (Point of Sale) och självbetjäningssystem.
 
 **I den här guiden använder vi Odoo POS Self-Order som exempelplattform**, men integrationstillvägagångssättet gäller för alla JavaScript-kompatibla kassasystem. Med en enkel konfiguration får dina produkter en interaktiv 3D-visare som driver engagemang och hjälper kunder att utforska artiklar i detalj.
 
-## Exempel: Marvify FOTO-3D i en POS-kiosk
+## Exempel: Marvify 3D i en POS-kiosk
 
 <p align="center">
   <video
@@ -110,7 +110,7 @@ För testning kan du ställa in en **Marvify Developer Token** under:
 ## 4. Hur det fungerar i kiosken
 
 - Ett uppspelningsknapp-överlägg visas på produkter med ett modell-ID.
-- Att trycka på den öppnar Marvify FOTO-3D-visaren i ett smidigt helskärmsöverlägg.
+- Att trycka på den öppnar Marvify 3D-visaren i ett smidigt helskärmsöverlägg.
 - Visaren stängs genom att trycka på ×, trycka utanför eller när kiosken går i timeout.
 
 <div
@@ -160,11 +160,11 @@ För testning kan du ställa in en **Marvify Developer Token** under:
 </div>
 
 
-## Integrera Marvify FOTO-3D med andra kassasystem
+## Integrera Marvify 3D med andra kassasystem
 
 Även om den här modulen är byggd för Odoo med Python, XML och JavaScript, är Marvify-visaren själv helt JavaScript-baserad—precis som de fristående webbsidesexemplen i vår dokumentation.
 
-Detta innebär att **alla kassasystem som kan köra JavaScript kan integrera Marvify FOTO-3D** med lätthet.
+Detta innebär att **alla kassasystem som kan köra JavaScript kan integrera Marvify 3D** med lätthet.
 
 - Inga Odoo-specifika komponenter krävs
 - Inga backend-beroenden

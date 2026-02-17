@@ -1,16 +1,16 @@
 ---
 id: webpage-integration
-title: Hur du lägger till FOTO-3D på din webbsida
+title: Hur du lägger till Marvify 3D på din webbsida
 sidebar_label: Webbsida-integration
 ---
 
-# Hur du lägger till FOTO-3D på din webbsida
+# Hur du lägger till Marvify 3D på din webbsida
 
-Den här guiden ger en översikt över hur du lägger till Marvify FOTO-3D-visaren på en webbsida. Du kommer att se hur visaren fungerar i ett enkelt fristående exempel, följt av en mer avancerad layout som använder interaktiva bildrutor. Samma steg som visas här gäller för produktsidor, gallerier och andra anpassade webbsidor.
+Den här guiden ger en översikt över hur du lägger till Marvify 3D-visaren på en webbsida. Du kommer att se hur visaren fungerar i ett enkelt fristående exempel, följt av en mer avancerad layout som använder interaktiva bildrutor. Samma steg som visas här gäller för produktsidor, gallerier och andra anpassade webbsidor.
 
 ## Exempel: Marvify-visare på en produktsida
 
-Här är en kort demonstration som visar Marvify FOTO-3D-visaren som körs med en enda produktmodell på en ren, enkel produktsida.
+Här är en kort demonstration som visar Marvify 3D-visaren som körs med en enda produktmodell på en ren, enkel produktsida.
 
 <p align="center">
   <video
@@ -33,7 +33,7 @@ Här är en kort demonstration som visar Marvify FOTO-3D-visaren som körs med e
 
 Börja med att öppna HTML-filen eller mallen för din webbsida. Bestäm var 3D-visaren ska visas. Detta placeras ofta nära produktbilder, under artikelbeskrivningar eller inuti en dedikerad sektion för interaktivt innehåll.
 
-Den här artikeln är en översikt över hur du integrerar Marvify-visaren på din webbsida. För mer djupgående teknisk dokumentation, besök [docs.marvify.io](https://docs.marvify.io/snabbstart/marvify-viewer/).
+Den här artikeln är en översikt över hur du integrerar Marvify-visaren på din webbsida. För mer djupgående teknisk dokumentation, besök [Marvify viewer](https://docs.marvify.io/snabbstart/marvify-viewer/).
 
 ## 1. Ladda visarskriptet
 
@@ -51,11 +51,12 @@ Placera visarelementet i din HTML där ditt huvudproduktmedia finns. I exempelpr
 <div class="viewer-wrapper">
   <marvify-model-viewer
     model-id="ditt-modell-id"
-    style="width: 100%; height: 100%">
+    width: "100%" 
+    height: "300px">
   </marvify-model-viewer>
 </div>
 <p class="viewer-note">
-  Rotera, zooma och inspektera produkten direkt i Marvify FOTO-3D-visaren.
+  Rotera, zooma och inspektera produkten direkt i Marvify 3D-visaren.
 </p>
 ```
 
@@ -94,9 +95,11 @@ Du kan konfigurera startvinkel, zoomgränser och bakgrundsfärg för att matcha 
 </marvify-model-viewer>
 ```
 
-## Exempel: Marvify FOTO-3D i ett lookbook-stil bildgalleri
+För mer attributer se [Anpassade attribut](../snabbstart/marvify-viewer.md#anpassade-attribut)
 
-Efter att du har fått grundvisaren att fungera kan du också placera den inuti mer avancerade layouter. Ett exempel är en modelookbook-sida med ett bildgaller, där varje outfit kan öppnas i 3D.
+## Exempel: Marvify 3D i ett lookbook-stil bildgalleri
+
+Efter att du har fått grundvisaren att fungera kan du också placera den inuti mer avancerade layouter. Ett exempel är en fashion lookbook-sida med ett bildgalleri, där varje outfit kan öppnas i 3D.
 
 <p align="center">
   <video

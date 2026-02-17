@@ -1,16 +1,16 @@
 ---
 id: email-marketing-med-rule
-title: How to use FOTO-3D in email marketing
+title: How to use Marvify 3D in email marketing
 sidebar_label: Email Marketing
 ---
 
-# How to use FOTO-3D in email marketing
+# How to use Marvify 3D in email marketing
 
-This guide explains how you can integrate Marvify FOTO-3D into email marketing regardless of which platform you use. Most email services work similarly when linking out to external experiences.
+This guide explains how you can integrate Marvify Marvify 3D into email marketing regardless of which platform you use. Most email services work similarly when linking out to external experiences.
 
 **In this guide we use Rule as the example platform**, but the same approach applies to other tools such as Mailchimp, Klaviyo, Drip and similar services.
 
-Email clients do not support embedded 3D or scripts, so the viewer itself is typically opened on a page on your website. Emails can instead highlight the product visually and link subscribers to the full 3D experience in whichever format fits your communication style.
+Email clients do not support embedded 3D or scripts, so the viewer itself is typically opened on a page on your website. Emails can instead highlight the product visually and link recipients to the full 3D experience in whichever format fits your communication style.
 
 If your Marvify viewer is not yet set up on your website you can refer to the technical documentation and sample setup guide.
 
@@ -42,11 +42,11 @@ Open the online page where your Marvify viewer is available. This can be a produ
 
 Log in to Rule and open the campaign editor. You can create a new mailing or update an existing template. Inside the editor you can choose where in your layout you want to highlight your 3D content.
 
-Emails cannot display interactive 3D directly, so the content you add in Rule will link subscribers to your webpage where the viewer is running.
+Emails cannot display interactive 3D directly, so the content you add in Rule will link recipients to your webpage where the viewer is running.
 
-### Adding subscribers in Rule
+### Adding recipients in Rule
 
-Before sending your campaign you will choose which subscribers should receive it. In Rule you can add subscribers by importing a CSV file, manually adding individuals, or syncing from supported integrations. After your template is ready you select one or more subscriber lists when scheduling or sending the campaign.
+Before sending your campaign you will choose which recipients should receive it. In Rule you can add recipients by importing a CSV file, manually adding individuals, or syncing from supported integrations. After your template is ready you select one or more lists when scheduling or sending the campaign.
 
 ## 3. Add an image, GIF or button that links to your 3D viewer
 
@@ -144,7 +144,7 @@ Since email clients behave differently it can be useful to send yourself a test 
 
 ## 7. Send or schedule your campaign
 
-When your email is ready you can choose your subscriber lists and either send the campaign immediately or schedule it for later. Anyone who clicks your images or buttons will be taken to your webpage where they can explore the product in 3D.
+When your email is ready you can choose your recipient lists and either send the campaign immediately or schedule it for later. Anyone who clicks your images or buttons will be taken to your webpage where they can explore the product in 3D.
 
 This approach lets you introduce interactive 3D into your email marketing without requiring any special email client support.
 
@@ -193,4 +193,4 @@ Below is a simplified structure for a 3D product link using an image and a butto
 
 ### Deliverability and Spam Awareness
 
-When developing custom campaigns, maintaining a balanced ratio of text to images helps ensure high deliverability. Additionally, verifying your domain's SPF/DKIM records and including a clear unsubscribe link are standard practices to maintain a professional sender reputation.
+When developing custom campaigns, maintaining a balanced ratio of text to images helps ensure high deliverability. Additionally, verifying your domain's SPF/DKIM records and including a clear unsubscribe link are standard practices to maintain a professional sender reputation. Companies that provide mass-email campaign sending bypass these issues mostly.

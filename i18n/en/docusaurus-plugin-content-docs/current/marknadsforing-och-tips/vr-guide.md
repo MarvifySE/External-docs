@@ -116,7 +116,7 @@ These values are relative to the model size and should be tested using a real he
 
 VR tuning should always be validated using real hardware. Desktop previews and emulators are useful for development, but cannot fully represent comfort and interaction in immersive mode.
 
-When testing with your own models in development environments, a Marvify development token is required. Instructions for creating and using dev tokens are available in the technical documentation.
+When testing with your own models in development environments, a Marvify development token is required. Instructions for creating and using dev tokens are available in the technical documentation [Dev token for development](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start).
 
 ## 6. Supported devices and limitations
 

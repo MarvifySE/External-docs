@@ -1,16 +1,16 @@
 ---
 id: webpage-integration
-title: How to add FOTO-3D to your webpage
+title: How to add Marvify 3D to your webpage
 sidebar_label: Webpage Integration
 ---
 
-# How to add FOTO-3D to your webpage
+# How to add Marvify 3D to your webpage
 
-This guide gives an overview of how to add the Marvify FOTO-3D viewer to a webpage. You will see how the viewer works in a simple standalone example, followed by a more advanced layout that uses interactive image tiles. The same steps shown here apply to product pages, galleries and other custom webpages.
+This guide gives an overview of how to add the Marvify 3D viewer to a webpage. You will see how the viewer works in a simple standalone example, followed by a more advanced layout that uses interactive image tiles. The same steps shown here apply to product pages, galleries and other custom webpages.
 
 ## Example: Marvify viewer on a product page
 
-Here is a short demonstration showing the Marvify FOTO-3D viewer running with a single product model on a clean, simple product-page.
+Here is a short demonstration showing the Marvify 3D-viewer running with a single product model on a clean, simple product-page.
 
 <p align="center">
   <video
@@ -33,7 +33,7 @@ Here is a short demonstration showing the Marvify FOTO-3D viewer running with a 
 
 Start by opening the HTML file or template for your webpage. Decide where the 3D viewer should appear. This is often placed near product images, under item descriptions or inside a dedicated section for interactive content.
 
-This article is an overview of how to integrate the Marvify viewer on your webpage. For more in-depth technical documentation, visit [docs.marvify.io](https://docs.marvify.io/en/snabbstart/marvify-viewer/).
+This article is an overview of how to integrate the Marvify viewer on your webpage. For more in-depth technical documentation, visit [Marvify viewer](https://docs.marvify.io/en/snabbstart/marvify-viewer/).
 
 ## 1. Load the viewer script
 
@@ -51,11 +51,12 @@ Place the viewer element in your HTML where your main product media lives. In th
 <div class="viewer-wrapper">
   <marvify-model-viewer
     model-id="your-model-id"
-    style="width: 100%; height: 100%">
+    width: "100%" 
+    height: "300px">
   </marvify-model-viewer>
 </div>
 <p class="viewer-note">
-  Rotate, zoom and inspect the product directly in the Marvify FOTO-3D viewer.
+  Rotate, zoom and inspect the product directly in the Marvify 3D-viewer.
 </p>
 ```
 
@@ -94,7 +95,9 @@ You can configure the start angle, zoom limits and background color to match you
 </marvify-model-viewer>
 ```
 
-## Example: Marvify FOTO-3D in a lookbook style image grid
+For more attributes see [Custom attributes](../snabbstart/marvify-viewer.md#custom-attributes)
+
+## Example: Marvify 3D in a lookbook style image grid
 
 After you have the basic viewer working, you can also place it inside more advanced layouts. One example is a fashion lookbook page with an image grid, where each outfit can be opened in 3D.
 

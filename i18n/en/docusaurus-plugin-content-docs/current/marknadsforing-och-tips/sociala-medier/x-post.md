@@ -1,12 +1,12 @@
 ---
 id: x-post
-title: How to share FOTO-3D in a post on X
+title: How to share Marvify 3D in a post on X
 sidebar_label: X (Twitter)
 ---
 
-# How to share FOTO-3D in a post on X
+# How to share Marvify 3D in a post on X
 
-Begin by opening the page on your website where your Marvify FOTO-3D experience is hosted and copy the full link from your browser. This is the link you will include in your post on X.
+Begin by opening the page on your website where your Marvify 3D experience is hosted and copy the full link from your browser. This is the link you will include in your post on X.
 
 If you do not yet have your Marvify viewer set up on your website, you can refer to our technical documentation and sample setup guide. These resources will help you prepare your 3D experience for sharing.
 
@@ -53,7 +53,7 @@ Click or tap into the composer and paste the link you copied earlier. X will pro
 
 You can add any accompanying text you need in the same post. Links on X are automatically shortened, and you can optionally attach images or videos in addition to the link. When you are satisfied with the content, choose your audience settings if applicable and prepare to publish.
 
-Once everything looks correct, publish the post. It will appear in your followers' timelines and anywhere else your post is shown, and clicking the link or its preview will take people directly to the Marvify FOTO-3D experience on your site.
+Once everything looks correct, publish the post. It will appear in your followers' timelines and anywhere else your post is shown, and clicking the link or its preview will take people directly to the Marvify 3D experience on your site.
 
 ## Troubleshooting: Missing preview card
 

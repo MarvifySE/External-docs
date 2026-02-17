@@ -1,12 +1,12 @@
 ---
 id: facebook-instagram-ads
-title: Hur du skapar Facebook/Instagram-annonser med FOTO-3D
+title: Hur du skapar Facebook/Instagram-annonser med Marvify 3D
 sidebar_label: Facebook & Instagram Ads
 ---
 
-# Hur du skapar Facebook/Instagram-annonser med FOTO-3D
+# Hur du skapar Facebook/Instagram-annonser med Marvify 3D
 
-Börja med att öppna sidan på din webbplats där din Marvify FOTO-3D upplevelse finns och kopiera hela länken från din webbläsare. Detta är länken du kommer att använda som destination för din Facebook-annons.
+Börja med att öppna sidan på din webbplats där din Marvify Marvify 3D upplevelse finns och kopiera hela länken från din webbläsare. Detta är länken du kommer att använda som destination för din Facebook-annons.
 
 Om du ännu inte har satt upp din Marvify viewer på din webbplats kan du använda vår tekniska dokumentation och exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för användning i annonser.
 
@@ -52,7 +52,7 @@ Fortsätt till annonsuppsättningen där du kan definiera målgrupp, placeringar
 </p>
 
 
-I annonsens inställningar väljer du ett annonsformat som passar dig med en länk, till exempel en enstaka bild eller ett karusellformat. Under fältet för webbplatsens URL klistrar du in länken till din Marvify FOTO-3D sida som du kopierade tidigare. Denna URL används som destination när någon klickar på annonsen.
+I annonsens inställningar väljer du ett annonsformat som passar dig med en länk, till exempel en enstaka bild eller ett karusellformat. Under fältet för webbplatsens URL klistrar du in länken till din Marvify 3D sida som du kopierade tidigare. Denna URL används som destination när någon klickar på annonsen.
 
 Du kan sedan lägga till primär text, rubrik, beskrivning och en call to action-knapp. Dessa fält styr hur annonsen visas i flödet och hur länken presenteras. Förhandsgranskningen i Ads Manager visar hur annonsen kommer att se ut i olika placeringar medan du gör ändringar.
 

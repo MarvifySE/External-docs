@@ -1,10 +1,10 @@
 ---
 id: facebook-post
-title: How to share FOTO-3D in a Facebook post
+title: How to share Marvify 3D in a Facebook post
 sidebar_label: Facebook
 ---
 
-# How to share FOTO-3D in a Facebook post
+# How to share Marvify 3D in a Facebook post
 
 Begin by opening the page on your website where your 3D experience is hosted and copy the full link from your browser. Having it copied ahead of time makes the process smoother.
 

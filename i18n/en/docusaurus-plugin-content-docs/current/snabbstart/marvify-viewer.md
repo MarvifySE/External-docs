@@ -18,18 +18,31 @@ To use Marvify with your own models, you must be a Marvify customer with provisi
 
 Embed our module script once, then place the custom element where you want the viewer to render.
 
-```html
-<!-- Load the viewer runtime -->
-<script src="https://js.marvify.io/marvify.js" type="module"></script>
 
-<!-- Add the viewer -->
-<marvify-model-viewer
-  model-id="demo"
-  style="width: 300px; height: 300px"
-></marvify-model-viewer>
+```html
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Exempel</title>
+
+  <!-- import the viewer module (must be done in <head>) -->
+  <script src="https://js.marvify.io/marvify.js" type="module"></script>
+</head>
+<body>
+
+  <!-- Add the viewer to <body> -->
+  <marvify-model-viewer
+    model-id="demo"
+    width: "100%"
+    height: "300px"
+  ></marvify-model-viewer>
+
+</body>
+</html>
 ```
 
-**Minimum required attributes:** `model-id`.
+**Minimum required attributes:** `model-id`, `width` or `height`.
 
 Width and height may be provided via attributes or regular CSS. At least one dimension must resolve to a non-zero size unless `fullscreen` is used.
 
@@ -69,6 +82,7 @@ Width and height may be provided via attributes or regular CSS. At least one dim
 <marvify-model-viewer
   model-id="demo"
   bgColor="#f7f7f7"
+  height="300px"
   fov="55"
   minZoom="0.5" maxZoom="3"
   minCameraTilt="10" maxCameraTilt="85"
@@ -76,7 +90,7 @@ Width and height may be provided via attributes or regular CSS. At least one dim
 ></marvify-model-viewer>
 ```
 ---
-
+<a id="dev-token-for-utveckling-start"></a>
 ## Development token (dev token)
 
 When developing your page with your own provisioned models (for example to position, tune, and configure models before going live), you must use a Marvify **development token**.
@@ -149,7 +163,7 @@ The `carousel` attribute allows multiple models to be viewed within a single vie
 
 **Notes**
 - Carousel items can override viewer settings such as `bgColor`, `initialCameraAngle`, or zoom limits.
-- The viewer does not render navigation UI automatically. You are responsible for adding your own buttons or controls in HTML.
+- The viewer does not render navigation UI automatically to avoid clashing with your website style, the method for cycling models must be implemented by you.
 - Use the global helpers to change slides:  
   `MarvifyCarousel.next(viewerId)` and `MarvifyCarousel.prev(viewerId)`.
 
@@ -171,6 +185,7 @@ The `carousel` attribute allows multiple models to be viewed within a single vie
 
 In the example above, model_a applies its own background color, overriding the viewer’s default background color for that slide only.
 
+In the example above, two buttons are created to switch between the previous and next model when clicked. Note that the function is executed on "mixed-carousel". The ID must correspond to the one defined in the carousel.
 
 ## VR Attributes
 
