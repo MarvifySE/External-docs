@@ -6,7 +6,7 @@ sidebar_label: Facebook & Instagram Ads
 
 # How to create Facebook/Instagram ads with Marvify 3D
 
-Begin by opening the page on your website where your Marvify Marvify 3D experience is located and copy the full link from your browser. This is the link you will use as the destination for your Facebook ad.
+Begin by opening the page on your website where your Marvify 3D experience is located and copy the full link from your browser. This is the link you will use as the destination for your Facebook ad.
 
 If you have not yet set up your Marvify viewer on your website, you can use our technical documentation and sample guide. These resources will help you prepare your 3D experience for use in ads.
 
@@ -72,11 +72,13 @@ You can then add primary text, headline, description, and a call to action butto
   </em>
 </p>
 
-When you are satisfied with the settings and preview, publish the campaign in Ads Manager. After review, Facebook will begin showing the ad and people who click will be sent directly to the 3D experience on your website where they can explore the product.
+When you are satisfied with the settings and preview, publish the campaign in Ads Manager. Meta reviews ad creatives before they are shown, which typically takes up to 24 hours. Once approved, the ad will begin serving to your selected audience and people who click will be sent directly to the 3D experience on your website where they can explore the product.
 
 ## Troubleshooting: Missing preview
 
-If the preview in Ads Manager does not show the correct image or information for your link, it may be because your Open Graph tags are missing or outdated, such as `og:image`, `og:title`, and `og:description`. These tags help Facebook understand which image and text to display in link-based ads and previews.
+If the preview in Ads Manager does not show the correct image or information for your link, it may be because your Open Graph tags are missing or outdated, such as `og:image`, `og:title`, and `og:description`. These tags help Facebook understand which image and text to display in link-based ads and previews. For the best results, the `og:image` should be at least 1200 x 630 pixels with a 1.91:1 aspect ratio.
+
+Facebook caches Open Graph data after the first time a URL is shared or used. If you have recently updated your tags, you can use Facebook's [Sharing Debugger](https://developers.facebook.com/tools/debug/) to force a re-scrape before creating your ad.
 
 For more information see: [Open Graph](https://ogp.me/).
 

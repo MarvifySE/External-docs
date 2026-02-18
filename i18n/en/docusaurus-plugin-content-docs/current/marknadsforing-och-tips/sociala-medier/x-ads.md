@@ -6,14 +6,14 @@ sidebar_label: X Ads
 
 # How to create ads on X with Marvify 3D
 
-Begin by opening the page on your website where your Marvify Marvify 3D experience is hosted and copy the full link from your browser. This is the link you will use as the destination for your ad on X.
+Begin by opening the page on your website where your Marvify 3D experience is hosted and copy the full link from your browser. This is the link you will use as the destination for your ad on X.
 
 If you do not yet have your Marvify viewer set up on your website, you can refer to our technical documentation and sample setup guide. These resources will help you prepare your 3D experience for use in ads.
 
 - [Technical documentation](https://docs.marvify.io/en/snabbstart/marvify-viewer/)
 - [Sample setup guide](/en/exempel/webpage-integration)
 
-To create an ad, go to the X Ads Manager at [ads.x.com](https://ads.x.com) and sign in to the account you want to advertise from. Once inside, choose to create a new campaign. Select a campaign objective that sends people to your website, such as "Website traffic" or "Conversions". This ensures that the ad format supports a clickable link leading directly to your Marvify Marvify 3D-viewer page.
+To create an ad, go to the X Ads Manager at [ads.x.com](https://ads.x.com) and sign in to the account you want to advertise from. Once inside, choose to create a new campaign. Select a campaign objective that sends people to your website, such as "Website traffic" or "Conversions". This ensures that the ad format supports a clickable link leading directly to your Marvify 3D-viewer page.
 
 Continue to the ad group level, where you can set your budget, schedule, audience targeting, and placements. This step defines where your ad appears, who sees it, and how much you spend. When these settings are ready, move on to creating the actual ad.
 
@@ -55,7 +55,7 @@ You can then add your ad copy: headline, main text, and call-to-action button. T
   </em>
 </p>
 
-When you are satisfied with your settings and ad preview, publish the campaign. After review by X, your ad will begin delivering to your selected audience. When viewers tap the link or link card, they will be taken directly to your 3D experience on your website.
+When you are satisfied with your settings and ad preview, publish the campaign. X reviews ad creatives before they are shown, which typically takes up to 24 hours. Once approved, your ad will begin delivering to your selected audience. When viewers tap the link or link card, they will be taken directly to your 3D experience on your website.
 
 ## Troubleshooting: Incorrect ad preview
 

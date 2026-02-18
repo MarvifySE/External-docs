@@ -72,6 +72,7 @@ module.exports = {
             "marknadsforing-och-tips/sociala-medier/facebook-instagram-ads",
             "marknadsforing-och-tips/sociala-medier/x-post",
             "marknadsforing-och-tips/sociala-medier/x-ads",
+            "marknadsforing-och-tips/sociala-medier/linkedin-post-and-ads",
           ],
         },
       ],

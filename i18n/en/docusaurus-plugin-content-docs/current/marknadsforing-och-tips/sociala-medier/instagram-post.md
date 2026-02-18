@@ -15,7 +15,7 @@ If your Marvify viewer is not yet set up on your website you can refer to the te
 
 Next, prepare the media that you want to post on Instagram. This can be a static image, a short video recording or another visual representation of the 3D content saved as an image or video file on your device.
 
-Since Instagram feed posts do not support clickable links in the caption, the most common way to direct people to your 3D experience is to place the URL in your profile. To do this, open Instagram, go to your profile, select Edit profile, and paste the Marvify 3D URL in the Website field or another suitable link.
+Since Instagram feed posts do not support clickable links in the caption, the most common way to direct people to your 3D experience is to place the URL in your profile. To do this, open Instagram, go to your profile, select Edit profile, then tap the **Links** section and select **Add external link** to paste your Marvify 3D URL. Instagram supports up to five external links in your profile, so you can add the Marvify link alongside any other links you already have.
 
 <p align="center">
   <img

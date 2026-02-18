@@ -56,9 +56,15 @@ At this stage you can include additional text, images, or video if they are help
 
 When everything looks correct and the preview displays the right information, publish the post. The link card will appear in the feed for your audience and will take them directly to the 3D experience on your site when they click or tap it.
 
+:::tip
+Facebook's algorithm may reduce the organic reach of posts that contain external links. A common workaround is to publish the post without the link and then add the URL as the first comment instead. This keeps the link accessible to your audience while potentially improving how the post is distributed in the feed.
+:::
+
 ## Troubleshooting: Missing link preview
 
-If no preview appears when you paste your link into Facebook, it usually means the webpage is missing the information Facebook looks for when generating a link card. This information is provided through Open Graph tags, such as `og:image`, `og:title` and `og:description`. These tags tell Facebook which image and text to display in the preview.
+If no preview appears when you paste your link into Facebook, it usually means the webpage is missing the information Facebook looks for when generating a link card. This information is provided through Open Graph tags, such as `og:image`, `og:title` and `og:description`. These tags tell Facebook which image and text to display in the preview. For the best results, the `og:image` should be at least 1200 x 630 pixels with a 1.91:1 aspect ratio. Images below 600 x 315 pixels may render as a small thumbnail rather than the full-size link card.
+
+Facebook caches Open Graph data after the first time a URL is shared. If you have recently updated your tags and the preview still shows old information, you can use Facebook's [Sharing Debugger](https://developers.facebook.com/tools/debug/) to force a re-scrape of your URL and refresh the cached preview.
 
 For more details about the Open Graph standard, see [the official Open Graph documentation](https://ogp.me/).
 

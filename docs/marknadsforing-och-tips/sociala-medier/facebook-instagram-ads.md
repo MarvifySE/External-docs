@@ -6,7 +6,7 @@ sidebar_label: Facebook & Instagram Ads
 
 # Hur du skapar Facebook/Instagram-annonser med Marvify 3D
 
-Börja med att öppna sidan på din webbplats där din Marvify Marvify 3D upplevelse finns och kopiera hela länken från din webbläsare. Detta är länken du kommer att använda som destination för din Facebook-annons.
+Börja med att öppna sidan på din webbplats där din Marvify 3D upplevelse finns och kopiera hela länken från din webbläsare. Detta är länken du kommer att använda som destination för din Facebook-annons.
 
 Om du ännu inte har satt upp din Marvify viewer på din webbplats kan du använda vår tekniska dokumentation och exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för användning i annonser.
 
@@ -74,11 +74,13 @@ Du kan sedan lägga till primär text, rubrik, beskrivning och en call to action
 </p>
 
 
-När du är nöjd med inställningarna och förhandsvisningen publicerar du kampanjen i Ads Manager. Efter granskning börjar Facebook att visa annonsen och personer som klickar kommer att skickas direkt till 3D-upplevelsen på din webbplats där de kan utforska produkten.
+När du är nöjd med inställningarna och förhandsvisningen publicerar du kampanjen i Ads Manager. Meta granskar annonsinnehåll innan de visas, vilket vanligtvis tar upp till 24 timmar. När annonsen är godkänd börjar den visas för din valda målgrupp och personer som klickar kommer att skickas direkt till 3D-upplevelsen på din webbplats där de kan utforska produkten.
 
 ## Felsökning: Saknad förhandsgranskning
 
-Om förhandsvisningen i Ads Manager inte visar rätt bild eller information för din länk kan det bero på att dina Open Graph-taggar saknas eller är utdaterade, till exempel `og:image`, `og:title` och `og:description`. Dessa taggar hjälper Facebook att förstå vilken bild och text som ska visas i länkbaserade annonser och förhandsvisningar.
+Om förhandsvisningen i Ads Manager inte visar rätt bild eller information för din länk kan det bero på att dina Open Graph-taggar saknas eller är utdaterade, till exempel `og:image`, `og:title` och `og:description`. Dessa taggar hjälper Facebook att förstå vilken bild och text som ska visas i länkbaserade annonser och förhandsvisningar. För bästa resultat bör `og:image` vara minst 1200 x 630 pixlar med ett bildförhållande på 1.91:1.
+
+Facebook cachar Open Graph-data efter att en URL har delats eller använts för första gången. Om du nyligen har uppdaterat dina taggar kan du använda Facebooks [Sharing Debugger](https://developers.facebook.com/tools/debug/) för att tvinga en omhämtning innan du skapar din annons.
 
 För mer information se: [Open Graph](https://ogp.me/).
 

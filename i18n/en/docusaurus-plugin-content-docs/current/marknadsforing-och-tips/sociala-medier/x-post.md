@@ -32,7 +32,7 @@ Go to [x.com](https://x.com) or the X mobile app and sign in to the account you 
   </em>
 </p>
 
-Click or tap into the composer and paste the link you copied earlier. X will process the link and, when supported for your account and link type, may generate a preview card showing an image, title and short description from your website. This card becomes the clickable element that leads to your 3D experience.
+Click or tap into the composer and paste the link you copied earlier. X will process the link and generate a preview card. As of the current version of X, preview cards in the timeline display the image with a small domain label overlaid on it, rather than showing the full title and description. The card still functions as the clickable element that leads to your 3D experience.
 
 <p align="center">
   <img
@@ -51,18 +51,22 @@ Click or tap into the composer and paste the link you copied earlier. X will pro
   </em>
 </p>
 
-You can add any accompanying text you need in the same post. Links on X are automatically shortened, and you can optionally attach images or videos in addition to the link. When you are satisfied with the content, choose your audience settings if applicable and prepare to publish.
+You can add any accompanying text you need in the same post. Links on X are automatically shortened through the t.co service, and you can optionally attach images or videos in addition to the link. When you are satisfied with the content, choose your audience settings if applicable and prepare to publish.
+
+:::tip
+X's algorithm may reduce the visibility of posts that contain external links. Including a compelling image or video alongside your link can help improve engagement and reach compared to a link-only post.
+:::
 
 Once everything looks correct, publish the post. It will appear in your followers' timelines and anywhere else your post is shown, and clicking the link or its preview will take people directly to the Marvify 3D experience on your site.
 
 ## Troubleshooting: Missing preview card
 
-If no preview card appears for your link, it usually means X does not have the information it needs from the webpage to build a card. This information is provided through metadata such as Open Graph and X-specific card tags, including `og:image`, `og:title`, `og:description`. These tags tell X which image and text to display alongside the link.
+If no preview card appears for your link, it usually means X does not have the information it needs from the webpage to build a card. This information is provided through metadata such as Open Graph tags and X-specific card tags. The most important tag is `twitter:card`, which controls the card type — set it to `summary_large_image` for a large image preview, which works well for visual content like a 3D product viewer. X also reads `og:image`, `og:title` and `og:description` for the card content, and falls back to these if no `twitter:` equivalents are present.
 
 For more details about the Open Graph standard, see [the official Open Graph documentation](https://ogp.me/).
 
 ---
 
-For more information about creating posts and link previews on X, see the platform's official help and developer resources: [X Cards documentation](https://developer.x.com/en/docs/x-for-websites/cards/overview/abouts-cards).
+For more information about creating posts and link previews on X, see the platform's official help and developer resources: [X Cards documentation](https://developer.x.com/en/docs/x-for-websites/cards/overview/about-cards).
 
 *Please note that X may update its interface, features or card behavior over time. The steps and visuals in this guide are intended as general guidance and may not always reflect the most recent version of the platform.*

@@ -6,7 +6,7 @@ sidebar_label: X Ads
 
 # Hur du skapar annonser på X med Marvify 3D
 
-Börja med att öppna sidan på din webbplats där din Marvify Marvify 3D-viewer finns och kopiera den fullständiga länken från din webbläsare. Detta är länken du kommer att använda som destination för din annons på X.
+Börja med att öppna sidan på din webbplats där din Marvify 3D-viewer finns och kopiera den fullständiga länken från din webbläsare. Detta är länken du kommer att använda som destination för din annons på X.
 
 Om du ännu inte har konfigurerat din Marvify-visare på din webbplats kan du hänvisa till vår tekniska dokumentation och exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för användning i annonser.
 
@@ -35,7 +35,7 @@ Fortsätt till annonsgruppsnivån, där du kan ställa in din budget, schema, m�
 </p>
 
 
-I annonsskaparvyn väljer du det format du vill köra, till exempel en enstaka bild eller karusell. Under destinationsURL-fältet klistrar du in länken till din Marvify Marvify 3D-upplevelse som du kopierade tidigare. Denna länk kommer att användas när någon trycker på eller klickar på annonsen.
+I annonsskaparvyn väljer du det format du vill köra, till exempel en enstaka bild eller karusell. Under destinationsURL-fältet klistrar du in länken till din Marvify 3D-upplevelse som du kopierade tidigare. Denna länk kommer att användas när någon trycker på eller klickar på annonsen.
 
 Du kan sedan lägga till din annontext: rubrik, huvudtext och uppmaning till handling-knapp. Dessa fält definierar hur din annons visas i flödet. Förhandsgranskningspanelen i X Ads Manager visar hur annonsen ser ut i olika placeringar medan du gör ändringar.
 
@@ -57,7 +57,7 @@ Du kan sedan lägga till din annontext: rubrik, huvudtext och uppmaning till han
 </p>
 
 
-När du är nöjd med dina inställningar och annonsförhandsgranskning, publicera kampanjen. Efter granskning av X kommer din annons att börja levereras till din valda målgrupp. När tittare trycker på länken eller länkkortet kommer de att tas direkt till din 3D-upplevelse på din webbplats.
+När du är nöjd med dina inställningar och annonsförhandsgranskning, publicera kampanjen. X granskar annonsinnehåll innan de visas, vilket vanligtvis tar upp till 24 timmar. När annonsen är godkänd kommer den att börja levereras till din valda målgrupp. När tittare trycker på länken eller länkkortet kommer de att tas direkt till din 3D-upplevelse på din webbplats.
 
 ## Felsökning: Felaktig annonsförhandsgranskning
 

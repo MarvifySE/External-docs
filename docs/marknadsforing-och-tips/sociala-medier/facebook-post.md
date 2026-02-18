@@ -57,9 +57,15 @@ I detta skede kan du inkludera ytterligare text, bilder eller video om de är an
 
 När allt ser korrekt ut och förhandsgranskningen visar rätt information, publicera inlägget. Länkkortet kommer att visas i flödet för din publik och tar dem direkt till 3D-upplevelsen på din webbplats när de klickar eller trycker på det.
 
+:::tip
+Facebooks algoritm kan minska den organiska räckvidden för inlägg som innehåller externa länkar. En vanlig lösning är att publicera inlägget utan länken och sedan lägga till URL:en som den första kommentaren istället. Detta håller länken tillgänglig för din publik och kan samtidigt förbättra hur inlägget distribueras i flödet.
+:::
+
 ## Felsökning: Saknad länkförhandsgranskning
 
-Om ingen förhandsgranskning visas när du klistrar in din länk på Facebook betyder det vanligtvis att webbsidan saknar den information Facebook letar efter när den genererar ett länkkort. Denna information tillhandahålls genom Open Graph-taggar, såsom `og:image`, `og:title` och `og:description`. Dessa taggar talar om för Facebook vilken bild och text som ska visas i förhandsgranskningen.
+Om ingen förhandsgranskning visas när du klistrar in din länk på Facebook betyder det vanligtvis att webbsidan saknar den information Facebook letar efter när den genererar ett länkkort. Denna information tillhandahålls genom Open Graph-taggar, såsom `og:image`, `og:title` och `og:description`. Dessa taggar talar om för Facebook vilken bild och text som ska visas i förhandsgranskningen. För bästa resultat bör `og:image` vara minst 1200 x 630 pixlar med ett bildförhållande på 1.91:1. Bilder under 600 x 315 pixlar kan visas som en liten miniatyrbild istället för det fullstora länkkortet.
+
+Facebook cachar Open Graph-data efter att en URL har delats för första gången. Om du nyligen har uppdaterat dina taggar och förhandsgranskningen fortfarande visar gammal information kan du använda Facebooks [Sharing Debugger](https://developers.facebook.com/tools/debug/) för att tvinga en omhämtning av din URL och uppdatera den cachade förhandsgranskningen.
 
 För mer information om Open Graph-standarden, se [den officiella Open Graph-dokumentationen](https://ogp.me/).
 
