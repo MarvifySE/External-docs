@@ -53,6 +53,7 @@ module.exports = {
       label: "Exempel",
       items: [
         "exempel/webpage-integration",
+        "exempel/shopify",
         "marknadsforing-och-tips/vr-guide",
       ],
     },
