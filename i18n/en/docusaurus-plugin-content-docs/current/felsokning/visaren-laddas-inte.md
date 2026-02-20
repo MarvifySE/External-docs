@@ -28,7 +28,7 @@ Double-check that:
 
 ### 2. **Is Your Subscription Active?**
 Viewers only work if the account has an active subscription.  
-If you're unsure — contact us at [info@marvify.com](mailto:info@marvify.com) and we’ll help you check the status.
+If you're unsure, contact us at [info@marvify.com](mailto:info@marvify.com) and we’ll help you check the status.
 
 ---
 
@@ -53,18 +53,18 @@ Here’s how to do it in **Google Chrome**:
 2. Select **“Inspect”**
 3. Click the **“Console”** tab
 
-If something is wrong — for example, if the link can’t be loaded — it will often show up here as an error message.
+If something is wrong, for example if the link can’t be loaded, it will often show up here as an error message.
 
 **Using a different browser?**  
-These tools are also available in browsers like Firefox, Edge, and Safari — usually under menu options like “Web Developer Tools” or “Inspect Element.”
+These tools are also available in browsers like Firefox, Edge, and Safari, usually under menu options like “Web Developer Tools” or “Inspect Element.”
 
-You don’t need to understand everything shown — but sometimes an error message can offer a clear clue about what needs to be fixed.
+You don’t need to understand everything shown, but sometimes an error message can offer a clear clue about what needs to be fixed.
 
 ---
 
 ## Still Having Trouble?
 
-If you've checked the points above but the viewer still isn’t working, feel free to reach out to us — we’re happy to help:
+If you've checked the points above but the viewer still isn’t working, feel free to reach out to us. We’re happy to help:
 
 **[info@marvify.com](mailto:info@marvify.com)**
 

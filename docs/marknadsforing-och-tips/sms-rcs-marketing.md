@@ -12,26 +12,19 @@ Den här guiden förklarar hur du kan inkludera Marvify 3D i SMS- och RCS-kommun
 
 SMS och RCS kan inte visa inbäddat 3D-innehåll eller skript. Istället får prenumeranter ett kort meddelande som innehåller en länk som öppnar en webbsida där din Marvify-visare redan körs. Meddelandet kan innehålla en kort beskrivning, en förhandsgranskningsbild eller andra ledtrådar som hjälper prenumeranten att förstå vad som väntar dem efter att de trycker på länken.
 
-Om din Marvify-visare ännu inte är konfigurerad på din webbplats kan du hänvisa till den tekniska dokumentationen och exempelguiden.
+Om din Marvify-visare ännu inte är konfigurerad på din webbplats kan du läsa [Marvify Viewer-guiden](../snabbstart/marvify-viewer.md) för teknisk dokumentation eller [webbsida-integrationsguiden](../exempel/webpage-integration.md) för ett praktiskt exempelupplägg.
 
-- [Teknisk dokumentation](https://docs.marvify.io/snabbstart/marvify-viewer/)
-- [Exempelguide](/exempel/webpage-integration)
+## 1. Öppna Rule och skapa ett nytt SMS- eller RCS-meddelande
 
-## 1. Kopiera länken till din Marvify 3D-upplevelse
+Logga in på Rule och öppna Campaigns-sektionen. Skapa en ny kampanj och välj SMS eller RCS. Rule låter dig blanda text med en länk och valfri media beroende på typen av meddelande.
 
-Öppna webbsidan där din Marvify 3D-visare visas. Detta kan vara en produktsida, en landningssida, en kampanjsida eller vilken plats som helst där din modell är inbäddad. Kopiera den fullständiga URL:en från din webbläsare. Denna länk kommer att inkluderas i ditt SMS- eller RCS-meddelande.
+## 2. Lägg till din Marvify-länk i meddelandet
 
-## 2. Öppna Rule och skapa ett nytt SMS- eller RCS-meddelande
+Kopiera den fullständiga URL:en till sidan där din Marvify-visare finns inbäddad. Inkludera sedan länken i slutet av din SMS- eller RCS-text. Många varumärken lägger till en kort beskrivande fras för att hjälpa mottagaren att förstå varför länken är inkluderad. Exempel:
 
-Logga in på Rule och öppna Campaigns-sektionen. Skapa en ny kampanj och välj SMS eller RCS. Skapa ett nytt meddelande och börja skriva din text. Rule låter dig blanda text med en länk och valfri media beroende på typen av meddelande.
-
-### Prenumeranter i Rule
-
-Innan du skickar ditt meddelande väljer du vilka prenumeranter som ska få det. I Rule kan du lägga till prenumeranter genom att importera en CSV-fil, manuellt lägga till enskilda personer eller synkronisera från stödda integrationer. Efter att ha förberett ditt meddelande väljer du en eller flera prenumerantlistor innan du skickar eller schemalägger.
-
-## 3. Lägg till din Marvify-länk i meddelandet
-
-I slutet av din SMS- eller RCS-text inkluderar du länken du kopierade tidigare. Till exempel:
+- Se produkten i full 3D
+- Rotera objektet och utforska detaljer
+- Interaktiv 3D-förhandsgranskning tillgänglig här
 
 <div
   style={{
@@ -72,7 +65,7 @@ I slutet av din SMS- eller RCS-text inkluderar du länken du kopierade tidigare.
   <div style={{ width: '41.5%', textAlign: 'center' }}>
     <img
       src={require('@site/static/img/sms-example.webp').default}
-      alt="Short message with a link to the 3D viewer"
+      alt="Kort meddelande med en länk till 3D-visaren"
       style={{ width: '100%' }}
     />
     <em
@@ -88,16 +81,11 @@ I slutet av din SMS- eller RCS-text inkluderar du länken du kopierade tidigare.
   </div>
 </div>
 
+SMS-meddelanden har begränsat teckenutrymme, så håll texten kort: en hälsning, en mening om produkten och länken är oftast tillräckligt. RCS tillåter längre layouter men kortfattad formulering fungerar generellt bra för båda formaten.
 
-Många varumärken lägger till en kort beskrivande fras för att hjälpa mottagaren att förstå varför länken är inkluderad. Exempel:
+### Valfritt: Lägg till en bild eller RCS rich card
 
-- Se produkten i full 3D
-- Rotera objektet och utforska detaljer
-- Interaktiv 3D-förhandsgranskning tillgänglig här
-
-## 4. Valfritt: Lägg till en bild eller RCS rich card om tillgängligt
-
-RCS och vissa förbättrade SMS-plattformar stöder bilder eller rich cards. Dessa kan användas för att förhandsgranska din produkt. En stillbild eller en lättviktig animerad förhandsgranskning kan hjälpa till att visa att en 3D-upplevelse är tillgänglig efter klicket.
+RCS och vissa förbättrade SMS-plattformar stöder bilder eller rich cards. En stillbild eller en lättviktig animerad förhandsgranskning kan hjälpa till att visa att en 3D-upplevelse är tillgänglig efter klicket.
 
 <p align="center">
   <video
@@ -111,7 +99,6 @@ RCS och vissa förbättrade SMS-plattformar stöder bilder eller rich cards. Des
       src={require('@site/static/img/RCS-example.webm').default}
       type="video/webm"
     />
-    Din webbläsare stöder inte video-taggen.
   </video>
   <em
     style={{
@@ -127,29 +114,21 @@ RCS och vissa förbättrade SMS-plattformar stöder bilder eller rich cards. Des
 
 Om din plattform bara skickar standard-SMS måste meddelandet vara enbart text. Bilder stöds inte i SMS, så alla visuella element bör placeras på webbsidan du länkar till.
 
-## 5. Håll texten kortfattad
+## 3. Innan du skickar
 
-SMS-meddelanden har begränsat utrymme så kortare innehåll kan förbättra tydligheten. Många varumärken använder:
+### Testa meddelandet
 
-- En kort hälsning
-- En mening som beskriver höjdpunkten
-- Länken till 3D-upplevelsen
-
-RCS tillåter längre layouter om det behövs men kortfattad formulering fungerar ofta bra över båda formaten.
-
-## 6. Testa meddelandet innan du skickar
-
-Rule låter dig skicka ett test-SMS eller RCS-meddelande till dig själv. Detta hjälper till att verifiera att:
+Rule låter dig skicka ett test-SMS eller RCS-meddelande till dig själv. Det hjälper dig att verifiera att:
 
 - Länken öppnas korrekt på mobilen
 - Marvify-visaren laddas som förväntat
 - All bifogad media visas korrekt
 
-## 7. Skicka eller schemalägg din SMS- eller RCS-kampanj
+### Skicka eller schemalägg
 
-När allt är klart väljer du dina prenumerantlistor och antingen skickar meddelandet omedelbart eller schemalägger det. Att trycka på länken tar dina mottagare direkt till din 3D-upplevelse där de kan utforska produkten i full detalj.
+När allt är klart väljer du dina prenumerantlistor och antingen skickar meddelandet omedelbart eller schemalägger det. I Rule kan du lägga till prenumeranter genom att importera en CSV-fil, manuellt lägga till enskilda personer eller synkronisera från stödda integrationer.
 
-Detta tillvägagångssätt låter dig ta med interaktiv 3D i mobilmeddelanden utan att kräva några speciella funktioner på mottagarens enhet utöver en standardwebbläsare för mobilen.
+Att trycka på länken tar dina mottagare direkt till din 3D-upplevelse där de kan utforska produkten i full detalj. Det här tillvägagångssättet låter dig ta med interaktiv 3D i mobilmeddelanden utan att kräva några speciella funktioner på mottagarens enhet utöver en standardwebbläsare för mobilen.
 
 ---
 

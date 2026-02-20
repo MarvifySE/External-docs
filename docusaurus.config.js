@@ -85,6 +85,7 @@ const config = {
         logo: {
           alt: 'Marvify Logo',
           src: 'img/logo.webp',
+          href: '/snabbstart/marvify-viewer',
         },
         items: [
           {

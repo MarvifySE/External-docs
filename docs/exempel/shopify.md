@@ -6,7 +6,7 @@ sidebar_label: Shopify-integration
 
 # Hur du lägger till Marvify 3D i en Shopify-butik
 
-Den här guiden visar hur du bäddar in Marvify 3D-visaren i en Shopify-butik. Exemplet använder standardtemat **Horizon** och visar hur du ersätter produktbilden på en produktsida med en interaktiv 3D-modell. Samma tillvägagångssätt kan anpassas till vilket Shopify-tema som helst som använder Liquid-mallar.
+Den här guiden visar hur du bäddar in Marvify 3D-visaren i en Shopify-butik. Den följer samma standardintegration som beskrivs i [Marvify Viewer](../snabbstart/marvify-viewer.md)-dokumentationen, anpassad för att passa arbetsflödet i temat **Horizon**. Alla andra webbhotell som låter dig redigera HTML-koden på din webbplats kan uppnå samma resultat med liknande steg. Exemplet här ersätter produktbilden på en produktsida med en interaktiv 3D-modell. Notera att beroende på vilket Shopify-tema du använder kan vissa steg och filnamn se lite annorlunda ut.
 
 <p align="center">
   <video
@@ -29,6 +29,8 @@ Den här guiden visar hur du bäddar in Marvify 3D-visaren i en Shopify-butik. E
 
 Den här artikeln täcker ett komplett exempel från start till slut. För mer djupgående teknisk dokumentation om visarkomponenten och dess tillgängliga attribut, se [Marvify Viewer](../snabbstart/marvify-viewer.md).
 
+Även om det här exemplet fokuserar på att ersätta en produktbild med 3D-visaren, är det bara ett av otaliga sätt du kan använda den på. Visaren är en vanlig JavaScript-komponent som bäddas in direkt i din HTML, så överallt där din plattform låter dig skriva kod kan du ge dina produkter liv i 3D. Den integration du bygger begränsas bara av vad din värdmiljö tillåter.
+
 ## Innan du börjar
 
 - Du behöver tillgång till en Shopify-butik med behörighet att redigera temakoden.
@@ -37,19 +39,9 @@ Den här artikeln täcker ett komplett exempel från start till slut. För mer d
 
 ---
 
-## 1. Öppna temaredigeraren
+## 1. Öppna kodredigeraren
 
-Gå till **Onlinebutik → Teman** i din Shopify-adminpanel. Klicka på **Anpassa tema** på ditt aktiva tema.
-
-<p align="center">
-  <img src={require('@site/static/img/shopify_1.webp').default} alt="Knappen Anpassa tema i Shopify-adminpanelen" style={{ maxWidth: '600px', display: 'block' }} />
-</p>
-
----
-
-## 2. Öppna kodredigeraren
-
-För att redigera de underliggande mallfilerna, stäng temaredigeraren och återgå till **Onlinebutik → Teman**. Klicka på **trebepunktsmenyn (⋯)** bredvid ditt aktuella tema och välj **Redigera kod**.
+Gå till **Onlinebutik → Teman** i din Shopify-adminpanel. Se till att du är på det tema som för närvarande är publicerat till din aktiva butik. Klicka på **trebepunktsmenyn (⋯)** bredvid det och välj **Redigera kod**.
 
 <p align="center">
   <img src={require('@site/static/img/shopify_2.webp').default} alt="Alternativet Redigera kod i Shopify-temamenyn" style={{ maxWidth: '600px', display: 'block' }} />
@@ -57,11 +49,13 @@ För att redigera de underliggande mallfilerna, stäng temaredigeraren och åter
 
 Detta öppnar Shopifys kodredigerare där du kan bläddra bland och ändra alla Liquid-mallfiler som utgör ditt tema.
 
+> **Tips:** Kodändringar i Shopifys kodredigerare sparas och träder i kraft omedelbart på det tema du redigerar. Om du vill testa dina ändringar innan de påverkar din aktiva butik kan du duplicera temat och arbeta på kopian. Du kan sedan publicera kopian när du har bekräftat att allt fungerar som det ska.
+
 ---
 
-## 3. Lägg till visarskriptet i theme.liquid
+## 2. Lägg till visarskriptet i theme.liquid
 
-I filträdet till vänster, expandera mappen **Layout** och öppna **theme.liquid**. Det här är huvudlayoutfilen som omsluter varje sida i din butik — alla skript som laddas här är tillgängliga på hela webbplatsen.
+I filträdet till vänster, expandera mappen **Layout** och öppna **theme.liquid**. Det här är huvudlayoutfilen som omsluter varje sida i din butik, så alla skript som laddas här är tillgängliga på hela webbplatsen.
 
 <p align="center">
   <img src={require('@site/static/img/shopify_3.webp').default} alt="Filen theme.liquid öppen i Shopifys kodredigerare" style={{ maxWidth: '700px', display: 'block' }} />
@@ -79,7 +73,7 @@ Leta upp den avslutande `</head>`-taggen och lägg till Marvify-skriptet precis 
   <img src={require('@site/static/img/shopify_4.webp').default} alt="Marvify-script-taggen tillagd precis före den avslutande head-taggen i theme.liquid" style={{ maxWidth: '700px', display: 'block' }} />
 </p>
 
-Villkoret här är avsiktligt — det förhindrar att visarens JavaScript laddas på sidor där det inte behövs, vilket håller din butik snabb för besökare som bläddrar på andra sidor.
+Villkoret här är avsiktligt. Det förhindrar att visarens JavaScript laddas på sidor där det inte behövs, vilket håller din butik snabb för besökare som bläddrar på andra sidor.
 
 > **Ladda visaren på alla produktsidor**
 >
@@ -92,22 +86,22 @@ Villkoret här är avsiktligt — det förhindrar att visarens JavaScript laddas
 
 ---
 
-## 4. Infoga visaren i produktmediemallen
+## 3. Infoga visaren i produktmediemallen
 
 Produktbilden i de flesta Shopify-teman renderas av ett kodavsnitt (snippet) snarare än direkt i produktsidans mall. I Horizon-temat är denna fil **snippets/product-media-gallery-content.liquid**. Öppna den från mappen **Snippets** i filträdet.
 
 <p align="center">
-  <img src={require('@site/static/img/shopify_5.webp').default} alt="product-media-gallery-content.liquid öppen och visar var visaren infogas" style={{ maxWidth: '700px', display: 'block' }} />
+  <img src={require('@site/static/img/shopify_5.webp').default} alt="product-media-gallery-content.liquid öppen och visar var visaren infogas" style={{ maxWidth: '875px', display: 'block' }} />
 </p>
 
-Inuti det huvudsakliga `{% else %}`-blocket — den gren som renderas när en produkt finns — lägg till ett villkor före det befintliga `<media-gallery>`-elementet. Detta kontrollerar om den aktuella produkten är den med visaren, och renderar i så fall Marvify-komponenten istället för det vanliga bildgalleriet:
+I filen finns ett avsnitt som styr vad som visas när en produktsida laddas. Hitta den del av koden som visar produktbilderna och lägg till följande block precis före den, inuti en kontroll av produktens handle. Detta talar om för Shopify att visa Marvify 3D-visaren för just den produkten, och falla tillbaka på det vanliga bildgalleriet för alla andra:
 
 ```liquid
 {% if selected_product and selected_product.handle == 'stylish-bag' %}
   <div class="product-media-container product-media-container--model" {{ block_shopify_attributes }}>
     <div class="product-media" style="width: 100%; height: 520px;">
       <marvify-model-viewer
-        model-id="fashion-expo-01"
+        model-id="demo"
         width="100%"
         height="520px"
         bgColor="#ffffff"
@@ -123,13 +117,15 @@ Inuti det huvudsakliga `{% else %}`-blocket — den gren som renderas när en pr
 {% endif %}
 ```
 
-Ersätt `stylish-bag` med handtaget (handle) för din faktiska produkt, och `fashion-expo-01` med ditt eget modell-ID från ditt Marvify-konto. `{% else %}`-grenen behåller den ursprungliga bildgallerikoden så att alla andra produkter fortsätter att visa sina bilder som vanligt.
+Ersätt `stylish-bag` med din produkts handle, och `demo` med ditt eget modell-ID från ditt Marvify-konto. `{% else %}`-delen i slutet behåller det ursprungliga bildgalleriet för alla andra produkter, så ingenting annat i din butik påverkas.
+
+Du bör också justera visarattributen så att modellen visas på det sätt du vill ha den, till exempel kameravinkel, bakgrundsfärg och zoomgränser. Se [Anpassade attribut](../snabbstart/marvify-viewer.md#anpassade-attribut) för en fullständig referens.
 
 ### Visarattribut som används i det här exemplet
 
 | Attribut              | Värde        | Effekt |
 | --------------------- | ------------ | ------ |
-| `model-id`            | `fashion-expo-01` | Identifierar vilken 3D-modell som ska laddas från Marvify. |
+| `model-id`            | `demo` | Identifierar vilken 3D-modell som ska laddas från Marvify. |
 | `width`               | `100%`       | Fyller bredden på produktmediakolumnen. |
 | `height`              | `520px`      | Ställer in visaren på en fast höjd som matchar den omgivande layouten. |
 | `bgColor`             | `#ffffff`    | Använder vit bakgrund för att smälta in i temat. |
@@ -140,7 +136,7 @@ För en fullständig lista över tillgängliga attribut, se [Anpassade attribut]
 
 ---
 
-## 5. Spara och förhandsgranska
+## 4. Spara och förhandsgranska
 
 Spara båda filerna. Navigera till produktsidan i din butik och 3D-visaren ska nu visas i stället för produktbilden. Du kan rotera, zooma och inspektera modellen direkt på sidan.
 
@@ -152,4 +148,4 @@ Om modellen inte laddas, kontrollera att:
 
 ---
 
-Det här exemplet riktar sig mot en enda produkt och ersätter dess bild helt med 3D-visaren. Du kan anpassa samma mönster för att visa visaren bredvid bilder, utlösa den via en knapp, eller tillämpa den på en hel produktkategori — det grundläggande tillvägagångssättet att villkorligt rendera `<marvify-model-viewer>` inuti dina Liquid-mallar förblir detsamma.
+Det här exemplet riktar sig mot en enda produkt och ersätter dess bild helt med 3D-visaren. Du kan anpassa samma mönster för att visa visaren bredvid bilder, utlösa den via en knapp, eller tillämpa den på en hel produktkategori. Det grundläggande tillvägagångssättet att villkorligt rendera `<marvify-model-viewer>` inuti dina Liquid-mallar förblir detsamma.

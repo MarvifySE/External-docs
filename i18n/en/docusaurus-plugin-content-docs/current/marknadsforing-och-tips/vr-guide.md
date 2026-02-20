@@ -10,9 +10,11 @@ This guide explains how to enable and use the VR feature in the Marvify Model Vi
 
 The VR feature is optional and only activates on supported hardware. On regular desktop and mobile browsers, the viewer behaves like a standard interactive 3D experience.
 
+This makes VR especially useful at trade fairs, showrooms, and brand events, where space is limited. With VR, you can showcase your full product range without transporting or displaying every physical item, allowing visitors to explore your collection in a compact and interactive format.
+
 If you have not yet embedded the Marvify viewer on your website, start with the technical documentation and basic setup guide before continuing.
 
-- [Technical documentation](https://docs.marvify.io/en/snabbstart/marvify-viewer/)
+- [Technical documentation](../snabbstart/marvify-viewer.md)
 - [Sample setup guide](/en/exempel/webpage-integration)
 
 <p align="center">
@@ -37,13 +39,9 @@ If you have not yet embedded the Marvify viewer on your website, start with the 
       color: '#666'
     }}
   >
-    VR example
+    A product viewed in immersive VR mode using the Marvify Model Viewer.
   </em>
 </p>
-
-Virtual Reality adds an immersive layer to the Marvify Model Viewer for both website visitors and in person audiences. Instead of viewing products on a screen, VR allows visitors to explore them in a more engaging and memorable way using natural movement and controllers.
-
-This makes VR especially useful at trade fairs, showrooms, and brand events, where space is limited. With VR, you can showcase your full product range without transporting or displaying every physical item, allowing visitors to explore your collection in a compact and interactive format.
 
 ## 1. Enable VR on the viewer
 
@@ -59,8 +57,6 @@ VR support is enabled using the `enable-vr` attribute on the `<marvify-model-vie
 
 If the device does not support VR, the button will not appear and the viewer continues to function normally in 3D.
 
-**Tip:** You can preview and debug the VR experience in a desktop browser using the [Immersive Web Emulator](https://chromewebstore.google.com/detail/cgffilbpcibhmcfbgggfhfolhkfbhmik?utm_source=item-share-cb) Chrome extension. This is useful for development and layout testing when a headset is not immediately available.
-
 ## 2. Entering VR as a user
 
 On a compatible headset, the viewer displays an Enter VR button after the model has loaded. Selecting this button switches the experience from the webpage into immersive VR mode.
@@ -74,30 +70,14 @@ While in VR, users can:
 
 Interaction behavior is handled automatically by the viewer and adapts to the available input methods on supported XR devices.
 
-## 3. Adjusting model distance and height in VR
+## 3. Positioning and zoom
 
 When entering VR, the viewer automatically places the model at a default distance based on the object's size. In many cases this works well without additional configuration.
 
-Depending on the product, some manual adjustment may be needed to achieve a comfortable and well framed starting position.
-
-Marvify provides dedicated VR attributes to control how the model appears when a user enters VR:
+Depending on the product, some manual adjustment may be needed to achieve a comfortable and well framed starting position. Use these attributes to control how the model appears when a user enters VR:
 
 - `vr-user-distance` controls how far the model is placed from the user
 - `vr-user-height` adjusts the vertical offset relative to the user
-
-```html
-<marvify-model-viewer
-  model-id="your-model-id"
-  enable-vr="true"
-  vr-user-distance="1.8"
-  vr-user-height="0.1">
-</marvify-model-viewer>
-```
-
-## 4. Controlling zoom limits in VR
-
-In VR, very close inspection can reduce visual fidelity or feel uncomfortable. You can restrict how close or far users can move using VR specific zoom limits.
-
 - `vr-minZoom` prevents users from getting too close
 - `vr-maxZoom` limits how far users can move away
 
@@ -105,29 +85,30 @@ In VR, very close inspection can reduce visual fidelity or feel uncomfortable. Y
 <marvify-model-viewer
   model-id="your-model-id"
   enable-vr="true"
+  vr-user-distance="1.8"
+  vr-user-height="0.1"
   vr-minZoom="0.6"
   vr-maxZoom="3">
 </marvify-model-viewer>
 ```
 
-These values are relative to the model size and should be tested using a real headset to ensure comfort.
+Zoom values are relative to the model size. Very close inspection can reduce visual fidelity or feel uncomfortable, so setting sensible limits is recommended. All positioning values should be tested on real hardware to confirm comfort.
 
-## 5. Testing VR during development
+## Testing
 
 VR tuning should always be validated using real hardware. Desktop previews and emulators are useful for development, but cannot fully represent comfort and interaction in immersive mode.
 
+**Tip:** You can preview and debug the VR experience in a desktop browser using the [Immersive Web Emulator](https://chromewebstore.google.com/detail/cgffilbpcibhmcfbgggfhfolhkfbhmik?utm_source=item-share-cb) Chrome extension. This is useful for layout testing when a headset is not immediately available.
+
 When testing with your own models in development environments, a Marvify development token is required. Instructions for creating and using dev tokens are available in the technical documentation [Dev token for development](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start).
 
-## 6. Supported devices and limitations
+## Supported devices and limitations
 
-The VR feature relies on WebXR and is only available on supported browsers and hardware. Typical supported setups include:
-
-- Standalone VR headsets with a WebXR compatible browser
-- Desktop browsers with connected VR hardware
+The VR feature relies on WebXR and is only available on supported browsers and hardware. Any device and browser combination with WebXR support should be compatible, including standalone VR headsets and desktop browsers with connected VR hardware.
 
 Enabling VR does not force VR usage. Visitors without compatible devices still receive the standard 3D viewer experience.
 
-## 7. Recommended workflow
+## Recommended workflow
 
 A typical VR setup process looks like this:
 

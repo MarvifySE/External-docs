@@ -6,7 +6,7 @@ sidebar_label: Link in e-mail
 ---
 # Link in Email
 
-You can link to a FOTO-3D© viewer directly in an email or newsletter. It's a simple and effective way to let the recipient open the viewer in a new window — for example, from a newsletter, campaign email, or personal outreach.
+You can link to a FOTO-3D© viewer directly in an email or newsletter. It's a simple and effective way to let the recipient open the viewer in a new window, for example from a newsletter, campaign email, or personal outreach.
 
 ---
 

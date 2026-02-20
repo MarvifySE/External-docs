@@ -61,7 +61,7 @@ Once everything looks correct, publish the post. It will appear in your follower
 
 ## Troubleshooting: Missing preview card
 
-If no preview card appears for your link, it usually means X does not have the information it needs from the webpage to build a card. This information is provided through metadata such as Open Graph tags and X-specific card tags. The most important tag is `twitter:card`, which controls the card type — set it to `summary_large_image` for a large image preview, which works well for visual content like a 3D product viewer. X also reads `og:image`, `og:title` and `og:description` for the card content, and falls back to these if no `twitter:` equivalents are present.
+If no preview card appears for your link, it usually means X does not have the information it needs from the webpage to build a card. This information is provided through metadata such as Open Graph tags and X-specific card tags. The most important tag is `twitter:card`, which controls the card type: set it to `summary_large_image` for a large image preview, which works well for visual content like a 3D product viewer. X also reads `og:image`, `og:title` and `og:description` for the card content, and falls back to these if no `twitter:` equivalents are present.
 
 For more details about the Open Graph standard, see [the official Open Graph documentation](https://ogp.me/).
 

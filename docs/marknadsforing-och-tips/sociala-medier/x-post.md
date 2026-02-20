@@ -63,7 +63,7 @@ När allt ser korrekt ut, publicera inlägget. Det kommer att visas i dina följ
 
 ## Felsökning: Saknat förhandsgranskningskort
 
-Om inget förhandsgranskningskort visas för din länk betyder det vanligtvis att X inte har den information den behöver från webbsidan för att bygga ett kort. Denna information tillhandahålls genom metadata såsom Open Graph-taggar och X-specifika korttaggar. Den viktigaste taggen är `twitter:card`, som styr korttypen — ställ in den på `summary_large_image` för en stor bildförhandsgranskning, vilket fungerar bra för visuellt innehåll som en 3D-produktvisare. X läser även `og:image`, `og:title` och `og:description` för kortinnehållet och faller tillbaka på dessa om inga `twitter:`-motsvarigheter finns.
+Om inget förhandsgranskningskort visas för din länk betyder det vanligtvis att X inte har den information den behöver från webbsidan för att bygga ett kort. Denna information tillhandahålls genom metadata såsom Open Graph-taggar och X-specifika korttaggar. Den viktigaste taggen är `twitter:card`, som styr korttypen: ställ in den på `summary_large_image` för en stor bildförhandsgranskning, vilket fungerar bra för visuellt innehåll som en 3D-produktvisare. X läser även `og:image`, `og:title` och `og:description` för kortinnehållet och faller tillbaka på dessa om inga `twitter:`-motsvarigheter finns.
 
 För mer information om Open Graph-standarden, se [den officiella Open Graph-dokumentationen](https://ogp.me/).
 

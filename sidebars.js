@@ -4,8 +4,8 @@ module.exports = {
       type: "category",
       label: "Snabbstart",
       items: [
-        "snabbstart/vad-ar-marvify-3d",
         "snabbstart/marvify-viewer",
+        "snabbstart/google-analytics",
         "snabbstart/sa-anvander-du-foto3d",
         "snabbstart/var-kan-man-visa-den",
       ],
@@ -54,6 +54,7 @@ module.exports = {
       items: [
         "exempel/webpage-integration",
         "exempel/shopify",
+        "exempel/woocommerce",
         "marknadsforing-och-tips/vr-guide",
       ],
     },

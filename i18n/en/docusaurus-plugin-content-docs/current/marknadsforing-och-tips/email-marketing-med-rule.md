@@ -6,22 +6,15 @@ sidebar_label: Email Marketing
 
 # How to use Marvify 3D in email marketing
 
-This guide explains how you can integrate Marvify Marvify 3D into email marketing regardless of which platform you use. Most email services work similarly when linking out to external experiences.
+This guide explains how to integrate Marvify 3D into email marketing regardless of which platform you use. Most email services work similarly when linking out to external experiences.
 
-**In this guide we use Rule as the example platform**, but the same approach applies to other tools such as Mailchimp, Klaviyo, Drip and similar services.
+**In this guide we use Rule as the example platform**, but the same approach applies to other tools such as Mailchimp, Klaviyo, Drip, and similar services.
 
 Email clients do not support embedded 3D or scripts, so the viewer itself is typically opened on a page on your website. Emails can instead highlight the product visually and link recipients to the full 3D experience in whichever format fits your communication style.
 
-If your Marvify viewer is not yet set up on your website you can refer to the technical documentation and sample setup guide.
+If your Marvify viewer is not yet set up on your website, refer to the [Marvify Viewer guide](../snabbstart/marvify-viewer.md) for technical documentation or the [webpage integration guide](../exempel/webpage-integration.md) for a practical setup example.
 
-- [Technical documentation](https://docs.marvify.io/en/snabbstart/marvify-viewer/)
-- [Sample setup guide](/en/exempel/webpage-integration)
-
-## 1. Copy the link to your Marvify 3D experience
-
-Open the online page where your Marvify viewer is available. This can be a product page, a campaign page or any location where you have embedded the viewer. Copy the full URL from your browser. This URL will be used as the destination link inside your Rule template.
-
-## 2. Open Rule and create or edit an email template
+## 1. Open Rule and create or edit an email template
 
 <p align="center">
   <img
@@ -44,28 +37,20 @@ Log in to Rule and open the campaign editor. You can create a new mailing or upd
 
 Emails cannot display interactive 3D directly, so the content you add in Rule will link recipients to your webpage where the viewer is running.
 
-### Adding recipients in Rule
+## 2. Add an image, GIF, or button linking to your 3D viewer
 
-Before sending your campaign you will choose which recipients should receive it. In Rule you can add recipients by importing a CSV file, manually adding individuals, or syncing from supported integrations. After your template is ready you select one or more lists when scheduling or sending the campaign.
-
-## 3. Add an image, GIF or button that links to your 3D viewer
-
-There are several ways to present the product visually inside an email, for example:
+There are several ways to present the product visually inside an email:
 
 - A still product photo that links to the 3D experience
 - An animated GIF showing the rotation or interaction
 - A clear call to action button
 
-To add a link in Rule:
-
-- Select the block in the email editor
-- Paste your Marvify viewer URL into the link field
-- Choose whether the link should open in a new tab
+To add a link in Rule, first copy the full URL of the page where your Marvify viewer is embedded. Then select a block in the email editor, paste the URL into the link field, and choose whether the link should open in a new tab.
 
 <p align="center">
   <img
     src={require('@site/static/img/rule-linking-interface.webp').default}
-    alt="Change link"
+    alt="Add a link in Rule"
   />
   <em
     style={{
@@ -79,7 +64,9 @@ To add a link in Rule:
   </em>
 </p>
 
-## 4. Using an animated GIF to preview the 3D experience
+### Using an animated GIF
+
+A short rotating GIF generated from your Marvify model is an effective way to signal that a 3D experience awaits after the click. Any animation can be uploaded to Rule as a standard image block and linked to your viewer page.
 
 <p align="center">
   <video
@@ -93,7 +80,6 @@ To add a link in Rule:
       src={require('@site/static/img/email-preview.webm').default}
       type="video/webm"
     />
-    Example of a rotating view of the 3D object
   </video>
   <em
     style={{
@@ -103,17 +89,17 @@ To add a link in Rule:
       color: '#666'
     }}
   >
-    E-mail preview
+    A rotating product preview used as an email GIF
   </em>
 </p>
-
-A small animated element can help indicate that a 3D experience awaits after the click. One option is a short rotating GIF generated from your Marvify model, but other visual cues can also work depending on your design. Any animation can be uploaded to Rule as a standard image block and linked to your viewer page.
 
 :::tip Pro-Tip
 Some versions of desktop Outlook (2007-2016) do not support GIF animations and will only show the **first frame**. Ensure your GIF's first frame looks great as a static image!
 :::
 
-## 5. Add a call to action button if you want extra clarity
+## 3. Before you send
+
+### Optional: Add a call to action button
 
 <p align="center">
   <img
@@ -134,7 +120,7 @@ A call to action button makes the purpose of the link more visible. Common examp
 
 In Rule you can drag a Button block into your layout and paste your Marvify viewer link into the button's URL field.
 
-## 6. Test your email before sending
+### Test your email
 
 Since email clients behave differently it can be useful to send yourself a test email from Rule. This lets you verify that:
 
@@ -142,27 +128,23 @@ Since email clients behave differently it can be useful to send yourself a test 
 - Animated GIFs display as expected
 - The layout scales properly on mobile devices
 
-## 7. Send or schedule your campaign
+### Send or schedule
 
-When your email is ready you can choose your recipient lists and either send the campaign immediately or schedule it for later. Anyone who clicks your images or buttons will be taken to your webpage where they can explore the product in 3D.
+When your email is ready, select your recipient lists and either send the campaign immediately or schedule it for later. In Rule you can add recipients by importing a CSV file, manually adding individuals, or syncing from supported integrations.
 
-This approach lets you introduce interactive 3D into your email marketing without requiring any special email client support.
-
----
-
-*The Rule interface may change over time, but the general workflow of linking to your Marvify experience remains the same. For the most accurate information about Rule updates you can visit: [Rule knowledge base](https://www.rule.se/support).*
+Anyone who clicks your images or buttons will be taken to your webpage where they can explore the product in 3D. This approach lets you introduce interactive 3D into your email marketing without requiring any special email client support.
 
 ---
 
-## Option: Custom HTML Email Development
+## Optional: Custom HTML email
 
-While visual builders are standard, most platforms also support the use of custom-coded HTML. This is an option for brands requiring specific layout control or integration into existing development workflows.
+While visual builders are standard, most platforms also support custom-coded HTML. This is an option for brands requiring specific layout control or integration into existing development workflows.
 
-- **Table-Based Layouts:** To ensure consistent rendering across legacy clients like Outlook, `<table>` structures are used rather than modern `<div>` tags.
+- **Table-based layouts:** To ensure consistent rendering across legacy clients like Outlook, `<table>` structures are used rather than modern `<div>` tags.
 - **Inline CSS:** Styling should be applied directly to HTML tags (inline) to prevent email clients from stripping out header-based stylesheets.
-- **Asset Management:** For custom templates, images and GIFs are typically hosted on your own public server or a hosting service of your choice, and referenced using absolute URLs.
+- **Asset management:** For custom templates, images and GIFs are typically hosted on your own public server or a hosting service of your choice, and referenced using absolute URLs.
 
-### Basic Code Example
+### Basic code example
 
 Below is a simplified structure for a 3D product link using an image and a button:
 
@@ -191,6 +173,10 @@ Below is a simplified structure for a 3D product link using an image and a butto
 </table>
 ```
 
-### Deliverability and Spam Awareness
+### Deliverability and spam awareness
 
-When developing custom campaigns, maintaining a balanced ratio of text to images helps ensure high deliverability. Additionally, verifying your domain's SPF/DKIM records and including a clear unsubscribe link are standard practices to maintain a professional sender reputation. Companies that provide mass-email campaign sending bypass these issues mostly.
+When building custom campaigns, maintaining a balanced ratio of text to images helps ensure high deliverability. Verifying your domain's SPF/DKIM records and including a clear unsubscribe link are standard practices for maintaining a professional sender reputation. When using a visual builder like Rule or Mailchimp, these are typically handled by the platform and mainly apply if you are sending from a custom mail server.
+
+---
+
+*The Rule interface may change over time, but the general workflow of linking to your Marvify experience remains the same. For the most accurate information about Rule updates you can visit: [Rule knowledge base](https://www.rule.se/support).*

@@ -126,7 +126,7 @@ function openFoto3D() {
 
 ***
 
-#### "We’re printing menus — can we use FOTO-3D<sup>©</sup>?"
+#### "We’re printing menus: can we use FOTO-3D<sup>©</sup>?"
 
 **Solution – generate a QR code with your viewer link:**  
 Example QR code generator: [link]
@@ -161,7 +161,7 @@ _Scan to view our product in 3D_
 <sub>*P.S. The following platforms are managed by third parties, and their implementation details may differ from what is outlined in our current documentation. We recommend consulting the official documentation provided by the respective third-party vendors before making any changes.*</sub>
 
 Here we show how you can use your unique Marvify link on social media to promote your products.  
-You’ll get practical examples of how to share the link in regular posts, stories, and ads — whether it's through your own account, an influencer, or a brand ambassador.
+You’ll get practical examples of how to share the link in regular posts, stories, and ads, whether it's through your own account, an influencer, or a brand ambassador.
 
 ***
 
@@ -175,7 +175,7 @@ You can place the viewer link in the profile bio, then create a regular feed pos
 This works whether the post comes from your own account, an influencer, or a brand ambassador.
 
 
-> I totally fell in love with these cookies from @SweetCrave — and you can actually see the whole package in 3D.  
+> I totally fell in love with these cookies from @SweetCrave, and you can actually see the whole package in 3D.  
 > Click the link in my bio!
 
 
@@ -198,7 +198,7 @@ These ads can target specific audiences and include clickable links.
 Example:
 
 Text:  
-Spin our new snack bag in 3D — zoom, rotate, and explore before you order.  
+Spin our new snack bag in 3D, zoom, rotate, and explore before you order.  
 Link: `https://v.marvify.io/?m=MODEL-ID`
 CTA button: _Learn more_
 
@@ -212,7 +212,7 @@ CTA button: _Learn more_
 
 You (or someone you’re collaborating with) can create a personal feed post with a caption and a direct link to the 3D viewer.
 
-> I tried these new peanut snacks from @CrispyCrunch — insanely good!  
+> I tried these new peanut snacks from @CrispyCrunch, insanely good!  
 > You can even spin the bag around in 3D.  
 >
 > `https://v.marvify.io/?m=MODEL-ID`
@@ -228,7 +228,7 @@ You can publish the link in a regular post from your business page, or create a 
 Example:
 
 Text:  
-Give something special — spin our exclusive chocolate box in 3D.  
+Give something special, spin our exclusive chocolate box in 3D.  
 Link: `https://v.marvify.io/?m=MODEL-ID`<br />
 CTA button: _View in 3D_
 
@@ -256,7 +256,7 @@ This also works if an influencer or ambassador shares it on your behalf.
 
 You can create a sponsored tweet from your business account that targets a selected audience.
 
-> Discover our limited edition nut mix — see the full package in 3D before you order.  
+> Discover our limited edition nut mix, see the full package in 3D before you order.  
 >
 > `https://v.marvify.io/?m=MODEL-ID`
 
@@ -271,7 +271,7 @@ You can create a sponsored tweet from your business account that targets a selec
 You or someone you’re collaborating with (e.g., an industry expert, influencer, or employee) can post a personal update with a comment and link.
 
 > Amazing how much a 3D viewer can elevate the customer experience.  
-> Here’s an example of a product I personally like — a luxurious chocolate box in 3D.  
+> Here’s an example of a product I personally like, a luxurious chocolate box in 3D.  
 >
 > `https://v.marvify.io/?m=MODEL-ID`
 
@@ -284,7 +284,7 @@ You or someone you’re collaborating with (e.g., an industry expert, influencer
 You can use your company page to publish an organic post or a sponsored ad targeted at consumers or resellers.
 
 > Want to showcase your products in a new way?  
-> Here’s how our organic snack bag looks — in 3D, right in the browser.  
+> Here’s how our organic snack bag looks in 3D, right in the browser.  
 >
 > `https://v.marvify.io/?m=MODEL-ID`
 
