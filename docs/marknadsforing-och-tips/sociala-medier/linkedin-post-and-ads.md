@@ -138,7 +138,7 @@ Campaign Manager kan hämta Open Graph-data från din destinations-URL när du s
 
 LinkedIn cachelagrar Open Graph-data i cirka sju dagar. Om du nyligen har uppdaterat dina taggar kan du använda LinkedIns [Post Inspector](https://www.linkedin.com/post-inspector/) för att tvinga fram en uppdatering innan du skapar din annons.
 
-För mer information om Open Graph-taggar, se: [Open Graph documentation](https://ogp.me/).
+För mer information om Open Graph-taggar, se den [officiella Open Graph-dokumentationen](https://ogp.me/).
 
 ---
 
