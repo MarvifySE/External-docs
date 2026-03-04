@@ -10,8 +10,8 @@ Börja med att öppna sidan på din webbplats där din 3D-upplevelse finns och k
 
 Om du ännu inte har din Marvify-visare konfigurerad på din webbplats kan du hänvisa till vår tekniska dokumentation och exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för delning.
 
-- [Teknisk dokumentation](https://docs.marvify.io/snabbstart/marvify-viewer/)
-- [Exempelguide](/exempel/webpage-integration)
+- [Teknisk dokumentation](../../snabbstart/marvify-viewer.md)
+- [Exempelguide](../../exempel/webpage-integration.md)
 
 Gå därefter till Facebook och växla till profilen eller sidan du vill publicera från. Om du arbetar med en varumärkessida, se till att du visar den sidan så att inlägget publiceras på rätt plats. Rutan för att skapa inlägg väntar högst upp i ditt flöde.
 

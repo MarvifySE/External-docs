@@ -1,7 +1,7 @@
 ---
 id: kontakta-support
-title: kontakta support
-sidebar_label: kontakta support
+title: Kontakta support
+sidebar_label: Kontakta support
 ---
 # Kontakta support
 

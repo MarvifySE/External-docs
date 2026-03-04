@@ -10,16 +10,15 @@ Börja med att öppna sidan på din webbplats där din Marvify 3D-upplevelse fin
 
 Om du ännu inte har installerat din Marvify-visare på din webbplats kan du ta del av vår tekniska dokumentation och vår exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för delning.
 
-- [Teknisk dokumentation](https://docs.marvify.io/snabbstart/marvify-viewer/)
-- [Exempel guide](/exempel/webpage-integration)
+- [Teknisk dokumentation](../../snabbstart/marvify-viewer.md)
+- [Exempelguide](../../exempel/webpage-integration.md)
 
 Gå till [linkedin.com](https://www.linkedin.com/) och logga in på det konto du vill publicera från. Om du publicerar från en personlig profil klickar du på "Starta ett inlägg" högst upp i ditt flöde på startsidan. Om du administrerar en företagssida går du till sidans administratörsvy, väljer "Sidinlägg" i menyn till vänster och klickar sedan på "Starta ett inlägg" därifrån så att inlägget publiceras som sidan.
 
-{/*
 <p align="center">
   <img
-    src={require('@site/static/img/linkedin-post-compose.webp').default}
-    alt="LinkedIn post composer"
+    src={require('@site/static/img/linkedin_start_a_post.webp').default}
+    alt="Starta ett inlägg på LinkedIn"
   />
   <em
     style={{
@@ -29,10 +28,9 @@ Gå till [linkedin.com](https://www.linkedin.com/) och logga in på det konto du
       color: '#666'
     }}
   >
-    LinkedIn post composer
+    Rutan "Starta ett inlägg" högst upp i ditt LinkedIn-flöde.
   </em>
 </p>
-*/}
 
 Klicka eller tryck i inläggsfältet och klistra in länken du kopierade tidigare. LinkedIn tar en kort stund på sig att bearbeta webbadressen och skapar ett förhandskort med miniatyrbild, titel och en kort beskrivning som hämtas från din webbplats.
 
@@ -42,11 +40,10 @@ Observera att organiska inlägg på LinkedIn för närvarande visar länkförhan
 
 Sponsrat innehåll behåller däremot formatet med en större bild.
 
-{/*
 <p align="center">
   <img
-    src={require('@site/static/img/linkedin-post-preview.webp').default}
-    alt="LinkedIn link preview card"
+    src={require('@site/static/img/linkedin_post_composer.webp').default}
+    alt="LinkedIn-inläggsverktyg med länkförhandsvisning"
   />
   <em
     style={{
@@ -56,10 +53,9 @@ Sponsrat innehåll behåller däremot formatet med en större bild.
       color: '#666'
     }}
   >
-    LinkedIn link preview card
+    Ett ifyllt inlägg med text och automatisk förhandsvisning av länken.
   </em>
 </p>
-*/}
 
 
 Nu kan du lägga till kompletterande text, bilder eller dokument som är relevanta för ditt inlägg. Dessa inslag är valfria och LinkedIn låter dig publicera länkförhandsvisningen både med och utan dem.
@@ -72,6 +68,23 @@ LinkedIns algoritm kan minska den organiska räckvidden för inlägg som innehå
 
 När allt ser korrekt ut publicerar du inlägget. Länkförhandsvisningen visas då i flödet för din målgrupp, och genom att klicka eller trycka på den kommer de direkt till 3D-upplevelsen på din webbplats.
 
+<p align="center">
+  <img
+    src={require('@site/static/img/linkedin_result.webp').default}
+    alt="Publicerat LinkedIn-inlägg med Marvify 3D-länk"
+  />
+  <em
+    style={{
+      display: 'block',
+      marginTop: '0.5rem',
+      fontSize: '0.9rem',
+      color: '#666'
+    }}
+  >
+    Det färdiga inlägget i LinkedIn-flödet med länkförhandsvisning.
+  </em>
+</p>
+
 ## Felsökning: Saknad länkförhandsvisning
 
 Om inget förhandskort visas när du klistrar in din länk på LinkedIn beror det oftast på att webbsidan saknar den information som LinkedIn behöver för att skapa kortet. Denna information tillhandahålls via så kallade Open Graph-taggar, som og:image, og:title och og:description. Dessa taggar talar om för LinkedIn vilken bild och vilken text som ska visas tillsammans med länken.
@@ -80,7 +93,7 @@ För bästa resultat bör og:image vara minst 1200 x 627 pixlar, ha ett bildför
 
 LinkedIn cachelagrar Open Graph-data i cirka sju dagar. Om du nyligen har uppdaterat dina taggar och förhandsvisningen fortfarande visar gammal information kan du tvinga fram en uppdatering med hjälp av LinkedIns [Post Inspector](https://www.linkedin.com/post-inspector/). Klistra in din URL i verktyget så hämtar LinkedIn sidan på nytt och visar den uppdaterade förhandsvisningen.
 
-För mer information om Open Graph-standarden kan du läsa den officiella dokumentationen på [the official Open Graph documentation](https://ogp.me/).
+För mer information om Open Graph-standarden kan du läsa den [officiella Open Graph-dokumentationen](https://ogp.me/).
 
 ---
 
@@ -96,80 +109,22 @@ Börja med att öppna sidan på din webbplats där din Marvify 3D-upplevelse fin
 
 Om du ännu inte har installerat din Marvify-visare på din webbplats kan du ta del av vår tekniska dokumentation och vår exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för användning i annonser.
 
-- [Teknisk dokumentation](https://docs.marvify.io/snabbstart/marvify-viewer/)
-- [Exempel guide](/exempel/webpage-integration)
+- [Teknisk dokumentation](../../snabbstart/marvify-viewer.md)
+- [Exempelguide](../../exempel/webpage-integration.md)
 
 För att skapa en annons går du till [LinkedIn Campaign Manager](https://www.linkedin.com/campaignmanager/) och loggar in på det konto som är kopplat till den företagssida du vill annonsera från. När du är inne väljer du alternativet för att skapa en ny kampanj.
 
 Välj ett kampanjmål som leder besökare till din webbplats, till exempel "Webbplatsbesök" eller "Webbplatskonverteringar". Detta säkerställer att annonsformatet stöder en klickbar länk som leder direkt till din Marvify 3D-visarsida.
 
-{/*
-<p align="center">
-  <img
-    src={require('@site/static/img/linkedin-ads-objective.webp').default}
-    alt="Selecting a campaign objective in LinkedIn Campaign Manager"
-  />
-  <em
-    style={{
-      display: 'block',
-      marginTop: '0.5rem',
-      fontSize: '0.9rem',
-      color: '#666'
-    }}
-  >
-    Selecting a campaign objective in LinkedIn Campaign Manager
-  </em>
-</p>
-*/}
-
-
 Fortsätt till kampanjinställningarna där du definierar din målgrupp, budget, tidsplan och annonsplaceringar. LinkedIn Campaign Manager gör det möjligt att rikta annonser baserat på exempelvis jobbtitel, arbetsfunktion, bransch, företagsstorlek och andra professionella attribut, vilket är särskilt användbart om du vill nå beslutsfattare eller specifika marknadssegment.
 
 Minsta tillåtna målgruppsstorlek är 300 medlemmar. När dessa inställningar är konfigurerade kan du gå vidare till att skapa själva annonsen.
-
-{/*
-<p align="center">
-  <img
-    src={require('@site/static/img/linkedin-ads-audience.webp').default}
-    alt="Audience and budget settings in LinkedIn Campaign Manager"
-  />
-  <em
-    style={{
-      display: 'block',
-      marginTop: '0.5rem',
-      fontSize: '0.9rem',
-      color: '#666'
-    }}
-  >
-    Audience and budget settings in LinkedIn Campaign Manager
-  </em>
-</p>
-*/}
 
 I annonsvyn väljer du det annonsformat du vill använda, till exempel en bildannons eller en karusellannons. I fältet för destinations-URL klistrar du in länken till din Marvify 3D-upplevelse som du kopierade tidigare. Det är denna URL som används när någon klickar på annonsen.
 
 Därefter lägger du till din annonstext: inledningstext, rubrik, beskrivning och en uppmaning till handling. Dessa fält styr hur annonsen visas i flödet och hur länken presenteras. Håll inledningstexten under 150 tecken och rubriken under 70 tecken för att undvika att texten kapas på mindre skärmar.
 
 Förhandsgranskningspanelen till höger i Campaign Manager visar hur annonsen kommer att se ut i desktop- och mobilflöden medan du gör ändringar. Observera att förhandsvisningen är en representation och att LinkedIn kan justera vissa visuella detaljer något när annonsen publiceras.
-
-{/*
-<p align="center">
-  <img
-    src={require('@site/static/img/linkedin-ads-preview.webp').default}
-    alt="Ad preview in LinkedIn Campaign Manager"
-  />
-  <em
-    style={{
-      display: 'block',
-      marginTop: '0.5rem',
-      fontSize: '0.9rem',
-      color: '#666'
-    }}
-  >
-    Ad preview in LinkedIn Campaign Manager
-  </em>
-</p>
-*/}
 
 När du är nöjd med dina inställningar och förhandsgranskningen av annonsen startar du kampanjen. LinkedIn granskar annonsmaterial innan det visas, vilket vanligtvis tar upp till 24 timmar.
 

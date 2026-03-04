@@ -10,8 +10,8 @@ Börja med att öppna sidan på din webbplats där din Marvify 3D upplevelse fin
 
 Om du ännu inte har satt upp din Marvify viewer på din webbplats kan du använda vår tekniska dokumentation och exempelguide. Dessa resurser hjälper dig att förbereda din 3D-upplevelse för användning i annonser.
 
-- [Teknisk dokumentation](https://docs.marvify.io/snabbstart/marvify-viewer/)
-- [Exempelguide](/exempel/webpage-integration)
+- [Teknisk dokumentation](../../snabbstart/marvify-viewer.md)
+- [Exempelguide](../../exempel/webpage-integration.md)
 
 För att skapa annonsen går du till [Meta Ads Manager](https://www.facebook.com/business/tools/ads-manager) och väljer att skapa en ny kampanj. Välj ett mål som skickar personer till din webbplats, till exempel trafik eller försäljning. Det säkerställer att annonsformatet stöder en klickbar länk som leder direkt till din 3D viewer sida.
 

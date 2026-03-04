@@ -10,10 +10,10 @@ Börja med att öppna sidan på din webbplats där din Marvify 3D-visare finns t
 
 Om din Marvify-visare ännu inte är konfigurerad på din webbplats kan du hänvisa till den tekniska dokumentationen och exempelguiden. Dessa resurser beskriver hur du förbereder en 3D-upplevelse som kan nås från externa plattformar.
 
-- [Teknisk dokumentation](https://docs.marvify.io/snabbstart/marvify-viewer/)
-- [Exempelguide](/exempel/webpage-integration)
+- [Teknisk dokumentation](../../snabbstart/marvify-viewer.md)
+- [Exempelguide](../../exempel/webpage-integration.md)
 
-Förbered sedan det media du vill publicera på Instagram. Detta kan vara en statisk bild en kort videoinspelning eller en annan visuell representation av 3D-innehållet sparat som en bild- eller videofil på din enhet.
+Förbered sedan det media du vill publicera på Instagram. Detta kan vara en statisk bild, en kort videoinspelning eller en annan visuell representation av 3D-innehållet sparat som en bild- eller videofil på din enhet.
 
 Eftersom Instagram-flödesinlägg inte stöder klickbara länkar i bildtexten är det vanligaste sättet att dirigera personer till din 3D-upplevelse att placera URL:en i din profil. För att göra detta, öppna Instagram, gå till din profil, välj Redigera profil, tryck sedan på sektionen **Länkar** och välj **Lägg till extern länk** för att klistra in din Marvify 3D-URL. Instagram stöder upp till fem externa länkar i din profil, så du kan lägga till Marvify-länken tillsammans med andra länkar du redan har.
 
