@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "start:clean": "SET NODE_ENV=production&& docusaurus start",
+    "start:clean": "cross-env SIMULATE_PRODUCTION_VISIBILITY=true docusaurus start",
     "start:prod": "docusaurus build && docusaurus serve",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^3.9.2",
-    "@docusaurus/types": "^3.9.2"
+    "@docusaurus/types": "^3.9.2",
+    "cross-env": "^10.1.0"
   },
   "browserslist": {
     "production": [

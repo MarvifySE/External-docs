@@ -8,10 +8,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-// Check if we should exclude drafts (default: false in dev, true in prod)
-const isDev = process.env.NODE_ENV === 'development';
-const excludeDraftsInDev = process.env.EXCLUDE_DRAFTS === 'true';
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Marvify Docs',
