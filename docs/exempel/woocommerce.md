@@ -39,7 +39,7 @@ Den här artikeln täcker ett komplett exempel från start till slut. För mer d
 - Du behöver ett aktivt **underordnat tema** (child theme) av Storefront skapat och aktiverat. Om du redigerar ett överordnat tema direkt kommer dina ändringar att gå förlorade nästa gång temat uppdateras. Om du inte har satt upp ett sådant ännu kan du läsa [WordPress dokumentation om child themes](https://developer.wordpress.org/themes/advanced-topics/child-themes/) innan du fortsätter.
 - Du behöver tillgång till att redigera ditt child themes filer. Det kan göras via **Utseende → Temaredigerare** i WordPress-adminpanelen, eller via FTP eller en filhanterare hos din hostingleverantör.
 - Du behöver en Marvify-modell som har etablerats för ditt konto. Om du vill testa upplägget först kan du använda `model-id="demo"` på en sida som körs från `localhost`.
-- Om du testar med dina egna etablerade modeller utanför produktion, lägg till en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) på din script-tagg. Kom ihåg att ta bort den innan du går live.
+- Om du testar med dina egna etablerade modeller utanför produktion, lägg till en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling) på din script-tagg. Kom ihåg att ta bort den innan du går live.
 
 <p align="center">
   <img src={require('@site/static/img/woo3-child.webp').default} alt="Utseende → Teman som visar Storefront Child som aktivt tema" style={{ maxWidth: '700px', display: 'block' }} />
@@ -165,7 +165,7 @@ Om modellen inte laddas, kontrollera att:
 - Produkt-slugen i funktionen stämmer exakt med din produkts permalänk-slug.
 - Värdet för `model-id` matchar identifieraren som tilldelats din modell i Marvify.
 - Ditt child theme är det aktiva temat under **Utseende → Teman**.
-- Du använder en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) om du testar med en etablerad modell utanför dess registrerade produktionsdomän.
+- Du använder en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling) om du testar med en etablerad modell utanför dess registrerade produktionsdomän.
 
 ---
 

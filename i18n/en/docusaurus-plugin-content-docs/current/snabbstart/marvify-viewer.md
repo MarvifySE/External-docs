@@ -98,10 +98,7 @@ Width and height may be provided as attributes or via regular CSS. At least one 
 
 ---
 
-<a id="dev-token-for-development"></a>
-<a id="dev-token-for-utveckling-start"></a>
-
-## Development token
+## Development token {#dev-token-for-development}
 
 When working with your own provisioned models outside of production, for example to position, tune, and configure models before going live, you must use a Marvify **development token**.
 
@@ -125,9 +122,7 @@ Without a dev token, your provisioned models will not load in development enviro
 
 ---
 
-<a id="custom-attributes"></a>
-
-## Custom attributes
+## Custom attributes {#custom-attributes}
 
 | Attribute                        | Type or range        | Default   | Description |
 | -------------------------------- | -------------------- | --------- | ----------- |

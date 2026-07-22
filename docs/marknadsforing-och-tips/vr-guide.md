@@ -100,7 +100,7 @@ VR-justering bör alltid valideras med riktig hårdvara. Skrivbordsförhandsvisn
 
 **Tips:** Du kan förhandsgranska och felsöka VR-upplevelsen i en skrivbordswebbläsare med hjälp av Chrome-tillägget [Immersive Web Emulator](https://chromewebstore.google.com/detail/cgffilbpcibhmcfbgggfhfolhkfbhmik?utm_source=item-share-cb). Detta är användbart för layouttestning när ett headset inte är omedelbart tillgängligt.
 
-När du testar med dina egna modeller i utvecklingsmiljöer krävs en Marvify-utvecklingstoken. Instruktioner för att skapa och använda dev-tokens finns i den tekniska dokumentationen [Dev token för utveckling](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start).
+När du testar med dina egna modeller i utvecklingsmiljöer krävs en Marvify-utvecklingstoken. Instruktioner för att skapa och använda dev-tokens finns i den tekniska dokumentationen [Dev token för utveckling](../snabbstart/marvify-viewer.md#dev-token-for-utveckling).
 
 ## Enheter och begränsningar
 

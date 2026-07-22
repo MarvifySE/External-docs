@@ -100,7 +100,7 @@ VR tuning should always be validated using real hardware. Desktop previews and e
 
 **Tip:** You can preview and debug the VR experience in a desktop browser using the [Immersive Web Emulator](https://chromewebstore.google.com/detail/cgffilbpcibhmcfbgggfhfolhkfbhmik?utm_source=item-share-cb) Chrome extension. This is useful for layout testing when a headset is not immediately available.
 
-When testing with your own models in development environments, a Marvify development token is required. Instructions for creating and using dev tokens are available in the technical documentation [Dev token for development](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start).
+When testing with your own models in development environments, a Marvify development token is required. Instructions for creating and using dev tokens are available in the technical documentation [Dev token for development](../snabbstart/marvify-viewer.md#dev-token-for-development).
 
 ## Supported devices and limitations
 

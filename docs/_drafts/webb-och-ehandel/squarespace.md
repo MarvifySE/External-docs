@@ -44,7 +44,7 @@ Den här artikeln täcker ett komplett exempel från start till slut. För mer d
 - Du behöver en Squarespace-sajt med behörighet att redigera sidor och sajtinställningar.
 - **Code Injection kräver en Business-plan eller högre.** Har du en lägre plan kan du fortfarande använda ett Code Block (steg 2), men då behöver skriptet läggas in i själva Code Block-koden i stället (se noteringen i steg 1).
 - Du behöver en Marvify-modell som har etablerats för ditt konto. Om du vill testa upplägget först kan du använda `model-id="demo"` på en sida som körs från `localhost`.
-- Om du testar med dina egna etablerade modeller utanför produktion, lägg till en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) på din script-tagg. Kom ihåg att ta bort den innan du går live.
+- Om du testar med dina egna etablerade modeller utanför produktion, lägg till en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling) på din script-tagg. Kom ihåg att ta bort den innan du går live.
 
 ---
 
@@ -146,7 +146,7 @@ Om modellen inte laddas, kontrollera att:
 - Script-taggen är korrekt inklistrad i **Header**-rutan under Code Injection (eller ovanför visarelementet i Code Blocket om du använder en lägre plan).
 - Värdet för `model-id` matchar identifieraren som tilldelats din modell i Marvify.
 - Alternativet **Display Source** i Code Blocket är avmarkerat.
-- Du använder en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) om du testar med en etablerad modell utanför dess registrerade produktionsdomän.
+- Du använder en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling) om du testar med en etablerad modell utanför dess registrerade produktionsdomän.
 
 ---
 

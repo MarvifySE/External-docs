@@ -35,7 +35,7 @@ While this example focuses on replacing a product image with the 3D viewer, that
 
 - You need access to a Shopify store with permission to edit theme code.
 - You need a Marvify model that has been provisioned for your account. If you want to test the setup first, you can use `model-id="demo"` on a page served from `localhost`.
-- If you are testing with your own provisioned models outside of production, add a [development token](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) to your script tag. Remember to remove it before going live.
+- If you are testing with your own provisioned models outside of production, add a [development token](../snabbstart/marvify-viewer.md#dev-token-for-development) to your script tag. Remember to remove it before going live.
 
 ---
 
@@ -144,7 +144,7 @@ If the model does not load, double-check that:
 - The product handle in the Liquid conditions matches exactly.
 - The `model-id` value matches the identifier assigned to your model in Marvify.
 - The script tag in `theme.liquid` is being loaded on the correct page type.
-- You are using a [development token](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) if testing with a provisioned model outside of its registered production domain.
+- You are using a [development token](../snabbstart/marvify-viewer.md#dev-token-for-development) if testing with a provisioned model outside of its registered production domain.
 
 ---
 

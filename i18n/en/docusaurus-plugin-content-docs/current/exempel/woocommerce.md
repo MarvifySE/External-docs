@@ -39,7 +39,7 @@ While this example focuses on replacing a product image with the 3D viewer, that
 - You need a **child theme** of Storefront created and active. Editing a parent theme directly means your changes will be lost the next time the theme updates. If you have not set one up yet, refer to the [WordPress child theme documentation](https://developer.wordpress.org/themes/advanced-topics/child-themes/) before continuing.
 - You need access to edit your child theme's files. This can be done through **Appearance → Theme File Editor** in the WordPress admin, or via FTP or a file manager through your hosting provider.
 - You need a Marvify model provisioned for your account. If you want to test the setup first, you can use `model-id="demo"` on a page served from `localhost`.
-- If you are testing with your own provisioned models outside of production, add a [development token](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) to your script tag. Remember to remove it before going live.
+- If you are testing with your own provisioned models outside of production, add a [development token](../snabbstart/marvify-viewer.md#dev-token-for-development) to your script tag. Remember to remove it before going live.
 
 <p align="center">
   <img src={require('@site/static/img/woo3-child.webp').default} alt="Appearance → Themes showing Storefront Child as the active theme" style={{ maxWidth: '700px', display: 'block' }} />
@@ -165,7 +165,7 @@ If the model does not load, double-check that:
 - The product slug in the function matches your product's permalink slug exactly.
 - The `model-id` value matches the identifier assigned to your model in Marvify.
 - Your child theme is the active theme in **Appearance → Themes**.
-- You are using a [development token](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) if testing with a provisioned model outside of its registered production domain.
+- You are using a [development token](../snabbstart/marvify-viewer.md#dev-token-for-development) if testing with a provisioned model outside of its registered production domain.
 
 ---
 

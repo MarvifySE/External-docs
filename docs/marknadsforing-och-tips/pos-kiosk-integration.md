@@ -156,7 +156,7 @@ Så snart ett modell-ID läggs till visar produktrutan automatiskt 3D-visarknapp
 
 ## 3. Valfritt: Developer token
 
-För testning med dina egna provisionerade modeller utanför produktion kan du ange en **Marvify Developer Token** under *Inställningar → Allmänna inställningar → Marvify-integrationsinställningar*. Se [Dev token för utveckling](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) för mer information om vad token gör och hur du skaffar en.
+För testning med dina egna provisionerade modeller utanför produktion kan du ange en **Marvify Developer Token** under *Inställningar → Allmänna inställningar → Marvify-integrationsinställningar*. Se [Dev token för utveckling](../snabbstart/marvify-viewer.md#dev-token-for-utveckling) för mer information om vad token gör och hur du skaffar en.
 
 ## Integrera Marvify 3D med andra kassasystem
 

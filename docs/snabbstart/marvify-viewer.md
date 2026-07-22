@@ -98,9 +98,7 @@ Bredd och höjd kan anges via attribut eller vanlig CSS. Minst en dimension mås
 
 ---
 
-<a id="dev-token-for-utveckling-start"></a>
-
-## Dev token för utveckling
+## Dev token för utveckling {#dev-token-for-utveckling}
 
 När du arbetar med dina egna provisionerade modeller utanför produktion, till exempel för att positionera, finjustera och konfigurera modeller innan publicering, måste du använda en Marvify **dev token**.
 
@@ -124,9 +122,7 @@ Utan en dev token laddas inte dina provisionerade modeller i utvecklingsmiljöer
 
 ---
 
-<a id="anpassade-attribut"></a>
-
-## Anpassade attribut
+## Anpassade attribut {#anpassade-attribut}
 
 | Attribut | Typ eller omfång | Standard | Beskrivning |
 | -------- | ---------------- | -------- | ----------- |

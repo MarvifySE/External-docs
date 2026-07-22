@@ -39,7 +39,7 @@ Lägg till Marvify-visarskriptet en gång i `<head>` på din sida. Det gör det 
 <script src="https://js.marvify.io/marvify.js" type="module"></script>
 ```
 
-Om du arbetar med dina egna provisionerade modeller utanför produktion behöver du också en dev token. Se [Dev token för utveckling](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) för mer information.
+Om du arbetar med dina egna provisionerade modeller utanför produktion behöver du också en dev token. Se [Dev token för utveckling](../snabbstart/marvify-viewer.md#dev-token-for-utveckling) för mer information.
 
 ## 2. Placera visaren
 

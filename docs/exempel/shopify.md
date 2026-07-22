@@ -35,7 +35,7 @@ Den här artikeln täcker ett komplett exempel från start till slut. För mer d
 
 - Du behöver tillgång till en Shopify-butik med behörighet att redigera temakoden.
 - Du behöver en Marvify-modell som har etablerats för ditt konto. Om du vill testa upplägget först kan du använda `model-id="demo"` på en sida som körs från `localhost`.
-- Om du testar med dina egna etablerade modeller utanför produktion, lägg till en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) på din script-tagg. Kom ihåg att ta bort den innan du går live.
+- Om du testar med dina egna etablerade modeller utanför produktion, lägg till en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling) på din script-tagg. Kom ihåg att ta bort den innan du går live.
 
 ---
 
@@ -144,7 +144,7 @@ Om modellen inte laddas, kontrollera att:
 - Produkthandtaget i Liquid-villkoren stämmer exakt.
 - Värdet för `model-id` matchar identifieraren som tilldelats din modell i Marvify.
 - Script-taggen i `theme.liquid` laddas på rätt sidtyp.
-- Du använder en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling-start) om du testar med en etablerad modell utanför dess registrerade produktionsdomän.
+- Du använder en [utvecklingstoken](../snabbstart/marvify-viewer.md#dev-token-for-utveckling) om du testar med en etablerad modell utanför dess registrerade produktionsdomän.
 
 ---
 
