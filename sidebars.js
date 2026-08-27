@@ -10,6 +10,17 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Redigeraren",
+      items: [
+        "redigeraren/oversikt",
+        "redigeraren/setup",
+        "redigeraren/video",
+        "redigeraren/foto",
+        "redigeraren/bygg",
+      ],
+    },
+    {
+      type: "category",
       label: "Exempel",
       items: [
         "exempel/webpage-integration",
