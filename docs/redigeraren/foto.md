@@ -1,110 +1,110 @@
 ---
 id: foto
-title: Photos
-sidebar_label: Photos
+title: Foton
+sidebar_label: Foton
 ---
 import DocVideo from '@site/src/components/DocVideo';
 import DocImage from '@site/src/components/DocImage';
 
-# Photos
+# Foton
 
-*A guided flow that takes photos of your 3D model, framed and sized for your website and social media.*
+*Ett guidat flöde som tar foton av din 3D-modell, formaterade och storleksanpassade för din webbplats och sociala medier.*
 
-When you choose to create media from a model in the dashboard, the editor opens with one question, then walks you through two short steps. The result is an image file in your downloads folder: a JPG ready to post, or a PNG for a product page, with or without a background.
-
----
-
-## Before you start {#before-you-start}
-
-- **Nothing here changes your model.** This flow produces files. Your saved model settings, including everything from [guided setup](./setup.md), are untouched.
-- **Files stay on your computer.** Photos are captured in your browser and saved straight to your downloads folder. Nothing is uploaded or stored on Marvify's side.
+När du väljer att skapa media från en modell i kontrollpanelen öppnas redigeraren med en fråga, och tar dig sedan genom två korta steg. Resultatet är en bildfil i din nedladdningsmapp: en JPG klar att publicera, eller en PNG för en produktsida, med eller utan bakgrund.
 
 ---
 
-## Choosing photos {#choosing-photos}
+## Innan du börjar {#before-you-start}
 
-The flow opens with a single question: **What are we making?** Pick **Photos**. (The **Video** choice has [its own guide](./video.md).)
-
-<DocImage src={require('@site/static/img/editor-media-val.webp').default} alt="The What are we making question with the Video and Photos choices" width={600} />
+- **Ingenting här ändrar din modell.** Flödet skapar filer. Dina sparade modellinställningar, inklusive allt från [guidad setup](./setup.md), rörs inte.
+- **Filerna stannar på din dator.** Fotona tas i webbläsaren och sparas direkt i din nedladdningsmapp. Ingenting laddas upp eller lagras hos Marvify.
 
 ---
 
-## Step 1: What format? {#what-format}
+## Att välja foton {#choosing-photos}
 
-Different platforms want different shapes. Pick where the photo is going, or set your own size:
+Flödet öppnar med en enda fråga: **Vad ska vi göra?** Välj **Foton**. (Valet **Video** har [en egen guide](./video.md).)
 
-<DocImage src={require('@site/static/img/editor-media-format.webp').default} alt="The format choices" width={364} />
+<DocImage src={require('@site/static/img/editor-media-val.webp').default} alt="Frågan Vad ska vi göra? med valen Video och Foton" width={600} />
 
-| Format | Meant for |
+---
+
+## Steg 1: Vilket format? {#what-format}
+
+Olika plattformar vill ha olika format. Välj var fotot ska användas, eller ange en egen storlek:
+
+<DocImage src={require('@site/static/img/editor-media-format.webp').default} alt="Formatvalen" width={364} />
+
+| Format | Tänkt för |
 | ------ | --------- |
-| **Portrait (9:16)** | TikTok, Reels, YouTube Shorts. Fills the whole screen. |
-| **Feed (4:5)** | Instagram and Facebook feed posts. Takes more room than a square. |
-| **Square (1:1)** | Works anywhere. Crops the least when you are not sure. The default for photos. |
-| **Landscape (16:9)** | YouTube, your website, product pages. |
-| **Custom** | Set your own shape with exact width and height. |
+| **Stående (9:16)** | TikTok, Reels, YouTube Shorts. Fyller hela skärmen. |
+| **Flöde (4:5)** | Inlägg i flödet på Instagram och Facebook. Tar mer plats än en kvadrat. |
+| **Kvadrat (1:1)** | Fungerar överallt. Beskär minst när du är osäker. Standard för foton. |
+| **Liggande (16:9)** | YouTube, din webbplats, produktsidor. |
+| **Egen** | Ange ett eget format med exakt bredd och höjd. |
 
-**Custom** shows two fields for width and height, with a line underneath telling you the exact pixel size the file will be saved at.
+**Egen** visar två fält för bredd och höjd, med en rad under som anger exakt vilken pixelstorlek filen sparas i.
 
-As soon as a format is chosen, a bright rectangle appears over the model with everything outside it dimmed. **That frame is exactly what gets captured.** The camera is held still on this step; framing comes in step 2.
+Så fort ett format är valt visas en ljus ram över modellen med allt utanför nedtonat. **Den ramen visar exakt vad som kommer med.** Kameran hålls stilla i det här steget; inramningen kommer i steg 2.
 
 ---
 
-## Step 2: How should it look? {#how-should-it-look}
+## Steg 2: Hur ska den se ut? {#how-should-it-look}
 
-Here you steer the camera directly: **left drag** turns the product, **right drag** slides it around the frame, **scroll** zooms, and a **double-click** aims the camera where you click. Line the product up inside the bright frame. A small legend in the bottom-left corner shows these controls, and its **?** opens a short guide with a demo clip.
+Här styr du kameran direkt: **vänsterdra** snurrar produkten, **högerdra** flyttar den runt i bilden, **skrolla** zoomar, och ett **dubbelklick** siktar kameran där du klickar. Passa in produkten i den ljusa ramen. En liten förklaring i nedre vänstra hörnet visar kontrollerna, och dess **?** öppnar en kort guide med ett demoklipp.
 
 <DocVideo src={require('@site/static/video/framing-v1-s.mp4').default} srcFull={require('@site/static/video/framing-v1.mp4').default} ratio="1540 / 1028" />
 
-**Background color** sits at the top of the panel, working the same way as in guided setup: the color applies immediately, and matching it to where the photo will be shown makes the edges disappear.
+**Bakgrundsfärg** ligger överst i panelen och fungerar som i guidad setup: färgen slår igenom direkt, och matchar du den mot platsen där fotot ska visas försvinner kanterna.
 
-### Quality {#photo-quality}
+### Kvalitet {#photo-quality}
 
-Two choices, with the delivered pixel size always shown in the panel:
+Två val, med den levererade pixelstorleken alltid synlig i panelen:
 
-<DocImage src={require('@site/static/img/editor-media-foto-kvalitet.webp').default} alt="The two quality choices with the size readout" width={364} />
+<DocImage src={require('@site/static/img/editor-media-foto-kvalitet.webp').default} alt="De två kvalitetsvalen med storleken under" width={364} />
 
-- **Ready to post** (the default): sized for Instagram, TikTok and the rest. Uploads anywhere. Saved as JPG, for example 1080 × 1080 for a square or 1080 × 1920 for portrait.
-- **Best quality**: bigger, for a product page or for editing later. Saved as PNG, around 2048 pixels on the long edge.
+- **Klar att publicera** (standard): anpassad för Instagram, TikTok och resten. Går att ladda upp överallt. Sparas som JPG, till exempel 1080 × 1080 för en kvadrat eller 1080 × 1920 för stående.
+- **Bästa kvalitet**: större, för en produktsida eller för redigering senare. Sparas som PNG, runt 2048 pixlar på långsidan.
 
-### No background {#no-background}
+### Ingen bakgrund {#no-background}
 
-With **Best quality** selected, a **No background** checkbox becomes available. It saves the photo without a background, ready to drop onto any color. While it is on, the editor shows a checkerboard behind the product: that is real transparency, exactly what the file will contain.
+Med **Bästa kvalitet** valt blir kryssrutan **Ingen bakgrund** tillgänglig. Den sparar fotot utan bakgrund, redo att läggas på vilken färg som helst. Medan den är ibockad visas ett rutmönster bakom produkten: det är äkta genomskinlighet, exakt vad filen kommer att innehålla.
 
 <DocVideo src={require('@site/static/video/photo-no-background-v1-s.mp4').default} srcFull={require('@site/static/video/photo-no-background-v1.mp4').default} width="85%" ratio="1920 / 1028" />
 
-> **Note:** Removing the background also removes any shadow or support shapes that belong to the scene, so check on the checkerboard that the product still looks whole before you shoot.
+> **Obs:** När bakgrunden tas bort försvinner också skuggor och stödformer som hör till scenen, så kontrollera mot rutmönstret att produkten fortfarande ser hel ut innan du tar bilden.
 
-*Ready to post* files cannot hold a see-through background, which is why the checkbox needs *Best quality*.
+Filer som är klara att publicera kan inte vara genomskinliga, och därför kräver kryssrutan **Bästa kvalitet**.
 
-### Take the photo {#take-the-photo}
+### Ta bilden {#take-the-photo}
 
-Press **Take photo**. The file is saved straight to your downloads folder. Reframe and shoot as many as you like.
+Tryck på **Ta bild**. Filen sparas direkt i din nedladdningsmapp. Rikta om och ta så många bilder du vill.
 
 ---
 
-## Where the files go {#where-the-files-go}
+## Vart filerna tar vägen {#where-the-files-go}
 
-Photos are saved by your browser to its normal downloads folder, named after the model, its version and the date:
+Fotona sparas av webbläsaren i den vanliga nedladdningsmappen, döpta efter modellen, versionen och datumet:
 
 ```
-my-product-web-2026-08-25.jpg
+min-produkt-webb-2026-08-28.jpg
 ```
 
-Files carry **no watermark**. If you shoot twice on the same day, your browser adds a number to the second file's name.
+Filerna har **ingen vattenstämpel**. Tar du två bilder samma dag lägger webbläsaren till en siffra i det andra filnamnet.
 
 ---
 
-## Starting over {#starting-over}
+## Börja om {#starting-over}
 
-- **Back** on the first step returns to the video-or-photos question and keeps your settings, so you can take photos and make a video in the same visit.
-- **Reset** in the panel header clears the current job: your framing and settings. The editor asks first (*Start over?*), because this cannot be undone.
+- **Tillbaka** i första steget går tillbaka till frågan om video eller foton och behåller dina inställningar, så att du kan ta foton och göra en video under samma besök.
+- **Återställ** i panelens överkant rensar det pågående jobbet: din inramning och dina inställningar. Redigeraren frågar först (*Börja om?*), eftersom det inte går att ångra.
 
-There is no save step and no finish screen. When you have the photos you came for, close the tab.
+Det finns inget sparsteg och ingen slutskärm. När du har fotona du kom för stänger du fliken.
 
 ---
 
-## Good to know {#photo-good-to-know}
+## Bra att veta {#photo-good-to-know}
 
-- **Your model's own motion is paused** while you work here, so a turntable or animation from guided setup never fights with the shot you are framing.
-- **The camera can go anywhere while you frame.** Zoom limits from guided setup apply to visitors on your website, not to you taking a photo.
-- **Hotspots never appear in the files.** Photos capture the product alone.
+- **Modellens egen rörelse är pausad** medan du arbetar här, så en rotation eller animation från guidad setup stör aldrig bilden du riktar in.
+- **Kameran kan gå var som helst medan du riktar in.** Zoomgränser från guidad setup gäller besökare på din webbplats, inte dig som tar ett foto.
+- **Hotspots syns aldrig i filerna.** Foton fångar bara produkten.

@@ -1,53 +1,53 @@
 ---
 id: oversikt
-title: The editor
-sidebar_label: Overview
+title: Redigeraren
+sidebar_label: Översikt
 ---
 import DocImage from '@site/src/components/DocImage';
 
-# The Marvify editor
+# Marvify-redigeraren
 
-*A browser-based editor where you prepare your 3D models for your website.*
+*En webbläsarbaserad redigerare där du förbereder dina 3D-modeller för din webbplats.*
 
-The Marvify editor is where a model is prepared for use on the web. It runs entirely in your browser and works directly on the models in your Marvify account. It is always opened **from your Marvify dashboard**: pick a model and a task there, and the editor opens in a new browser tab with that model already loaded.
+Marvify-redigeraren är där en modell förbereds för att användas på webben. Den körs helt i webbläsaren och arbetar direkt mot modellerna i ditt Marvify-konto. Den öppnas alltid **från din Marvify-kontrollpanel**: välj en modell och en uppgift där, så öppnas redigeraren i en ny flik med modellen redan laddad.
 
-<DocImage src={require('@site/static/img/editor-oversikt.webp').default} srcFull={require('@site/static/img/editor-oversikt-full.webp').default} alt="The Marvify editor open in a browser with a 3D model loaded" width={800} />
-
----
-
-## Guided tasks {#guided-tasks}
-
-The editor currently guides you through:
-
-- **[Guided setup](./setup.md)**: prepares a model for your website. The view visitors start at, how far they can zoom and turn, whether the model moves on its own, and the code snippet to paste into your page.
-- **[Videos](./video.md)**: creates video clips of your model, framed and sized for your website and social media. The files are saved to your computer.
-- **[Photos](./foto.md)**: takes photos of your model, ready to post or in full quality, with or without a background.
-
-More guides are on the way and will be documented here as they become available.
+<DocImage src={require('@site/static/img/editor-oversikt.webp').default} srcFull={require('@site/static/img/editor-oversikt-full.webp').default} alt="Marvify-redigeraren öppen i en webbläsare med en 3D-modell laddad" width={800} />
 
 ---
 
-## Finding your way around {#finding-your-way-around}
+## Guidade uppgifter {#guided-tasks}
 
-The screen has two main areas:
+Redigeraren guidar dig i dag genom:
 
-- **The picture of your model** fills most of the window. You move around it with the mouse: drag to turn, scroll to zoom.
-- **The top bar** shows which model and version you have open, a book button that opens the relevant guide in this documentation, and a light/dark theme toggle.
+- **[Guidad setup](./setup.md)**: förbereder en modell för din webbplats. Vyn besökare startar i, hur nära och hur långt runt de kan röra sig, om modellen rör sig av sig själv, och kodsnutten att klistra in på din sida.
+- **[Videor](./video.md)**: skapar videoklipp av din modell, formaterade och storleksanpassade för din webbplats och sociala medier. Filerna sparas på din dator.
+- **[Foton](./foto.md)**: tar foton av din modell, redo att posta eller i full kvalitet, med eller utan bakgrund.
 
-When you arrive from the dashboard for a specific task, a **step-by-step panel** also appears on the right side of the screen. It walks you through that task one step at a time, so you never face all of the editor's controls at once.
-
----
-
-## One model, many versions {#one-model-many-versions}
-
-A single model can be saved with any number of **named versions**. Each version keeps its own settings (starting view, camera limits, background color, motion) while the 3D model itself stays the same.
-
-A version is identified as `model@name`, for example `my-product@web`. That full id is what you use on your website to show that particular version. This lets you keep one version tuned for your product page and another for a campaign, without touching the model itself.
-
-You choose or create a version when you save at the end of a guided task. To change a version later, open the same model from your dashboard and pick that name.
+Fler guider är på väg och dokumenteras här när de blir tillgängliga.
 
 ---
 
-## Nothing happens by accident {#nothing-happens-by-accident}
+## Hitta runt {#finding-your-way-around}
 
-While you work in the editor, nothing is published or changed on your website. Guided setup only takes effect when you save at its final step, and only for the version you saved; the video and photo flows never change the model at all, they just produce files on your computer. Closing the tab before saving leaves everything exactly as it was.
+Skärmen har två huvudytor:
+
+- **Bilden av din modell** fyller större delen av fönstret. Du rör dig runt den med musen: dra för att snurra, skrolla för att zooma.
+- **Toppraden** visar vilken modell och version du har öppen, en bokknapp som öppnar rätt guide i den här dokumentationen, och ett val mellan ljust och mörkt tema.
+
+När du kommer från kontrollpanelen för en specifik uppgift visas också en **steg-för-steg-panel** till höger på skärmen. Den tar dig genom uppgiften ett steg i taget, så att du aldrig möter alla redigerarens kontroller på en gång.
+
+---
+
+## En modell, många versioner {#one-model-many-versions}
+
+En och samma modell kan sparas med hur många **namngivna versioner** som helst. Varje version har sina egna inställningar (startvy, kameragränser, bakgrundsfärg, rörelse) medan själva 3D-modellen förblir densamma.
+
+En version identifieras som `modell@namn`, till exempel `min-produkt@webb`. Det fullständiga id:t är vad du använder på din webbplats för att visa just den versionen. Så kan du ha en version anpassad för produktsidan och en annan för en kampanj, utan att röra själva modellen.
+
+Du väljer eller skapar en version när du sparar i slutet av en guidad uppgift. Vill du ändra en version senare öppnar du samma modell från din kontrollpanel och väljer det namnet.
+
+---
+
+## Inget händer av misstag {#nothing-happens-by-accident}
+
+Medan du arbetar i redigeraren publiceras eller ändras ingenting på din webbplats. Guidad setup får effekt först när du sparar i det sista steget, och bara för versionen du sparade; video- och fotoflödena ändrar aldrig modellen alls, de skapar bara filer på din dator. Stänger du fliken innan du har sparat är allt exakt som det var.

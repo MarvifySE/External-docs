@@ -16,7 +16,7 @@ When you choose to set up a model for your website in the dashboard, the editor 
 2. **Camera limits**: how close, how far, how high and how far around visitors can move
 3. **The motion**: whether the model spins, plays an animation, or stands still
 4. **Try it**: preview the final result in the shapes and sizes it will have on your page
-5. **Save it**: name the version and get the code for your website
+5. **Save it**: name the version and make it ready for your website
 
 <DocImage src={require('@site/static/img/editor-setup-panel.webp').default} srcFull={require('@site/static/img/editor-setup-panel-full.webp').default} alt="The guided setup flow with the model on the left and the step panel on the right" width={800} />
 
@@ -59,7 +59,7 @@ A camera marker labeled **Camera start** appears in the picture at the saved pos
 
 ### The device check {#the-device-check}
 
-The moment you save a start camera, the editor photographs your opening view at two sizes and shows the results in the top-right corner: **Desktop** and **Mobile**. A framing that looks great on desktop can crop badly on a tall phone screen, and this catches that early. Close the previews with the **×** if they are in your way.
+The moment you save a start camera, previews of your opening view appear in the top-right corner: **Desktop** and **Mobile**. A framing that looks great on desktop can crop badly on a tall phone screen, and this catches that early. Close the previews with the **×** if they are in your way.
 
 <DocImage src={require('@site/static/img/editor-setup-kamerastart-enheter.webp').default} alt="The desktop and phone previews of the opening view" width={544} />
 
@@ -206,35 +206,13 @@ Choosing **Update** asks you to confirm (*Replace these settings?*), because the
 
 ### Ready to go {#ready-to-go}
 
-The moment the save lands, a card appears with everything your website needs:
+The moment the save lands, a card appears with what your website needs: the two code snippets that display the model, with your real `model@name` id filled in, **Width** and **Height** fields that update the code live, **Copy** buttons for each piece, and a link to the documentation.
 
 <DocImage src={require('@site/static/img/editor-setup-spara-kort.webp').default} alt="The saved card with the documentation link and the two code snippets" width={620} />
 
-Two pieces go on your website, and the model appears wherever you put the second one.
+Putting that code on your website is the next step, after the editor. The integration guides show exactly how on [Shopify](../exempel/shopify.md), [WooCommerce](../exempel/woocommerce.md), or a [general webpage](../exempel/webpage-integration.md). For everything the viewer can do (sizing, autoplay, analytics, carousels, VR), see the [Marvify Viewer reference](../snabbstart/marvify-viewer.md).
 
-**1. Load the viewer**: once per page, in the header with your other javascript imports:
-
-```html
-<script type="module" src="https://js.marvify.io/marvify.js"></script>
-```
-
-**2. Place the model**: wherever it should appear on the page:
-
-```html
-<marvify-model-viewer
-    model-id="your-model@web"
-    width="600px"
-    height="400px">
-</marvify-model-viewer>
-```
-
-The card fills in your real `model@name` id for you, and the **Width** and **Height** fields update the snippet live. They accept any CSS length, so `100%` works as well as `600px`. Use the **Copy** buttons to grab each piece.
-
-> **Note:** Keep the two pieces separate. The first snippet loads the viewer and belongs on a page only once, no matter how many models the page shows.
-
-If you started this flow from the dashboard's website wizard, that tab has been listening: it moves forward automatically with your saved version, and your website code is waiting there too. Either way, you can close the editor tab. To change anything later, open the same model from your dashboard and pick this version's name.
-
-If your site runs on a platform, the integration guides show exactly where the two pieces go: [Shopify](../exempel/shopify.md), [WooCommerce](../exempel/woocommerce.md), or a [general webpage](../exempel/webpage-integration.md). For everything the viewer snippet can do (sizing, autoplay, analytics, carousels, VR), see the [Marvify Viewer reference](../snabbstart/marvify-viewer.md).
+If you started this flow from the dashboard's website wizard, that tab has been listening: it moves forward automatically with your saved version. Either way, you can close the editor tab. To change anything later, open the same model from your dashboard and pick this version's name.
 
 ---
 

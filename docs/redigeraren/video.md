@@ -1,161 +1,161 @@
 ---
 id: video
-title: Videos
-sidebar_label: Videos
+title: Videor
+sidebar_label: Videor
 ---
 import DocVideo from '@site/src/components/DocVideo';
 import DocImage from '@site/src/components/DocImage';
 
-# Videos
+# Videor
 
-*A guided flow that turns your 3D model into video clips, framed and sized for your website and social media.*
+*Ett guidat flöde som gör videoklipp av din 3D-modell, formaterade och storleksanpassade för din webbplats och sociala medier.*
 
-When you choose to create media from a model in the dashboard, the editor opens with one question, then walks you through two short steps. The result is an MP4 file in your downloads folder, ready to upload anywhere.
-
----
-
-## Before you start {#before-you-start}
-
-- **Video creation needs Chrome or Edge.** Other browsers may not be able to render the file at all, or may deliver lower video quality. The editor tells you if yours is not supported.
-- **Nothing here changes your model.** This flow produces files. Your saved model settings, including everything from [guided setup](./setup.md), are untouched.
-- **Files stay on your computer.** The video is rendered in your browser and saved straight to your downloads folder. Nothing is uploaded or stored on Marvify's side.
+När du väljer att skapa media från en modell i kontrollpanelen öppnas redigeraren med en fråga, och tar dig sedan genom två korta steg. Resultatet är en MP4-fil i din nedladdningsmapp, redo att laddas upp var som helst.
 
 ---
 
-## Choosing video {#choosing-video}
+## Innan du börjar {#before-you-start}
 
-The flow opens with a single question: **What are we making?** Pick **Video**. (The **Photos** choice has [its own guide](./foto.md).)
-
-<DocImage src={require('@site/static/img/editor-media-val.webp').default} alt="The What are we making question with the Video and Photos choices" width={600} />
+- **Video kräver Chrome eller Edge.** Andra webbläsare kan sakna möjlighet att skapa filen alls, eller ge sämre videokvalitet. Redigeraren säger till om din inte stöds.
+- **Ingenting här ändrar din modell.** Flödet skapar filer. Dina sparade modellinställningar, inklusive allt från [guidad setup](./setup.md), rörs inte.
+- **Filerna stannar på din dator.** Videon skapas i webbläsaren och sparas direkt i din nedladdningsmapp. Ingenting laddas upp eller lagras hos Marvify.
 
 ---
 
-## Step 1: What format? {#what-format}
+## Att välja video {#choosing-video}
 
-Different platforms want different shapes. Pick where the clip is going, or set your own size:
+Flödet öppnar med en enda fråga: **Vad ska vi göra?** Välj **Video**. (Valet **Foton** har [en egen guide](./foto.md).)
 
-<DocImage src={require('@site/static/img/editor-media-format.webp').default} alt="The format choices" width={364} />
+<DocImage src={require('@site/static/img/editor-media-val.webp').default} alt="Frågan Vad ska vi göra? med valen Video och Foton" width={600} />
 
-| Format | Meant for |
+---
+
+## Steg 1: Vilket format? {#what-format}
+
+Olika plattformar vill ha olika format. Välj var klippet ska användas, eller ange en egen storlek:
+
+<DocImage src={require('@site/static/img/editor-media-format.webp').default} alt="Formatvalen" width={364} />
+
+| Format | Tänkt för |
 | ------ | --------- |
-| **Portrait (9:16)** | TikTok, Reels, YouTube Shorts. Fills the whole screen. |
-| **Feed (4:5)** | Instagram and Facebook feed posts. Takes more room than a square. |
-| **Square (1:1)** | Works anywhere. Crops the least when you are not sure. |
-| **Landscape (16:9)** | YouTube, your website, product pages. The default for video. |
-| **Custom** | Set your own shape with exact width and height. |
+| **Stående (9:16)** | TikTok, Reels, YouTube Shorts. Fyller hela skärmen. |
+| **Flöde (4:5)** | Inlägg i flödet på Instagram och Facebook. Tar mer plats än en kvadrat. |
+| **Kvadrat (1:1)** | Fungerar överallt. Beskär minst när du är osäker. |
+| **Liggande (16:9)** | YouTube, din webbplats, produktsidor. Standard för video. |
+| **Egen** | Ange ett eget format med exakt bredd och höjd. |
 
-**Custom** shows two fields for width and height, with a line underneath telling you the exact pixel size the file will be saved at.
+**Egen** visar två fält för bredd och höjd, med en rad under som anger exakt vilken pixelstorlek filen sparas i.
 
-As soon as a format is chosen, a bright rectangle appears over the model with everything outside it dimmed. **That frame is exactly what gets captured.** It stays on screen through the whole flow, so what you see inside it is what ends up in the file.
+Så fort ett format är valt visas en ljus ram över modellen med allt utanför nedtonat. **Den ramen visar exakt vad som kommer med.** Den finns kvar genom hela flödet, så det du ser innanför är det som hamnar i filen.
 
-<DocImage src={require('@site/static/img/editor-media-ram.webp').default} alt="The bright capture frame over the model" width={620} />
+<DocImage src={require('@site/static/img/editor-media-ram.webp').default} alt="Den ljusa ramen över modellen" width={620} />
 
-The camera is held still on this step; framing comes in step 2.
+Kameran hålls stilla i det här steget; inramningen kommer i steg 2.
 
 ---
 
-## Step 2: Make your clip {#make-your-clip}
+## Steg 2: Skapa ditt klipp {#make-your-clip}
 
-A clip is a camera move played over your model. Pick how it moves, then frame it with your mouse.
+Ett klipp är en kamerarörelse som spelas över din modell. Välj hur den rör sig och rikta sedan in den med musen.
 
-### Pick a shot {#pick-a-shot}
+### Välj en rörelse {#pick-a-shot}
 
-On arrival, the shot picker opens by itself. It offers **Build your own camera move** at the top, then twelve ready-made shots in two groups:
+Vid ankomst öppnas rörelseväljaren av sig själv. Överst finns **Gör en egen kamerarörelse**, sedan tolv färdiga rörelser i två grupper:
 
-<DocImage src={require('@site/static/img/editor-media-galleri.webp').default} alt="The shot picker with ready-made camera moves" width={368} />
+<DocImage src={require('@site/static/img/editor-media-galleri.webp').default} alt="Rörelseväljaren med färdiga kamerarörelser" width={368} />
 
-- **Plays once**: has a beginning and an end, so a feed replaying it shows a cut. An effect at each end turns that into a fade. The shots: **Hero push-in**, **Front sweep**, **Rise and turn**, **Pull back**, **Overhead drop** and **Slide past**.
-- **Loops**: ends on the exact frame it opened on, so a feed replays it with no visible cut. The shots: **Turntable**, **Front swing**, **Tilted orbit**, **Push-pull orbit**, **Head to toe** and **Handheld orbit**.
+- **Spelas en gång**: har en början och ett slut, så ett flöde som spelar om den visar ett klipp. En effekt i varje ände gör det till en toning. Rörelserna: **Hjälteinzoom**, **Frontsvep**, **Lyft och vrid**, **Backa ut**, **Ovanifrån och ned** och **Glid förbi**.
+- **Loopar**: slutar på exakt samma bild som den började på, så ett flöde spelar om den utan synligt klipp. Rörelserna: **Rotation**, **Frontpendel**, **Lutande bana**, **Cirkel in och ut**, **Topp till tå** och **Handhållen cirkel**.
 
-Every ready-made shot adapts itself to your model's size and proportions, so a shot made for a tall bottle works just as well on a low, wide sofa. Your chosen shot is shown at the top of the panel with a **Change** link that reopens the picker.
+Varje färdig rörelse anpassar sig till modellens storlek och proportioner, så en rörelse gjord för en hög flaska fungerar lika bra på en låg, bred soffa. Din valda rörelse visas överst i panelen med länken **Byt** som öppnar väljaren igen.
 
-<DocImage src={require('@site/static/img/editor-media-rorelse.webp').default} alt="The selected shot with the Change link beside it" width={364} />
+<DocImage src={require('@site/static/img/editor-media-rorelse.webp').default} alt="Den valda rörelsen med länken Byt bredvid" width={364} />
 
-### Frame it with your mouse {#frame-the-clip}
+### Rikta in med musen {#frame-the-clip}
 
-The clip plays on a loop in the viewport while you work. Your mouse adjusts the framing of the whole move rather than steering the camera directly:
+Klippet spelas i loop i bilden medan du arbetar. Musen justerar inramningen av hela rörelsen i stället för att styra kameran direkt:
 
-- **Left drag up or down** tilts the move to see the product from higher or lower.
-- **Right drag** slides the product around inside the frame.
-- **Scroll** moves closer or further away.
+- **Vänsterdra uppåt eller nedåt** tiltar rörelsen så att produkten ses högre eller lägre ifrån.
+- **Högerdra** flyttar produkten runt i bilden.
+- **Skrolla** går närmare eller längre bort.
 
-A small legend in the bottom-left corner shows these controls, and its **?** opens a short guide with a demo clip.
+En liten förklaring i nedre vänstra hörnet visar kontrollerna, och dess **?** öppnar en kort guide med ett demoklipp.
 
 <DocVideo src={require('@site/static/video/framing-v1-s.mp4').default} srcFull={require('@site/static/video/framing-v1.mp4').default} ratio="1540 / 1028" />
 
-For a ready-made shot, a **Starting angle** slider turns the whole move around the product, deciding which side the clip opens on. If you want full control of the camera positions themselves, press **Edit** to convert the shot into stops you can move by hand (see [Build your own shot](#build-your-own) below).
+För en färdig rörelse vrider slidern **Startvinkel** hela rörelsen runt produkten och avgör vilken sida klippet öppnar på. Vill du styra kamerapositionerna själv trycker du på **Ändra** för att göra om rörelsen till stopp du kan flytta för hand (se [Gör en egen rörelse](#build-your-own) nedan).
 
-### Length and effects {#length-and-effects}
+### Längd och effekter {#length-and-effects}
 
-<DocImage src={require('@site/static/img/editor-media-langd-effekter.webp').default} alt="The clip length field and the two effect choices" width={364} />
+<DocImage src={require('@site/static/img/editor-media-langd-effekter.webp').default} alt="Fältet för klippets längd och de två effektvalen" width={364} />
 
-**Clip duration** sets how many seconds the clip runs. Each ready-made shot comes with a sensible length, and a warning appears if you go under three seconds: *TikTok and Reels need at least 3 seconds.*
+**Klippets längd** anger hur många sekunder klippet är. Varje färdig rörelse kommer med en rimlig längd, och en varning visas om du går under tre sekunder: *TikTok och Reels kräver minst 3 sekunder.*
 
-For shots that play once, two dropdowns appear: **Effect at the start** and **Effect at the end**. These build the product up or take it apart, so the clip reads as 3D rather than a photo. A few examples: **Rain** lets drops fall and build the product up from the ground, **Paintballs** flies balls in from all sides that splatter into the product, and **Scan** travels a line up the product, leaving it solid behind. Each effect takes a short, fixed slice at its end of the clip.
+För rörelser som spelas en gång visas två menyer: **Effekt i början** och **Effekt i slutet**. De bygger upp produkten eller tar isär den, så att klippet läses som 3D i stället för som ett foto. Några exempel: **Rain** låter droppar falla och bygga upp produkten från marken, **Paintballs** skjuter in bollar från alla håll som splattrar ihop till produkten, och **Scan** drar en linje uppåt som lämnar produkten solid bakom sig. Varje effekt tar en kort, fast bit i sin ände av klippet.
 
-**Background color** sits below, working the same way as in guided setup: the color applies immediately, and matching it to where the clip will be shown makes the edges disappear.
+**Bakgrundsfärg** ligger under och fungerar som i guidad setup: färgen slår igenom direkt, och matchar du den mot platsen där klippet ska visas försvinner kanterna.
 
-### Create the clip {#create-the-clip}
+### Skapa klippet {#create-the-clip}
 
-<DocImage src={require('@site/static/img/editor-media-skapa.webp').default} alt="The Create clip button with the output size below it" width={364} />
+<DocImage src={require('@site/static/img/editor-media-skapa.webp').default} alt="Knappen Skapa klipp med filstorleken under" width={364} />
 
-Press **Create clip**. The exact pixel size of the file is shown right under the button, for example *1920 × 1080*.
+Tryck på **Skapa klipp**. Filens exakta pixelstorlek står direkt under knappen, till exempel *1080 × 1920*.
 
-The video is rendered frame by frame in your browser. A progress screen appears with a percentage and this warning: *Keep this tab open and stay on it until your video is finished. If you close it or switch away, you'll have to start again.* On a slower computer the render takes longer, but the finished file is identical to one made on a fast machine. **Cancel** stops the render and throws it away; no half-finished file is saved.
+Videon skapas bild för bild i din webbläsare. En förloppsskärm visas med procent och en varning: *Håll den här fliken öppen och stanna kvar tills din video är klar. Om du stänger den eller byter flik måste du börja om.* På en långsammare dator tar det längre tid, men den färdiga filen blir identisk med en gjord på en snabb maskin. **Avbryt** stoppar och slänger allt; ingen halvfärdig fil sparas.
 
-When it finishes, the MP4 lands in your downloads folder and the panel confirms it: *Saved to your downloads.*
+När den är klar hamnar MP4-filen i din nedladdningsmapp och panelen bekräftar: *Sparad till dina nedladdningar.*
 
-### Reusing a shot on another product {#reusing-a-shot}
+### Återanvänd en rörelse på en annan produkt {#reusing-a-shot}
 
-**Copy shot** copies your current camera move to the clipboard as a piece of text. Open **Videos** on another model from the dashboard, press **Paste shot**, and the same move is applied there, adapted to the new product's size. The text is the saved copy, so paste it into a note or document if you want to keep it for later.
+**Kopiera rörelse** kopierar din aktuella kamerarörelse till urklipp som text. Öppna **Videor** på en annan modell från kontrollpanelen, tryck på **Klistra in rörelse**, så läggs samma rörelse på där, anpassad till den nya produktens storlek. Texten är den sparade kopian, så klistra in den i en anteckning eller ett dokument om du vill ha den senare.
 
-### Advanced {#advanced}
+### Avancerat {#advanced}
 
-Ticking **Advanced** reveals exact-number fields for fine-tuning: hold time on the final frame (for shots that play once), distance, angle, height in frame and side to side. Everything here can also be done with the mouse, so most clips never need it.
-
----
-
-## Build your own shot {#build-your-own}
-
-If none of the ready-made shots fit, pick **Build your own camera move** in the shot picker, or press **Edit** on a ready-made shot to start from its positions. You place camera stops one by one and the finished clip glides through them in order, with lingers, jump cuts, looping and smoothness under your control. The builder is a tool of its own and has [a dedicated guide](./bygg.md).
-
-When your shot is ready, you continue like any other: frame it with the mouse, set the length, and press **Create clip**.
+Bockar du i **Avancerat** visas fält för exakta värden: **Håll kvar i slutet** (för rörelser som spelas en gång), **Avstånd**, **Vinkel**, **Höjd i bild** och **I sidled**. Allt här går också att göra med musen, så de flesta klipp behöver det aldrig.
 
 ---
 
-## Where the files go {#where-the-files-go}
+## Gör en egen rörelse {#build-your-own}
 
-The MP4 is saved by your browser to its normal downloads folder, named after the model, its version and the date:
+Passar ingen av de färdiga rörelserna väljer du **Gör en egen kamerarörelse** i rörelseväljaren, eller trycker på **Ändra** på en färdig för att utgå från dess positioner. Du placerar kamerastopp ett i taget och det färdiga klippet glider genom dem i tur och ordning, med uppehåll, klippningar, loopning och mjukhet under din kontroll. Byggaren är ett eget verktyg och har [en egen guide](./bygg.md).
+
+När rörelsen är klar fortsätter du som med vilken annan som helst: rikta in med musen, sätt längden och tryck på **Skapa klipp**.
+
+---
+
+## Vart filerna tar vägen {#where-the-files-go}
+
+MP4-filen sparas av webbläsaren i den vanliga nedladdningsmappen, döpt efter modellen, versionen och datumet:
 
 ```
-my-product-web-2026-08-25.mp4
+min-produkt-webb-2026-08-28.mp4
 ```
 
-MP4 (H.264) uploads directly to every major platform. Files carry **no watermark**. If you export twice on the same day, your browser adds a number to the second file's name.
+MP4 (H.264) går att ladda upp direkt på alla stora plattformar. Filerna har **ingen vattenstämpel**. Exporterar du två gånger samma dag lägger webbläsaren till en siffra i det andra filnamnet.
 
 ---
 
-## Starting over {#starting-over}
+## Börja om {#starting-over}
 
-- **Back** on the first step returns to the video-or-photos question and keeps everything you have built, so you can make a video and take photos in the same visit.
-- **Reset** in the panel header clears the current job: your shot, framing and settings. The editor asks first (*Start over?*), because this cannot be undone.
+- **Tillbaka** i första steget går tillbaka till frågan om video eller foton och behåller allt du byggt, så att du kan göra ett klipp och ta foton under samma besök.
+- **Återställ** i panelens överkant rensar det pågående jobbet: din rörelse, inramning och inställningar. Redigeraren frågar först (*Börja om?*), eftersom det inte går att ångra.
 
-There is no save step and no finish screen. When you have the clips you came for, close the tab.
-
----
-
-## If the render fails {#if-the-render-fails}
-
-- **Switch to Chrome or Edge.** Most render failures come down to the browser lacking a video encoder.
-- **Try a smaller custom size.** Very large sizes can exhaust the browser's encoder. Step the pixels down and try again.
-- **Keep the tab open and in front** until the file lands in your downloads. Closing the tab or switching away cancels the render.
-
-If none of that helps, [contact support](../felsokning/kontakta-support.md).
+Det finns inget sparsteg och ingen slutskärm. När du har klippen du kom för stänger du fliken.
 
 ---
 
-## Good to know {#video-good-to-know}
+## Om det inte går att skapa videon {#if-the-render-fails}
 
-- **Your model's own motion is paused** while you work here, so a turntable or animation from guided setup never fights with the shot you are framing.
-- **The camera can go anywhere while you frame.** Zoom limits from guided setup apply to visitors on your website, not to you making a file.
-- **Hotspots never appear in the files.** Videos capture the product alone.
+- **Byt till Chrome eller Edge.** De flesta misslyckanden beror på att webbläsaren saknar videokodare.
+- **Prova en mindre egen storlek.** Mycket stora storlekar kan bli för mycket för webbläsarens kodare. Gå ned i pixlar och försök igen.
+- **Håll fliken öppen och aktiv** tills filen ligger i nedladdningsmappen. Att stänga fliken eller byta bort avbryter allt.
+
+Hjälper inget av det, [kontakta support](../felsokning/kontakta-support.md).
+
+---
+
+## Bra att veta {#video-good-to-know}
+
+- **Modellens egen rörelse är pausad** medan du arbetar här, så en rotation eller animation från guidad setup stör aldrig rörelsen du riktar in.
+- **Kameran kan gå var som helst medan du riktar in.** Zoomgränser från guidad setup gäller besökare på din webbplats, inte dig som gör en fil.
+- **Hotspots syns aldrig i filerna.** Videor fångar bara produkten.
