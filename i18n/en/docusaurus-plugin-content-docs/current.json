@@ -34,5 +34,9 @@
   "sidebar.tutorialSidebar.category.Felsökning": {
     "message": "Troubleshooting",
     "description": "The label for category Felsökning in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Redigeraren": {
+    "message": "The editor",
+    "description": "The label for category Redigeraren in sidebar tutorialSidebar"
   }
 }
