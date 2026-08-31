@@ -1,5 +1,35 @@
 # Media to make — shared clips for the docs and the editor
 
+## HOTSPOTS PAGE (drafted 2026-08-31, page is `draft: true` until the mode ships to customers)
+
+Same ground rules as below. Placeholders are in `static/img/editor-hotspots-*.webp`; the page
+(`docs/redigeraren/hotspots.md` + i18n twin) references them already.
+
+Clips (2):
+- `hotspot-place-v1.mp4` — press Add hotspot, double-click a detail, the dot lands and its row
+  opens, fill the name. Canvas + panel crop (the row opening is half the story). ~8 s.
+  Replaces `editor-hotspots-placera.webp`.
+- `hotspot-tour-v1.mp4` — try step with ≥2 hotspots, tour on: press play, two stops with dwell
+  and swing, touch the scene to exit. Canvas-only crop. NOTE: the editor parks the tour chrome
+  ~50 px higher than production, and dots hide entirely while the tour plays. ~12 s.
+  Replaces `editor-hotspots-rundtur.webp`.
+
+Stills (5):
+- `editor-hotspots-oversikt.webp` (1200×700) — step 1, one hotspot open, full window minus topbar
+- `editor-hotspots-sektioner.webp` (needs the panel scrolled to show all four numbered sections;
+  tallest panel in the flow)
+- `editor-hotspots-vy-guide.webp` (1000×650) — choose-the-view wizard: dimmed panel, pulsing gold
+  frame (capture mid-breathe), guide card top-left, Use this view / Cancel bar bottom
+- `editor-hotspots-utseende.webp` — step 2 panel with the bubble section visible (needs a hotspot
+  with hover text first)
+- `editor-hotspots-navigering.webp` — step 3 panel, tour section (needs ≥2 hotspots, pick
+  Arrows + tour so all controls show)
+
+When capturing: no GUIDE pill exists in this flow's header (unlike setup/media), so panel crops
+will differ slightly at the top-right.
+
+---
+
 Internal planning file, not published (lives outside `docs/`). It is the capture plan for the
 instructional media that will live in **both** the docs site and the editor, plus the remaining
 docs-only screenshots. Delete entries as they are produced.
