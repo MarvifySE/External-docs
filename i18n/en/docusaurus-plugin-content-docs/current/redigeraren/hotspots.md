@@ -16,7 +16,7 @@ When you choose to add hotspots to a model in the dashboard, the editor opens in
 1. **Hotspots**: place the dots and decide what each one does
 2. **Appearance**: how the dots and text bubbles look
 3. **Try it**: use the scene the way a visitor would
-4. **Save it**: save the changes to your version
+4. **Save it**: update your version, or save as a new one
 
 <DocImage src={require('@site/static/img/editor-hotspots-oversikt.webp').default} alt="Step 1 with a hotspot open, panel right and model left" width={800} />
 
@@ -50,8 +50,11 @@ Every hotspot has four sections in the panel:
 
 1. **Name**. The only thing required. Give it a name that says what it points at, like *Left sleeve*. Every hotspot needs its own name.
 2. **When someone hovers**. An optional short line shown beside the dot. Leave it empty and the dot shows nothing on hover.
-3. **What a click shows**. **Nothing**, **A note at the dot** (a sentence or two right at the dot, which closes when the visitor taps elsewhere or starts turning the model), or **A card** (the full card: text lines, an image, a button). The card is edited right on the picture, so what you see is exactly what visitors get.
-4. **The camera**. **Stays still**, or **Moves to a chosen view**: press **Choose the view**, turn and zoom until the product looks the way visitors should arrive at it, and press **Use this view**. The view always stays within your camera limits from guided setup.
+3. **What a click shows**. Three choices:
+    - **Nothing**.
+    - **A note**: a sentence or two shown right at the dot. It closes when the visitor taps elsewhere or starts turning the model.
+    - **A card**: text lines, an image, a button. The card is edited right on the picture, so what you see is exactly what visitors get.
+4. **The camera**. **Stays still**, or **Moves to a chosen view**. Press **Choose the hotspot's view**, turn and zoom until the product looks the way visitors should arrive at it, and press **Use this view**. Once a view is chosen, the button reads **Change the view**. A view may even aim outside your camera limits from guided setup: the hotspot is then marked *outside the limits*, and visitors can still reach it because the scene briefly lifts its limits for that view.
 
 Once a view is chosen, you decide how much visitors can move there:
 
@@ -63,7 +66,7 @@ Once a view is chosen, you decide how much visitors can move there:
 
 <DocImage src={require('@site/static/img/editor-hotspots-vy-guide.webp').default} alt="The choose-the-view wizard with the pulsing gold frame" width={700} />
 
-### Order, changes and removal {#order-and-removal}
+### Edit, reorder and delete {#order-and-removal}
 
 Click a hotspot in the list, or its dot in the picture, to open and change it. The arrow buttons move it up or down the order, and **the order is what visitors see**: it drives the numbers or letters on the dots and the order the tour follows. **Delete** removes a hotspot together with its text and its card, behind a confirmation.
 
@@ -84,7 +87,13 @@ The panel asks how the dots should look. Everything here applies to every hotspo
 
 ## Step 3: Try it {#try}
 
-The panel asks you to try your hotspots. This is the real thing: hovering shows your text, a click does what you chose, and a chosen view flies the visitor there with a **Back** button to come home again. Press **Mobile** under the picture to judge it all at phone size.
+The panel asks you to try your hotspots, and this is the real thing. Use the scene the way a visitor would, and check:
+
+- Hovering a dot shows your text.
+- A click does what you chose: the note, the card, the camera.
+- A chosen view flies you there, with a **Back** button to return.
+
+Press **Mobile** under the picture to judge it all at phone size.
 
 ### Hotspot navigation {#hotspot-navigation}
 
@@ -104,7 +113,9 @@ The tour never plays by itself when the page loads. A visitor presses play, the 
 
 ## Step 4: Save it {#save}
 
-Because hotspots are added to an existing version, **Update** is preselected: your hotspots are saved into the version you opened, behind a confirmation (*Replace these settings?*), since the old settings cannot be recovered afterwards. If you would rather leave the original untouched, choose **Save as new** and give it a new name, just like in [guided setup](./setup.md#save-it).
+Because hotspots are added to an existing version, **Update** is preselected: your hotspots are saved into the version you opened. The editor asks you to confirm (*Replace these settings?*), since the old settings cannot be recovered afterwards. If you would rather leave the original untouched, choose **Save as new** and give it a new name, just like in [guided setup](./setup.md#save-it).
+
+This is also where a version parts with its hotspots: remove them all in step 1, and **Continue** becomes **Save without hotspots**, taking you straight here.
 
 The best part of updating: **if your website already shows this version, your hotspots appear there as soon as you save.** Nothing in the code on the page needs changing.
 
@@ -113,6 +124,4 @@ The best part of updating: **if your website already shows this version, your ho
 ## Good to know {#good-to-know}
 
 - **Hotspots never appear in files from the [video](./video.md) and [photo](./foto.md) flows.** They belong to the interactive experience on your website.
-- **The list order is everything**: the numbers, the letters and the tour all follow it.
-- **There is no limit on the number of hotspots**, but a few well-chosen ones usually read better than many.
-- **Your camera limits from guided setup apply here too**: a chosen view can never take visitors anywhere your limits do not allow.
+- **There is no limit on the number of hotspots**, but a few well-chosen ones usually work better than many.

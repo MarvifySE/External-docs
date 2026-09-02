@@ -16,7 +16,7 @@ När du väljer att lägga till hotspots på en modell i kontrollpanelen öppnas
 1. **Hotspots**: placera punkterna och bestäm vad var och en gör
 2. **Utseende**: hur punkterna och textbubblorna ser ut
 3. **Testa**: använd scenen som en besökare
-4. **Spara**: spara ändringarna i din version
+4. **Spara**: uppdatera din version, eller spara som en ny
 
 <DocImage src={require('@site/static/img/editor-hotspots-oversikt.webp').default} alt="Steg 1 med en hotspot öppen, panelen till höger och modellen till vänster" width={800} />
 
@@ -50,8 +50,11 @@ Varje hotspot har fyra sektioner i panelen:
 
 1. **Namn**. Det enda som krävs. Ge den ett namn som säger vad den pekar på, som *Vänster ärm*. Varje hotspot behöver ett eget namn.
 2. **När muspekaren hålls över**. En valfri kort rad som visas vid punkten. Lämnas den tom visas inget vid hovring.
-3. **Vad ett klick visar**. **Inget**, **En anteckning vid punkten** (en eller två meningar direkt vid punkten, som stängs när besökaren trycker någon annanstans eller börjar vrida modellen), eller **Ett kort** (det fulla kortet: textrader, en bild, en knapp). Kortet redigeras direkt i bilden, så det du ser är exakt vad besökare får.
-4. **Kameran**. **Står stilla**, eller **Flyttas till en vald vy**: tryck på **Välj vyn**, vrid och zooma tills produkten ser ut som besökaren ska mötas av, och tryck på **Använd denna vy**. Vyn håller sig alltid inom kameragränserna från guidad setup.
+3. **Vad ett klick visar**. Tre val:
+    - **Inget**.
+    - **Anteckning**: en eller två meningar som visas direkt vid punkten. Den stängs när besökaren trycker någon annanstans eller börjar vrida modellen.
+    - **Kort**: textrader, en bild, en knapp. Kortet redigeras direkt i bilden, så det du ser är exakt vad besökare får.
+4. **Kameran**. **Står stilla**, eller **Flyttas till en vald vy**. Tryck på **Välj hotspotens vy**, vrid och zooma tills produkten ser ut som besökaren ska mötas av, och tryck på **Använd denna vy**. När en vy är vald byter knappen namn till **Byt vy**. En vy kan till och med sikta utanför dina kameragränser från guidad setup: hotspoten markeras då med *utanför gränserna*, och besökare kan ändå nå den eftersom scenen tillfälligt lyfter gränserna för den vyn.
 
 När en vy är vald väljer du hur mycket besökaren får röra sig där:
 
@@ -63,7 +66,7 @@ När en vy är vald väljer du hur mycket besökaren får röra sig där:
 
 <DocImage src={require('@site/static/img/editor-hotspots-vy-guide.webp').default} alt="Vyväljaren med den pulserande guldramen" width={700} />
 
-### Ordning, ändringar och borttagning {#order-and-removal}
+### Ändra, flytta om och ta bort {#order-and-removal}
 
 Klicka på en hotspot i listan, eller på dess punkt i bilden, för att öppna och ändra den. Pilknapparna flyttar den upp eller ned i ordningen, och **ordningen är det besökare ser**: den styr siffrorna eller bokstäverna på punkterna och den ordning rundturen följer. **Ta bort** raderar en hotspot tillsammans med sin text och sitt kort, efter en bekräftelse.
 
@@ -84,7 +87,13 @@ Panelen frågar hur punkterna ska se ut. Allt här gäller alla hotspots, och pu
 
 ## Steg 3: Testa {#try}
 
-Panelen ber dig testa dina hotspots. Det här är på riktigt: att hovra visar din text, ett klick gör det du valde, och en vald vy flyger besökaren dit med en **Tillbaka**-knapp för att komma hem igen. Tryck på **Mobil** under bilden för att bedöma allt i mobilstorlek.
+Panelen ber dig testa dina hotspots, och det här är på riktigt. Använd scenen som en besökare, och kontrollera:
+
+- Att hovra över en punkt visar din text.
+- Ett klick gör det du valde: anteckningen, kortet, kameran.
+- En vald vy flyger dig dit, med en **Tillbaka**-knapp för att komma tillbaka.
+
+Tryck på **Mobil** under bilden för att bedöma allt i mobilstorlek.
 
 ### Bläddring mellan hotspots {#hotspot-navigation}
 
@@ -104,7 +113,9 @@ Rundturen spelar aldrig av sig själv när sidan laddas. En besökare trycker p�
 
 ## Steg 4: Spara {#save}
 
-Eftersom hotspots läggs på en befintlig version är **Uppdatera** förvalt: dina hotspots sparas in i versionen du öppnade, efter en bekräftelse (*Ersätt dessa inställningar?*), eftersom de gamla inställningarna inte kan återskapas efteråt. Vill du hellre lämna originalet orört väljer du **Spara som ny** och ger den ett nytt namn, precis som i [guidad setup](./setup.md#save-it).
+Eftersom hotspots läggs på en befintlig version är **Uppdatera** förvalt: dina hotspots sparas in i versionen du öppnade. Redigeraren ber dig bekräfta (*Ersätt dessa inställningar?*), eftersom de gamla inställningarna inte kan återskapas efteråt. Vill du hellre lämna originalet orört väljer du **Spara som ny** och ger den ett nytt namn, precis som i [guidad setup](./setup.md#save-it).
+
+Det är också här en version blir av med sina hotspots: ta bort alla i steg 1, så blir **Fortsätt** i stället **Spara utan hotspots** och tar dig direkt hit.
 
 Det bästa med att uppdatera: **visar din webbplats redan den här versionen dyker dina hotspots upp där så fort du sparat.** Ingenting i koden på sidan behöver ändras.
 
@@ -113,6 +124,4 @@ Det bästa med att uppdatera: **visar din webbplats redan den här versionen dyk
 ## Bra att veta {#good-to-know}
 
 - **Hotspots syns aldrig i filer från [video](./video.md)- och [fotoflödena](./foto.md).** De hör till den interaktiva upplevelsen på din webbplats.
-- **Ordningen i listan är allt**: siffrorna, bokstäverna och rundturens ordning följer den.
-- **Det finns ingen gräns för antalet hotspots**, men några få väl valda läser oftast bättre än många.
-- **Kameragränserna från guidad setup gäller även här**: en vald vy kan aldrig ta besökare någonstans dina gränser inte tillåter.
+- **Det finns ingen gräns för antalet hotspots**, men några få väl valda brukar fungera bättre än många.
