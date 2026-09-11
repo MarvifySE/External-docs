@@ -22,6 +22,7 @@ The editor currently guides you through:
 - **[Guided setup](./setup.md)**: prepares a model for your website. The view visitors start at, how far they can zoom and turn, whether the model moves on its own, and the code snippet to paste into your page.
 - **[Videos](./video.md)**: creates video clips of your model, framed and sized for your website and social media. The files are saved to your computer.
 - **[Photos](./foto.md)**: takes photos of your model, ready to post or in full quality, with or without a background.
+- **[Hotspots](./hotspots.md)**: puts interactive dots on your model, with text, cards and chosen views that visitors can click through.
 
 More guides are on the way and will be documented here as they become available.
 

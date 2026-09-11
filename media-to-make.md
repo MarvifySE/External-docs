@@ -1,13 +1,9 @@
 # Media to make — hotspots page
 
-Capture plan for the media the drafted hotspots guide needs before it can publish. Everything for
-the other pages is done and live; this file now only tracks hotspots. The page
-(`docs/redigeraren/hotspots.md` + its i18n twin) already references every filename below, so
-finished files drop in with no doc edits. Delete entries as they are produced.
-
-Do the capture only once `mode=hotspots` has shipped to customers, and treat the session as a
-verification pass too: walk the real flow against the page and fix any drift the product picked up
-since the research (`.docs-internal/hotspots-research.md`).
+All of it is made: the hotspots guide is captured, illustrated and live in both languages, as are
+the other editor pages. The file stays as the re-shoot map, so a UI change has a list to work from
+rather than a hunt through the pages. Specs for every clip and still are below; one publish-time
+item is still open at the bottom.
 
 ## Ground rules (same pipeline as the shipped pages)
 
@@ -59,9 +55,9 @@ re-shoot map. Bug found during capture, for the editor: the choose-the-view wiza
 
 ## At publish time (after the capture)
 
-1. Flip `draft: true` off in both hotspots pages.
-2. Add `redigeraren/hotspots` to `sidebars.js` and a Hotspots entry to the overview's
-   guided-tasks list (both languages).
-3. Editor repo: `hotspotsGuideTarget()` in `docs.ts` + pass `guideHref` from `HotspotsShell`
-   (page anchors: `#spots`, `#look`, `#try`, `#save`), and fix the base URL
+1. ~~Flip `draft: true` off in both hotspots pages.~~ Done 2026-09-11.
+2. ~~Add `redigeraren/hotspots` to `sidebars.js` and a Hotspots entry to the overview's
+   guided-tasks list (both languages).~~ Done 2026-09-11, page is live in both languages.
+3. **Still open.** Editor repo: `hotspotsGuideTarget()` in `docs.ts` + pass `guideHref` from
+   `HotspotsShell` (page anchors: `#spots`, `#look`, `#try`, `#save`), and fix the base URL
    `docs.marvify.io` → `docs.marvify.com` while in there.

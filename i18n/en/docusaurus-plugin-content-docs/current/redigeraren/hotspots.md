@@ -1,5 +1,4 @@
 ---
-draft: true
 id: hotspots
 title: Hotspots
 sidebar_label: Hotspots
