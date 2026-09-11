@@ -59,5 +59,5 @@ re-shoot map. Bug found during capture, for the editor: the choose-the-view wiza
 2. ~~Add `redigeraren/hotspots` to `sidebars.js` and a Hotspots entry to the overview's
    guided-tasks list (both languages).~~ Done 2026-09-11, page is live in both languages.
 3. **Still open.** Editor repo: `hotspotsGuideTarget()` in `docs.ts` + pass `guideHref` from
-   `HotspotsShell` (page anchors: `#spots`, `#look`, `#try`, `#save`), and fix the base URL
-   `docs.marvify.io` → `docs.marvify.com` while in there.
+   `HotspotsShell` (page anchors: `#spots`, `#look`, `#try`, `#save`), and point the `hotspots`
+   entry in `ARTICLES` at the new page instead of the overview.

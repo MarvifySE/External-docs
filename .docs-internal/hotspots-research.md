@@ -83,8 +83,7 @@ video/foto pages).
 
 ## docs.ts state (checked 2026-08-31)
 
-- BASE is still **https://docs.marvify.io** (line 99) — our site is docs.marvify.com. Domain fix
-  needed in the editor (or a redirect).
+- BASE is **https://docs.marvify.io** (line 99), which is correct: that is the docs site.
 - Per-step GUIDE pill targets now exist for setup (steps 1–4 → /redigeraren/setup/#camera-start,
   #camera-limits, #the-motion, #try-it) and media (video/#what-format, #make-your-clip;
   foto/#what-format, #how-should-it-look; builder → /redigeraren/bygg/). **They match our published
