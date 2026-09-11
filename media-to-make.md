@@ -26,23 +26,25 @@ since the research (`.docs-internal/hotspots-research.md`).
 
 ## Clips (2)
 
-### `hotspot-place-v1.mp4` — placing a hotspot
+### `hotspot-place-v1.mp4` — placing a hotspot — **DONE**
 
-- Replaces `editor-hotspots-placera.webp` (step 1, "Place a dot").
-- **Shows:** press **Add hotspot**, fly to a detail, double-click it, the dot lands and its row
-  opens in the panel, type a name. ~8 s.
-- **Crop:** canvas + panel (the row opening is half the story).
+- Produced 2026-09-02: `static/video/hotspot-place-v1.mp4` (1920×1028, ~8 s at 1.3×, 0.8 MB;
+  small variant 0.19 MB). Embedded in both pages; `editor-hotspots-placera.webp` placeholder
+  removed. Shows the new armed placement (pulsing frame, ghost dot with double-click tag),
+  the landing, the row opening, and naming.
 
-### `hotspot-tour-v1.mp4` — the tour playing
+### `hotspot-tour-v1.mp4` — the tour playing — **DONE**
 
-- Replaces `editor-hotspots-rundtur.webp` (step 3, "Hotspot navigation").
-- **Prereq:** ≥ 2 hotspots with chosen views, navigation set to **Arrows + tour**.
-- **Shows:** press play, two stops with dwell and swing, then touch the scene to exit. ~12 s.
-- **Crop:** canvas only.
-- **Traps:** the editor parks the tour chrome ~50 px higher than production does, and all dots hide
-  while the tour plays — both expected, don't retake over them.
+- Produced 2026-09-02: `static/video/hotspot-tour-v1.mp4` (1540×1028, ~11 s at 1.3×, 2.0 MB;
+  small variant 0.6 MB, CRF 24/26 — photographic closeups). Embedded in both pages;
+  `editor-hotspots-rundtur.webp` placeholder removed. Shows play → two stops with dwell and
+  swing (Fade transitions, the default); cut just before the loop-back fade.
 
-## Stills (5)
+## Stills (5) — **ALL CAPTURED 2026-09-02**
+
+All five replaced their placeholders (oversikt got dual inline+full files). List kept as the
+re-shoot map. Bug found during capture, for the editor: the choose-the-view wizard's guide card
+(and in one state its Cancel / Use this view bar) persists on steps 2 and 3 after leaving step 1.
 
 - `editor-hotspots-oversikt.webp` — step 1 with one hotspot open: full window minus topbar
   (wide shot → dual files).

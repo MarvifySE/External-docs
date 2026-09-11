@@ -18,7 +18,7 @@ When you choose to add hotspots to a model in the dashboard, the editor opens in
 3. **Try it**: use the scene the way a visitor would
 4. **Save it**: update your version, or save as a new one
 
-<DocImage src={require('@site/static/img/editor-hotspots-oversikt.webp').default} alt="Step 1 with a hotspot open, panel right and model left" width={800} />
+<DocImage src={require('@site/static/img/editor-hotspots-oversikt.webp').default} srcFull={require('@site/static/img/editor-hotspots-oversikt-full.webp').default} alt="Step 1 with a hotspot open, panel right and model left" width={800} />
 
 ---
 
@@ -38,7 +38,7 @@ The panel asks you to place your hotspots.
 
 Press **Add hotspot**, then **double-click the spot on your product where the dot should sit**. On a model with no hotspots yet, placement is already armed when you arrive, so a double-click is all it takes. The dot lands and its settings open in the panel.
 
-<DocImage src={require('@site/static/img/editor-hotspots-placera.webp').default} alt="Double-clicking the product to place a dot" width={700} />
+<DocVideo src={require('@site/static/video/hotspot-place-v1-s.mp4').default} srcFull={require('@site/static/video/hotspot-place-v1.mp4').default} width="85%" ratio="1920 / 1028" />
 
 The same gesture moves a dot later: press **Move the dot** in its row and double-click where it should sit instead.
 
@@ -107,7 +107,7 @@ With at least two hotspots, you can put small controls in the corner of the scen
 
 The tour never plays by itself when the page loads. A visitor presses play, the tour walks the hotspots in order, and it loops until the visitor touches the scene.
 
-<DocImage src={require('@site/static/img/editor-hotspots-rundtur.webp').default} alt="The tour playing" width={700} />
+<DocVideo src={require('@site/static/video/hotspot-tour-v1-s.mp4').default} srcFull={require('@site/static/video/hotspot-tour-v1.mp4').default} ratio="1540 / 1028" />
 
 ---
 

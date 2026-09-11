@@ -18,7 +18,7 @@ När du väljer att lägga till hotspots på en modell i kontrollpanelen öppnas
 3. **Testa**: använd scenen som en besökare
 4. **Spara**: uppdatera din version, eller spara som en ny
 
-<DocImage src={require('@site/static/img/editor-hotspots-oversikt.webp').default} alt="Steg 1 med en hotspot öppen, panelen till höger och modellen till vänster" width={800} />
+<DocImage src={require('@site/static/img/editor-hotspots-oversikt.webp').default} srcFull={require('@site/static/img/editor-hotspots-oversikt-full.webp').default} alt="Steg 1 med en hotspot öppen, panelen till höger och modellen till vänster" width={800} />
 
 ---
 
@@ -38,7 +38,7 @@ Panelen ber dig placera dina hotspots.
 
 Tryck på **Lägg till hotspot** och **dubbelklicka sedan på stället på din produkt där punkten ska sitta**. På en modell utan hotspots är placeringen redan aktiv när du kommer in, så det räcker att dubbelklicka. Punkten sätter sig och dess inställningar öppnas i panelen.
 
-<DocImage src={require('@site/static/img/editor-hotspots-placera.webp').default} alt="Att dubbelklicka på produkten för att placera en punkt" width={700} />
+<DocVideo src={require('@site/static/video/hotspot-place-v1-s.mp4').default} srcFull={require('@site/static/video/hotspot-place-v1.mp4').default} width="85%" ratio="1920 / 1028" />
 
 Samma gest flyttar en punkt senare: tryck på **Flytta punkten** i punktens rad och dubbelklicka där den ska sitta i stället.
 
@@ -107,7 +107,7 @@ Med minst två hotspots kan du lägga små kontroller i hörnet av scenen som l�
 
 Rundturen spelar aldrig av sig själv när sidan laddas. En besökare trycker på play, turen går igenom hotspotarna i ordning och loopar tills besökaren rör scenen.
 
-<DocImage src={require('@site/static/img/editor-hotspots-rundtur.webp').default} alt="Rundturen som spelar" width={700} />
+<DocVideo src={require('@site/static/video/hotspot-tour-v1-s.mp4').default} srcFull={require('@site/static/video/hotspot-tour-v1.mp4').default} ratio="1540 / 1028" />
 
 ---
 
