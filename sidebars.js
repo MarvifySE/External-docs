@@ -16,6 +16,7 @@ module.exports = {
         "redigeraren/setup",
         "redigeraren/video",
         "redigeraren/foto",
+        "redigeraren/hotspots",
         "redigeraren/bygg",
       ],
     },

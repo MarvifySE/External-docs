@@ -22,6 +22,7 @@ Redigeraren guidar dig i dag genom:
 - **[Guidad setup](./setup.md)**: förbereder en modell för din webbplats. Vyn besökare startar i, hur nära och hur långt runt de kan röra sig, om modellen rör sig av sig själv, och kodsnutten att klistra in på din sida.
 - **[Videor](./video.md)**: skapar videoklipp av din modell, formaterade och storleksanpassade för din webbplats och sociala medier. Filerna sparas på din dator.
 - **[Foton](./foto.md)**: tar foton av din modell, redo att posta eller i full kvalitet, med eller utan bakgrund.
+- **[Hotspots](./hotspots.md)**: sätter interaktiva punkter på din modell, med text, kort och valda vyer som besökare kan klicka fram.
 
 Fler guider är på väg och dokumenteras här när de blir tillgängliga.
 
