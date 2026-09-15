@@ -23,6 +23,7 @@ Redigeraren guidar dig i dag genom:
 - **[Videor](./video.md)**: skapar videoklipp av din modell, formaterade och storleksanpassade för din webbplats och sociala medier. Filerna sparas på din dator.
 - **[Foton](./foto.md)**: tar foton av din modell, redo att posta eller i full kvalitet, med eller utan bakgrund.
 - **[Hotspots](./hotspots.md)**: sätter interaktiva punkter på din modell, med text, kort och valda vyer som besökare kan klicka fram.
+- **[Detaljkort](./kort.md)**: ger din modell ett kort i vyns hörn med text, bild och knapp, som besökare öppnar när de vill veta mer.
 
 Fler guider är på väg och dokumenteras här när de blir tillgängliga.
 

@@ -1,5 +1,4 @@
 ---
-draft: true
 id: kort
 title: Details card
 sidebar_label: Details card

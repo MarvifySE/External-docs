@@ -7,13 +7,13 @@ Tick things off here as they land.
 
 ## 0. Decisions needed first
 
-- [ ] **Page slug.** Proposal: `redigeraren/kort`, matching the Swedish-path convention of
+- [x] **Page slug.** Decided: `redigeraren/kort`. Proposal: `redigeraren/kort`, matching the Swedish-path convention of
   `foto` and `bygg`. Whatever is chosen is baked into the editor's `GUIDE_PAGES`, so decide once.
   Anchors are not a decision: they follow the step ids (`#card`, `#look`, `#try`, `#save`), the
   pattern the editor's guide-target functions rely on.
-- [ ] **Page title.** Proposal: "Detaljkort" (sv) / "Details card" (en), the words the editor's own
+- [x] **Page title.** Decided: Detaljkort / Details card. Proposal: "Detaljkort" (sv) / "Details card" (en), the words the editor's own
   welcome line uses. Sidebar label the same.
-- [ ] **Autorotate during authoring.** The card flow does not pause the variant's autorotate the
+- [ ] **Autorotate during authoring.** Decided: ask the editor to latch it off; docs say nothing about it. Editor-side, see section 4. The card flow does not pause the variant's autorotate the
   way media and hotspots do, so a spinning model keeps spinning behind the card while you write
   it. Product call: should card mode latch it off like hotspots? If yes, that is a one-line editor
   change and the docs need no sentence about it. If no, the docs mention it once.
@@ -114,16 +114,16 @@ Capture doubles as the drift check: walk the real flow against the page before p
 
 ## 3. Changes to existing docs pages
 
-- [ ] **Overview** (`oversikt.md`, both languages): fifth guided-tasks row for the details card.
+- [x] **Overview** (`oversikt.md`, both languages) DONE 2026-09-15.: fifth guided-tasks row for the details card.
   "Fler guider är på väg" can stay only if more modes are actually planned; otherwise drop it.
-- [ ] **`sidebars.js`**: add `redigeraren/kort` after `redigeraren/hotspots`, before `bygg`.
-- [ ] **Videor + Foton** (both languages): the "Hotspots syns aldrig i filerna" line should cover
+- [x] **`sidebars.js`** DONE 2026-09-15.: add `redigeraren/kort` after `redigeraren/hotspots`, before `bygg`.
+- [x] **Videor + Foton** (both languages) DONE 2026-09-15.: the "Hotspots syns aldrig i filerna" line should cover
   the details card too, so it does not read as if hotspots are the only thing excluded.
-- [ ] **Hotspots** (both languages): cross-link "Spara utan hotspots" ↔ "Spara utan kortet"; in the
+- [x] **Hotspots** (both languages): DROPPED 2026-09-15, comparison material is out of scope by the new docs rules. Original idea: cross-link "Spara utan hotspots" ↔ "Spara utan kortet"; in the
   click-shows section, one clause that the card tool is the same one the details card uses.
-- [ ] **Guidad setup**: no change needed. Its claim that setup leaves hotspots and info cards
+- [x] **Guidad setup**: no change needed. Its claim that setup leaves hotspots and info cards
   alone is still true.
-- [ ] **`.docs-internal/hotspots-research.md`**: the "hotspots has no per-step targets" paragraph
+- [x] **`.docs-internal/hotspots-research.md`** DONE 2026-09-15.: the "hotspots has no per-step targets" paragraph
   is now stale (the editor wired them). Fix or drop that paragraph.
 
 ## 4. Editor-side work (for the editor session, once the page exists)

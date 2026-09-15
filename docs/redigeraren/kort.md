@@ -1,5 +1,4 @@
 ---
-draft: true
 id: kort
 title: Detaljkort
 sidebar_label: Detaljkort
