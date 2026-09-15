@@ -88,11 +88,10 @@ video/foto pages).
   #camera-limits, #the-motion, #try-it) and media (video/#what-format, #make-your-clip;
   foto/#what-format, #how-should-it-look; builder → /redigeraren/bygg/). **They match our published
   anchors exactly** apart from the domain.
-- Gaps: setup step 5 never renders the pill (SaveStep bypasses it); **hotspots has no per-step
-  targets and no article of its own** — when the docs page exists, editor needs
-  hotspotsGuideTarget() + HotspotsShell passing guideHref (suggest anchors #spots/#look/#try/#save
-  or align with whatever the page uses); mode-level book button for media/hotspots/full →
-  /redigeraren/oversikt (exists ✓).
+- Update 2026-09-15: the hotspots wiring is done. `hotspotsGuideTarget()` exists and
+  `HotspotsShell` passes `guideHref`, so all four hotspots steps show the GUIDE pill pointing at
+  `/redigeraren/hotspots/#spots|#look|#try|#save`. Still open: setup step 5 never renders the pill
+  (SaveStep bypasses GuidedShell), which also affects the hotspots and card save steps.
 
 ## Editor copy bugs to file / route around
 

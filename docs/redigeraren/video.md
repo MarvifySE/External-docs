@@ -158,4 +158,4 @@ Hjälper inget av det, [kontakta support](../felsokning/kontakta-support.md).
 
 - **Modellens egen rörelse är pausad** medan du arbetar här, så en rotation eller animation från guidad setup stör aldrig rörelsen du riktar in.
 - **Kameran kan gå var som helst medan du riktar in.** Zoomgränser från guidad setup gäller besökare på din webbplats, inte dig som gör en fil.
-- **Hotspots syns aldrig i filerna.** Videor fångar bara produkten.
+- **Hotspots och detaljkortet syns aldrig i filerna.** Videor fångar bara produkten.

@@ -107,4 +107,4 @@ Det finns inget sparsteg och ingen slutskärm. När du har fotona du kom för st
 
 - **Modellens egen rörelse är pausad** medan du arbetar här, så en rotation eller animation från guidad setup stör aldrig bilden du riktar in.
 - **Kameran kan gå var som helst medan du riktar in.** Zoomgränser från guidad setup gäller besökare på din webbplats, inte dig som tar ett foto.
-- **Hotspots syns aldrig i filerna.** Foton fångar bara produkten.
+- **Hotspots och detaljkortet syns aldrig i filerna.** Foton fångar bara produkten.

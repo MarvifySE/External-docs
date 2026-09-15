@@ -80,33 +80,34 @@ differ slightly from the setup batches.
 
 ### Clips (3)
 
-- [ ] `card-start-from-v1.mp4` (step 1). Hover two or three layout tiles so the hint line changes,
+- [x] `card-start-from-v1.mp4` (step 1). **DONE 2026-09-15**: 1920×1028, 8.9 s at 1.6× with scripted zooms (tiles 2×, card 1.6×), 1.4 MB
+  (small variant 0.44 MB, CRF 26/27). Hover two or three layout tiles so the hint line changes,
   pick **Product listing**, the prefilled card appears on the canvas, click into a line and type
   so the card updates live. ~10 s. Crop: canvas + panel. Sits in the "Start from" section
   alongside the picker still, which stays: the still is for reading the seven names, the clip is
   for the live-update promise.
-- [ ] `card-pill-v1.mp4` (step 2). Hover into the button section, the card closes to the button,
+- [x] `card-pill-v1.mp4` (step 2). **DONE 2026-09-15**: 1920×1028, 7.4 s at 1.6× with zooms (chips 2×, toggle 1.8×), 1.3 MB / 0.36 MB, CRF 26/27. Hover into the button section, the card closes to the button,
   click a suggestion chip and the button's text changes, move the pointer away and the card
   reopens, then tick **Start as a button** so it stays closed. ~10 s. Crop: canvas + panel.
   This clip exists to pre-empt the "it's a bug" support ticket.
-- [ ] `card-mobile-v1.mp4` (step 3). Press **Mobile**, the frame appears with the card as a
+- [x] `card-mobile-v1.mp4` (step 3). **DONE 2026-09-15**: 1540×1028, 7.3 s at 1.6× with a 1.5× push on the phone frame, 0.54 MB / 0.20 MB, CRF 25/27. Press **Mobile**, the frame appears with the card as a
   button, tap it, the bottom sheet slides up with its grab bar, scroll the card so the fade shows,
   drag it closed. ~12 s. Crop: canvas only. Needs a long description in the card so it scrolls.
 
 ### Stills (5, plus 1 optional)
 
-- [ ] `editor-card-oversikt.webp` (wide, dual files). Step 1 with Product listing picked: card on
+- [x] `editor-card-oversikt.webp` (wide, dual files). **DONE 2026-09-15** (960 inline 42 KB + full 1920×1028 150 KB). Step 1 with Product listing picked: card on
   the canvas, panel to the right, full window minus topbar.
-- [ ] `editor-card-layouter.webp` (panel). The seven-tile picker with the hint line filled by a
+- [x] `editor-card-layouter.webp` (panel). **Captured then dropped 2026-09-15**: the page no longer lists the layouts (change-resistant wording) and the clip above zooms onto the same tiles. The seven-tile picker with the hint line filled by a
   hovered tile. Swedish UI is the harder capture (two-line names); take it in the language the
   page shot set uses.
-- [ ] `editor-card-innehall.webp` (panel). Content lines + image + button sections. Tallest panel;
+- [x] `editor-card-innehall.webp` (panel). **DONE 2026-09-15** (364×762, one shot, all three sections fit). Content lines + image + button sections. Tallest panel;
   scroll so all three fit or take two shots.
-- [ ] `editor-card-stil.webp` (panel). Advanced styling open, ideally with one contrast warning
+- [x] `editor-card-stil.webp` (panel). **DONE 2026-09-15** (364×524, default colours, no warning shown by decision). Advanced styling open, ideally with one contrast warning
   showing (needs a bad colour pair and a price or small-label line for the accent warning).
-- [ ] `editor-card-placering.webp` (panel). Step 2: corner picker, Start as a button, the button
+- [x] `editor-card-placering.webp` (panel). **DONE 2026-09-15** (364×390). Step 2: corner picker, Start as a button, the button
   section with chips.
-- [ ] optional `editor-card-ta-bort.webp` (panel). The removal state: "Kortet är borttaget…" with
+- [x] optional `editor-card-ta-bort.webp` (panel). **Skipped 2026-09-15**: the section reads fine as text. The removal state: "Kortet är borttaget…" with
   Bring the card back and Save without the card. Needs a variant that already has a card.
 
 Capture doubles as the drift check: walk the real flow against the page before publishing.

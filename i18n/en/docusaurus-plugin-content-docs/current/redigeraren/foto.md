@@ -107,4 +107,4 @@ There is no save step and no finish screen. When you have the photos you came fo
 
 - **Your model's own motion is paused** while you work here, so a turntable or animation from guided setup never fights with the shot you are framing.
 - **The camera can go anywhere while you frame.** Zoom limits from guided setup apply to visitors on your website, not to you taking a photo.
-- **Hotspots never appear in the files.** Photos capture the product alone.
+- **Hotspots and the details card never appear in the files.** Photos capture the product alone.
