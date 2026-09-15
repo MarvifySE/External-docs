@@ -25,15 +25,13 @@ Redigeraren guidar dig i dag genom:
 - **[Hotspots](./hotspots.md)**: sätter interaktiva punkter på din modell, med text, kort och valda vyer som besökare kan klicka fram.
 - **[Detaljkort](./kort.md)**: ger din modell ett kort i vyns hörn med text, bild och knapp, som besökare öppnar när de vill veta mer.
 
-Fler guider är på väg och dokumenteras här när de blir tillgängliga.
-
 ---
 
 ## Hitta runt {#finding-your-way-around}
 
 Skärmen har två huvudytor:
 
-- **Bilden av din modell** fyller större delen av fönstret. Du rör dig runt den med musen: dra för att snurra, skrolla för att zooma.
+- **Vyn**, med din modell i, fyller större delen av fönstret. Du rör dig runt den med musen: dra för att snurra, skrolla för att zooma.
 - **Toppraden** visar vilken modell och version du har öppen, en bokknapp som öppnar rätt guide i den här dokumentationen, och ett val mellan ljust och mörkt tema.
 
 När du kommer från kontrollpanelen för en specifik uppgift visas också en **steg-för-steg-panel** till höger på skärmen. Den tar dig genom uppgiften ett steg i taget, så att du aldrig möter alla redigerarens kontroller på en gång.
@@ -42,7 +40,7 @@ När du kommer från kontrollpanelen för en specifik uppgift visas också en **
 
 ## En modell, många versioner {#one-model-many-versions}
 
-En och samma modell kan sparas med hur många **namngivna versioner** som helst. Varje version har sina egna inställningar (startvy, kameragränser, bakgrundsfärg, rörelse) medan själva 3D-modellen förblir densamma.
+En och samma modell kan sparas med hur många **namngivna versioner** som helst. Varje version har sina egna inställningar medan själva 3D-modellen förblir densamma.
 
 En version identifieras som `modell@namn`, till exempel `min-produkt@webb`. Det fullständiga id:t är vad du använder på din webbplats för att visa just den versionen. Så kan du ha en version anpassad för produktsidan och en annan för en kampanj, utan att röra själva modellen.
 

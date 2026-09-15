@@ -25,15 +25,13 @@ The editor currently guides you through:
 - **[Hotspots](./hotspots.md)**: puts interactive dots on your model, with text, cards and chosen views that visitors can click through.
 - **[Details card](./kort.md)**: gives your model a card in a corner of the viewer with text, an image and a button, which visitors open when they want to know more.
 
-More guides are on the way and will be documented here as they become available.
-
 ---
 
 ## Finding your way around {#finding-your-way-around}
 
 The screen has two main areas:
 
-- **The picture of your model** fills most of the window. You move around it with the mouse: drag to turn, scroll to zoom.
+- **The viewer**, with your model in it, fills most of the window. You move around it with the mouse: drag to turn, scroll to zoom.
 - **The top bar** shows which model and version you have open, a book button that opens the relevant guide in this documentation, and a light/dark theme toggle.
 
 When you arrive from the dashboard for a specific task, a **step-by-step panel** also appears on the right side of the screen. It walks you through that task one step at a time, so you never face all of the editor's controls at once.
@@ -42,7 +40,7 @@ When you arrive from the dashboard for a specific task, a **step-by-step panel**
 
 ## One model, many versions {#one-model-many-versions}
 
-A single model can be saved with any number of **named versions**. Each version keeps its own settings (starting view, camera limits, background color, motion) while the 3D model itself stays the same.
+A single model can be saved with any number of **named versions**. Each version keeps its own settings while the 3D model itself stays the same.
 
 A version is identified as `model@name`, for example `my-product@web`. That full id is what you use on your website to show that particular version. This lets you keep one version tuned for your product page and another for a campaign, without touching the model itself.
 
