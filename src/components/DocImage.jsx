@@ -86,6 +86,18 @@ export default function DocImage({src, srcFull, alt = '', width = 800}) {
             src={srcFull}
             alt={alt}
             onClick={(e) => e.stopPropagation()}
+            onLoad={(e) => {
+              // Small panel crops are upscaled (at most 1.6x) so the enlarged
+              // view is actually bigger than the inline one; wide shots are
+              // already clamped by the viewport.
+              const img = e.currentTarget;
+              const scale = Math.min(
+                1.6,
+                (0.85 * window.innerWidth) / img.naturalWidth,
+                (0.85 * window.innerHeight) / img.naturalHeight,
+              );
+              img.style.width = `${Math.round(img.naturalWidth * scale)}px`;
+            }}
             style={{
               maxWidth: '85vw',
               maxHeight: '85vh',

@@ -23,6 +23,7 @@ The editor currently guides you through:
 - **[Videos](./video.md)**: creates video clips of your model, framed and sized for your website and social media. The files are saved to your computer.
 - **[Photos](./foto.md)**: takes photos of your model, ready to post or in full quality, with or without a background.
 - **[Hotspots](./hotspots.md)**: puts interactive dots on your model, with text, cards and chosen views that visitors can click through.
+- **[Details card](./kort.md)**: gives your model a card in a corner of the viewer with text, an image and a button, which visitors open when they want to know more.
 
 More guides are on the way and will be documented here as they become available.
 
