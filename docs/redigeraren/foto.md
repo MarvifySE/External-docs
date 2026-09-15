@@ -31,19 +31,9 @@ Flödet öppnar med en enda fråga: **Vad ska vi göra?** Välj **Foton**. (Vale
 
 ## Steg 1: Vilket format? {#what-format}
 
-Olika plattformar vill ha olika format. Välj var fotot ska användas, eller ange en egen storlek:
+Olika plattformar vill ha olika format. De färdiga formaten täcker de vanliga, från stående för TikTok och Reels till liggande för din webbplats, och **Egen** tar exakt bredd och höjd.
 
 <DocImage src={require('@site/static/img/editor-media-format.webp').default} alt="Formatvalen" width={364} />
-
-| Format | Tänkt för |
-| ------ | --------- |
-| **Stående (9:16)** | TikTok, Reels, YouTube Shorts. Fyller hela skärmen. |
-| **Flöde (4:5)** | Inlägg i flödet på Instagram och Facebook. Tar mer plats än en kvadrat. |
-| **Kvadrat (1:1)** | Fungerar överallt. Beskär minst när du är osäker. Standard för foton. |
-| **Liggande (16:9)** | YouTube, din webbplats, produktsidor. |
-| **Egen** | Ange ett eget format med exakt bredd och höjd. |
-
-**Egen** visar två fält för bredd och höjd, med en rad under som anger exakt vilken pixelstorlek filen sparas i.
 
 Så fort ett format är valt visas en ljus ram över modellen med allt utanför nedtonat. **Den ramen visar exakt vad som kommer med.** Kameran hålls stilla i det här steget; inramningen kommer i steg 2.
 
@@ -51,7 +41,7 @@ Så fort ett format är valt visas en ljus ram över modellen med allt utanför 
 
 ## Steg 2: Hur ska den se ut? {#how-should-it-look}
 
-Här styr du kameran direkt: **vänsterdra** snurrar produkten, **högerdra** flyttar den runt i bilden, **skrolla** zoomar, och ett **dubbelklick** siktar kameran där du klickar. Passa in produkten i den ljusa ramen. En liten förklaring i nedre vänstra hörnet visar kontrollerna, och dess **?** öppnar en kort guide med ett demoklipp.
+Här styr du kameran direkt med musen och passar in produkten i den ljusa ramen.
 
 <DocVideo src={require('@site/static/video/framing-v1-s.mp4').default} srcFull={require('@site/static/video/framing-v1.mp4').default} ratio="1540 / 1028" />
 
@@ -59,12 +49,12 @@ Här styr du kameran direkt: **vänsterdra** snurrar produkten, **högerdra** fl
 
 ### Kvalitet {#photo-quality}
 
-Två val, med den levererade pixelstorleken alltid synlig i panelen:
+Två val:
 
 <DocImage src={require('@site/static/img/editor-media-foto-kvalitet.webp').default} alt="De två kvalitetsvalen med storleken under" width={364} />
 
-- **Klar att publicera** (standard): anpassad för Instagram, TikTok och resten. Går att ladda upp överallt. Sparas som JPG, till exempel 1080 × 1080 för en kvadrat eller 1080 × 1920 för stående.
-- **Bästa kvalitet**: större, för en produktsida eller för redigering senare. Sparas som PNG, runt 2048 pixlar på långsidan.
+- **Klar att publicera** (standard): anpassad för sociala medier. Går att ladda upp överallt. Sparas som JPG.
+- **Bästa kvalitet**: större, för en produktsida eller för redigering senare. Sparas som PNG.
 
 ### Ingen bakgrund {#no-background}
 
@@ -97,7 +87,7 @@ Filerna har **ingen vattenstämpel**. Tar du två bilder samma dag lägger webbl
 ## Börja om {#starting-over}
 
 - **Tillbaka** i första steget går tillbaka till frågan om video eller foton och behåller dina inställningar, så att du kan ta foton och göra en video under samma besök.
-- **Återställ** i panelens överkant rensar det pågående jobbet: din inramning och dina inställningar. Redigeraren frågar först (*Börja om?*), eftersom det inte går att ångra.
+- **Återställ** i panelens överkant rensar det pågående jobbet: din inramning och dina inställningar. Det går inte att ångra.
 
 Det finns inget sparsteg och ingen slutskärm. När du har fotona du kom för stänger du fliken.
 

@@ -23,12 +23,12 @@ Grundidén är densamma i båda: flyg kameran någonstans, placera ett stopp, fl
 
 <DocVideo src={require('@site/static/video/build-stops-v1-s.mp4').default} srcFull={require('@site/static/video/build-stops-v1.mp4').default} ratio="1540 / 1028" />
 
-Ett kort i övre vänstra hörnet lotsar dig igenom, och börjar med *Flytta kameran dit rörelsen ska börja och placera ditt första stopp.* Raden längst ned har huvudkontrollerna:
+Raden längst ned har huvudkontrollerna:
 
 - **Placera stopp här** sparar kamerans aktuella position som nästa stopp.
 - **Sikta mot mitten** håller kameran riktad mot produktens mitt och tar bara höjden från där du dubbelklickar. Använd den för att cirkla runt något. Bocka ur för att sikta exakt där du dubbelklickar.
 - **Uppdatera stopp** flyttar ett redan placerat stopp till kamerans aktuella position.
-- **Ångra** (eller Ctrl+Z) tar tillbaka den senaste ändringen.
+- **Ångra** tar tillbaka den senaste ändringen.
 
 En rörelse behöver minst två stopp, och tre till fem ser oftast bäst ut. Medan du bygger kan kameran röra sig helt fritt, så att du kan komponera varifrån du vill.
 
@@ -40,7 +40,7 @@ Varje stopp visas som en numrerad bricka på modellen, med det första markerat 
 
 <DocImage src={require('@site/static/img/editor-bygg-handtag.webp').default} alt="Draghandtaget på ett valt stopp" width={600} />
 
-Panelen listar varje stopp i ordning. Första raden heter **Börjar här**, resten **Stopp 2**, **Stopp 3** och så vidare. Från listan kan du flytta ett stopp tidigare eller senare, ta bort ett, eller välja **Ta bort alla stopp** för att börja tomt.
+Panelen listar varje stopp i ordning. Från listan kan du flytta ett stopp tidigare eller senare, ta bort ett, eller välja **Ta bort alla stopp** för att börja tomt.
 
 ---
 
@@ -51,8 +51,6 @@ Väljer du ett stopp i listan öppnas dess inställningar:
 - **Bromsa** saktar kameran genom det stoppet och snabbar upp resten, så att totala längden hålls. Använd den för att dröja på produktens bästa sida.
 - **Klipp till nästa stopp** hoppar över resan och klipper direkt dit, med en toning genom bakgrunden på vägen. På sista stoppet i en rörelse som inte loopar blir det **Klipp tillbaka till början**, vilket får rörelsen att loopa.
 - När ett klipp finns väljer **Vid varje klipp** mellan **Toning** (doppar genom bakgrundsfärgen och tillbaka) och **Hårt klipp** (hoppar direkt till nästa stopp, tuffare).
-
-En regel som byggaren håller på: ett stopp kan inte ha klipp på båda sidor, eftersom det skulle bli en stillbild där kameran borde röra sig. Byggaren säger nej och förklarar varför.
 
 Under stopplistan:
 

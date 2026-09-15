@@ -31,19 +31,9 @@ The flow opens with a single question: **What are we making?** Pick **Photos**. 
 
 ## Step 1: What format? {#what-format}
 
-Different platforms want different shapes. Pick where the photo is going, or set your own size:
+Different platforms want different shapes. The ready-made formats cover the common ones, from portrait for TikTok and Reels to landscape for your website, and **Custom** takes an exact width and height.
 
 <DocImage src={require('@site/static/img/editor-media-format.webp').default} alt="The format choices" width={364} />
-
-| Format | Meant for |
-| ------ | --------- |
-| **Portrait (9:16)** | TikTok, Reels, YouTube Shorts. Fills the whole screen. |
-| **Feed (4:5)** | Instagram and Facebook feed posts. Takes more room than a square. |
-| **Square (1:1)** | Works anywhere. Crops the least when you are not sure. The default for photos. |
-| **Landscape (16:9)** | YouTube, your website, product pages. |
-| **Custom** | Set your own shape with exact width and height. |
-
-**Custom** shows two fields for width and height, with a line underneath telling you the exact pixel size the file will be saved at.
 
 As soon as a format is chosen, a bright rectangle appears over the model with everything outside it dimmed. **That frame is exactly what gets captured.** The camera is held still on this step; framing comes in step 2.
 
@@ -51,7 +41,7 @@ As soon as a format is chosen, a bright rectangle appears over the model with ev
 
 ## Step 2: How should it look? {#how-should-it-look}
 
-Here you steer the camera directly: **left drag** turns the product, **right drag** slides it around the frame, **scroll** zooms, and a **double-click** aims the camera where you click. Line the product up inside the bright frame. A small legend in the bottom-left corner shows these controls, and its **?** opens a short guide with a demo clip.
+Here you steer the camera directly with the mouse and line the product up inside the bright frame.
 
 <DocVideo src={require('@site/static/video/framing-v1-s.mp4').default} srcFull={require('@site/static/video/framing-v1.mp4').default} ratio="1540 / 1028" />
 
@@ -59,12 +49,12 @@ Here you steer the camera directly: **left drag** turns the product, **right dra
 
 ### Quality {#photo-quality}
 
-Two choices, with the delivered pixel size always shown in the panel:
+Two choices:
 
 <DocImage src={require('@site/static/img/editor-media-foto-kvalitet.webp').default} alt="The two quality choices with the size readout" width={364} />
 
-- **Ready to post** (the default): sized for Instagram, TikTok and the rest. Uploads anywhere. Saved as JPG, for example 1080 × 1080 for a square or 1080 × 1920 for portrait.
-- **Best quality**: bigger, for a product page or for editing later. Saved as PNG, around 2048 pixels on the long edge.
+- **Ready to post** (the default): sized for social media. Uploads anywhere. Saved as JPG.
+- **Best quality**: bigger, for a product page or for editing later. Saved as PNG.
 
 ### No background {#no-background}
 
@@ -97,7 +87,7 @@ Files carry **no watermark**. If you shoot twice on the same day, your browser a
 ## Starting over {#starting-over}
 
 - **Back** on the first step returns to the video-or-photos question and keeps your settings, so you can take photos and make a video in the same visit.
-- **Reset** in the panel header clears the current job: your framing and settings. The editor asks first (*Start over?*), because this cannot be undone.
+- **Reset** in the panel header clears the current job: your framing and settings. This cannot be undone.
 
 There is no save step and no finish screen. When you have the photos you came for, close the tab.
 

@@ -32,19 +32,9 @@ Flödet öppnar med en enda fråga: **Vad ska vi göra?** Välj **Video**. (Vale
 
 ## Steg 1: Vilket format? {#what-format}
 
-Olika plattformar vill ha olika format. Välj var klippet ska användas, eller ange en egen storlek:
+Olika plattformar vill ha olika format. De färdiga formaten täcker de vanliga, från stående för TikTok och Reels till liggande för YouTube och din webbplats, och **Egen** tar exakt bredd och höjd.
 
 <DocImage src={require('@site/static/img/editor-media-format.webp').default} alt="Formatvalen" width={364} />
-
-| Format | Tänkt för |
-| ------ | --------- |
-| **Stående (9:16)** | TikTok, Reels, YouTube Shorts. Fyller hela skärmen. |
-| **Flöde (4:5)** | Inlägg i flödet på Instagram och Facebook. Tar mer plats än en kvadrat. |
-| **Kvadrat (1:1)** | Fungerar överallt. Beskär minst när du är osäker. |
-| **Liggande (16:9)** | YouTube, din webbplats, produktsidor. Standard för video. |
-| **Egen** | Ange ett eget format med exakt bredd och höjd. |
-
-**Egen** visar två fält för bredd och höjd, med en rad under som anger exakt vilken pixelstorlek filen sparas i.
 
 Så fort ett format är valt visas en ljus ram över modellen med allt utanför nedtonat. **Den ramen visar exakt vad som kommer med.** Den finns kvar genom hela flödet, så det du ser innanför är det som hamnar i filen.
 
@@ -60,26 +50,20 @@ Ett klipp är en kamerarörelse som spelas över din modell. Välj hur den rör 
 
 ### Välj en rörelse {#pick-a-shot}
 
-Vid ankomst öppnas rörelseväljaren av sig själv. Överst finns **Gör en egen kamerarörelse**, sedan tolv färdiga rörelser i två grupper:
+Vid ankomst öppnas rörelseväljaren av sig själv. Överst finns **Gör en egen kamerarörelse**, sedan färdiga rörelser i två grupper:
 
 <DocImage src={require('@site/static/img/editor-media-galleri.webp').default} alt="Rörelseväljaren med färdiga kamerarörelser" width={368} />
 
-- **Spelas en gång**: har en början och ett slut, så ett flöde som spelar om den visar ett klipp. En effekt i varje ände gör det till en toning. Rörelserna: **Hjälteinzoom**, **Frontsvep**, **Lyft och vrid**, **Backa ut**, **Ovanifrån och ned** och **Glid förbi**.
-- **Loopar**: slutar på exakt samma bild som den började på, så ett flöde spelar om den utan synligt klipp. Rörelserna: **Rotation**, **Frontpendel**, **Lutande bana**, **Cirkel in och ut**, **Topp till tå** och **Handhållen cirkel**.
+- **Spelas en gång**: har en början och ett slut, så ett flöde som spelar om den visar ett klipp. En effekt i varje ände gör det till en toning.
+- **Loopar**: slutar på exakt samma bild som den började på, så ett flöde spelar om den utan synligt klipp.
 
-Varje färdig rörelse anpassar sig till modellens storlek och proportioner, så en rörelse gjord för en hög flaska fungerar lika bra på en låg, bred soffa. Din valda rörelse visas överst i panelen med länken **Byt** som öppnar väljaren igen.
+Varje färdig rörelse anpassar sig till modellens storlek och proportioner, så en rörelse gjord för en hög flaska fungerar lika bra på en låg, bred soffa.
 
 <DocImage src={require('@site/static/img/editor-media-rorelse.webp').default} alt="Den valda rörelsen med länken Byt bredvid" width={364} />
 
 ### Rikta in med musen {#frame-the-clip}
 
-Klippet spelas i loop i bilden medan du arbetar. Musen justerar inramningen av hela rörelsen i stället för att styra kameran direkt:
-
-- **Vänsterdra uppåt eller nedåt** tiltar rörelsen så att produkten ses högre eller lägre ifrån.
-- **Högerdra** flyttar produkten runt i bilden.
-- **Skrolla** går närmare eller längre bort.
-
-En liten förklaring i nedre vänstra hörnet visar kontrollerna, och dess **?** öppnar en kort guide med ett demoklipp.
+Klippet spelas i loop i vyn medan du arbetar. Musen justerar inramningen av hela rörelsen i stället för att styra kameran direkt: att dra tiltar rörelsen eller flyttar produkten runt i ramen, och att skrolla går närmare eller längre bort.
 
 <DocVideo src={require('@site/static/video/framing-v1-s.mp4').default} srcFull={require('@site/static/video/framing-v1.mp4').default} ratio="1540 / 1028" />
 
@@ -89,9 +73,9 @@ För en färdig rörelse vrider slidern **Startvinkel** hela rörelsen runt prod
 
 <DocImage src={require('@site/static/img/editor-media-langd-effekter.webp').default} alt="Fältet för klippets längd och de två effektvalen" width={364} />
 
-**Klippets längd** anger hur många sekunder klippet är. Varje färdig rörelse kommer med en rimlig längd, och en varning visas om du går under tre sekunder: *TikTok och Reels kräver minst 3 sekunder.*
+**Klippets längd** anger hur många sekunder klippet är. Varje färdig rörelse kommer med en rimlig längd.
 
-För rörelser som spelas en gång visas två menyer: **Effekt i början** och **Effekt i slutet**. De bygger upp produkten eller tar isär den, så att klippet läses som 3D i stället för som ett foto. Några exempel: **Rain** låter droppar falla och bygga upp produkten från marken, **Paintballs** skjuter in bollar från alla håll som splattrar ihop till produkten, och **Scan** drar en linje uppåt som lämnar produkten solid bakom sig. Varje effekt tar en kort, fast bit i sin ände av klippet.
+För rörelser som spelas en gång visas två menyer: **Effekt i början** och **Effekt i slutet**. De bygger upp produkten eller tar isär den, så att klippet läses som 3D i stället för som ett foto. Varje effekt tar en kort, fast bit i sin ände av klippet.
 
 **Bakgrundsfärg** ligger under och fungerar som i guidad setup: färgen slår igenom direkt, och matchar du den mot platsen där klippet ska visas försvinner kanterna.
 
@@ -99,11 +83,9 @@ För rörelser som spelas en gång visas två menyer: **Effekt i början** och *
 
 <DocImage src={require('@site/static/img/editor-media-skapa.webp').default} alt="Knappen Skapa klipp med filstorleken under" width={364} />
 
-Tryck på **Skapa klipp**. Filens exakta pixelstorlek står direkt under knappen, till exempel *1080 × 1920*.
+Tryck på **Skapa klipp**. Videon skapas bild för bild i din webbläsare, så håll fliken öppen och aktiv tills den är klar. På en långsammare dator tar det längre tid, men den färdiga filen blir identisk med en gjord på en snabb maskin. **Avbryt** stoppar och slänger allt; ingen halvfärdig fil sparas.
 
-Videon skapas bild för bild i din webbläsare. En förloppsskärm visas med procent och en varning: *Håll den här fliken öppen och stanna kvar tills din video är klar. Om du stänger den eller byter flik måste du börja om.* På en långsammare dator tar det längre tid, men den färdiga filen blir identisk med en gjord på en snabb maskin. **Avbryt** stoppar och slänger allt; ingen halvfärdig fil sparas.
-
-När den är klar hamnar MP4-filen i din nedladdningsmapp och panelen bekräftar: *Sparad till dina nedladdningar.*
+När den är klar hamnar MP4-filen i din nedladdningsmapp.
 
 ### Återanvänd en rörelse på en annan produkt {#reusing-a-shot}
 
@@ -111,7 +93,7 @@ När den är klar hamnar MP4-filen i din nedladdningsmapp och panelen bekräftar
 
 ### Avancerat {#advanced}
 
-Bockar du i **Avancerat** visas fält för exakta värden: **Håll kvar i slutet** (för rörelser som spelas en gång), **Avstånd**, **Vinkel**, **Höjd i bild** och **I sidled**. Allt här går också att göra med musen, så de flesta klipp behöver det aldrig.
+Bockar du i **Avancerat** visas fält för exakta värden för inramningen. Allt här går också att göra med musen, så de flesta klipp behöver det aldrig.
 
 ---
 
@@ -138,7 +120,7 @@ MP4 (H.264) går att ladda upp direkt på alla stora plattformar. Filerna har **
 ## Börja om {#starting-over}
 
 - **Tillbaka** i första steget går tillbaka till frågan om video eller foton och behåller allt du byggt, så att du kan göra ett klipp och ta foton under samma besök.
-- **Återställ** i panelens överkant rensar det pågående jobbet: din rörelse, inramning och inställningar. Redigeraren frågar först (*Börja om?*), eftersom det inte går att ångra.
+- **Återställ** i panelens överkant rensar det pågående jobbet: din rörelse, inramning och inställningar. Det går inte att ångra.
 
 Det finns inget sparsteg och ingen slutskärm. När du har klippen du kom för stänger du fliken.
 

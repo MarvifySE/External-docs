@@ -23,12 +23,12 @@ The idea is the same in both: fly the camera somewhere, place a stop, fly somewh
 
 <DocVideo src={require('@site/static/video/build-stops-v1-s.mp4').default} srcFull={require('@site/static/video/build-stops-v1.mp4').default} ratio="1540 / 1028" />
 
-A card in the top-left corner coaches you through it, starting with *Move the camera to where the shot should begin, then place your first stop.* The bar at the bottom holds the main controls:
+The bar at the bottom holds the main controls:
 
 - **Place stop here** records the camera's current position as the next stop.
 - **Aim at the middle** keeps the camera pointed at the product's middle, taking only the height from where you double-click. Use it to circle something. Untick it to aim exactly where you double-click.
 - **Update stop** moves an already-placed stop to the camera's current position.
-- **Undo** (or Ctrl+Z) takes back the last change.
+- **Undo** takes back the last change.
 
 A shot needs at least two stops, and three to five usually looks best. While you build, the camera can move completely freely, so you can compose from anywhere.
 
@@ -40,7 +40,7 @@ Each stop appears as a numbered badge on the model, with the first one marked in
 
 <DocImage src={require('@site/static/img/editor-bygg-handtag.webp').default} alt="The drag handle on a picked stop" width={600} />
 
-The panel lists every stop in order. The first row is labeled **Opens here**, the rest **Stop 2**, **Stop 3** and so on. From the list you can move a stop earlier or later, remove one, or **Remove all stops** to start blank.
+The panel lists every stop in order. From the list you can move a stop earlier or later, remove one, or **Remove all stops** to start blank.
 
 ---
 
@@ -51,8 +51,6 @@ Picking a stop in the list opens its settings:
 - **Linger** slows the camera through that stop and speeds the rest up to match, so the total length stays the same. Use it to hold on the product's best side.
 - **Cut to the next stop** skips the travel and jumps straight there, fading through the background as it goes. On the last stop of a non-looping shot it becomes **Cut back to the start**, which makes the move loop.
 - Once a cut exists, **At each cut** chooses between **Fade** (dips through the background color and back) and **Hard cut** (snaps straight to the next stop, punchier).
-
-One rule the builder enforces: a stop cannot have cuts on both sides, since that would leave a still frame where the camera should be moving. The builder refuses it and tells you why.
 
 Below the stop list:
 
